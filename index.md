@@ -1,32 +1,8 @@
-## Welcome to GitHub Pages
+## Dimitrios S. Nikolopoulos
 
-You can use the [editor on GitHub](https://github.com/dsniko/dsniko.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I am the John W. Hancock Professor of Engineering, Professor in the Department of Computer Science and Professor by courtesy in the Department of Electrical and Computer Engineering at Virginia Tech. I do research in Computer Systems and High Performance Computing. If you are interested to find out more about my research you can visit my [DBLP](https://dblp.org/pid/50/1235.html), [Google Scholar](https://scholar.google.com/citations?user=PkCuYUQAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-0217-8307), or [Scopus](https://www.scopus.com/authid/detail.uri?authorId=7004096576) profiles and read my most recent papers. I am teaching courses in [Computer Organization](https://cs.vt.edu/Undergraduate/courses/CS2506.html), [Systems and Networking Capstone](https://cs.vt.edu/Undergraduate/courses/CS4284.html), [Multiprocessor Programming](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS510) and [Warehouse-Scale Computing](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS5914). My awards & recognition, research, education and service activity is captured in [my CV](), which I try to keep up to date.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+If you are interested to work with me as a research assistant please read at least some of my papers and offer some ideas on how to extend my prior work. I can be contacted via email (my initials in lowercase letters @vt.edu), or phone at x14260. 
 
 ### Jekyll Themes
 
