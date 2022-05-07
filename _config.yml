@@ -6,5 +6,6 @@ affiliation: Virginia Tech
 email: dsn@vt.edu
 logo: C92A3B0D-BF1A-49E4-A51B-F4E21841AAD9_1_105_c.jpeg
 github:
-  is_user_page: false
-
+    is_user_page: false
+kramdown:
+    input: Kramdown
