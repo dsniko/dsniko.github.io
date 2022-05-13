@@ -4,4 +4,4 @@ I am the John W. Hancock Professor of Engineering, Professor in the Department o
 
 I lead the PEARL (Performance and Resiliency) lab at Virginia Tech. If you are interested to work with me as a graduate research assistant, please read a few of my papers first. I may work with you if you have compelling ideas on how to extend prior work done in my lab. I also welcome undergraduate and high-school students for term internships.
 
-I shun social media. I reluctantly maintain a [LinkedIn]{https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/} page.
+I shun social media. I reluctantly maintain a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page.
