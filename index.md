@@ -6,4 +6,4 @@ I lead the PEARL (Performance and Resiliency) lab at Virginia Tech. I am activel
 
 I also welcome MSc (with thesis option), Undergraduate, and High School students for term internships.
 
-I shun social media, but I maintain a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page.
+I do not post social media. I maintain a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page to keep in touch with my professional network.
