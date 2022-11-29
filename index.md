@@ -10,4 +10,4 @@ I lead the [PEARL (Performance and Resiliency)](https://pearl-lab.gitlab.io) lab
 
 I also welcome MSc (with thesis option), Undergraduate, and High School students for term internships.
 
-I do not post on social media, but I maintain a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page to keep in touch with my professional network.
+I do not post regularly on social media, but I maintain a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page to keep in touch with my professional network. I also maintain a [Twitter](http://twitter.com/StackCSVT) account for the [Stack@CS Center](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active).
