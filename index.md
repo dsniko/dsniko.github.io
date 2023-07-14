@@ -12,5 +12,4 @@ Dimitrios actively looks for motivated Ph.D. students to join PEARL. Students in
 
 PEARL also welcomes MSc (with thesis option), Undergraduate, and High School students for term internships.
 
-Dimitrios does not post regularly on social media. He maintains a [LinkedIn](https://www.linkedin.com/in/dimitrios-s-nikolopoulos-b36b038/) page to keep in touch with his professional network. He also maintains a [Twitter](http://twitter.com/StackCSVT) account for the [Stack@CS Center](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active).
 
