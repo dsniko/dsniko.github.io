@@ -1,6 +1,5 @@
 theme: jekyll-theme-minimal
 title: Welcome!
-description: DSN's minimalist home page.  
 logo: dsn_080423.jpg
 github:
     is_user_page: false
