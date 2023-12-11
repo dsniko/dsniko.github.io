@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+title: Welcome!
+description: This is a personal homepage, all views are of my own
+logo: dsn_080423.jpg
+github:
+    is_user_page: false
+kramdown:
+    input: Kramdown
+enable_google_configuration: true
+google_site_verification: 9RG2TiwNuESp6SGYTZhBhIS08f3CbyeUeWpXb1Sb0ZE
