@@ -6,11 +6,7 @@ Dimitrios Nikolopoulos is the John W. Hancock Professor of Engineering at Virgin
 
 Dr. Nikolopoulos's scholarly contributions have been instrumental to the [OpenMP parallel programming standard](https://www.openmp.org) and have been adopted by [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux),  and a variety of commercial system software products, including parallelizing compilers, in-memory databases, and data stream processing systems. His work has also catalyzed advancements in experimental operating systems and programming languages for multiprocessor systems. Further information about his scholarly work can be found in his profiles on [DBLP](https://dblp.org/pid/50/1235.html), [Google Scholar](https://scholar.google.com/citations?user=PkCuYUQAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-0217-8307), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=7004096576), and his [CV](./cv.pdf).
 
-**Educational Leadership:**
-
-As an educator, Dr. Nikolopoulos is dedicated to shaping the next generation of computer scientists through his instruction in [Computer Organization](https://cs.vt.edu/Undergraduate/courses/CS2506.html), [Systems and Networking Capstone](https://cs.vt.edu/Undergraduate/courses/CS4284.html), [Multiprocessor Programming](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS510) and [Warehouse-Scale Computing](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS5914). Dr. Nikolopoulos has taught a variety of courses in Operating Systems, Computer Architecture, and Parallel Programming, and he has been recognized numerous times for teaching excellence by both his students and his peers.
-
-**Accolades and Community Leadership:**
+**Accolades:**
 
 Dr. Nikolopoulos is an [IEEE Fellow](https://www.ieee.org/membership/fellows/index.html), a [Royal Society Wolfson Fellow](https://royalsociety.org/grants-schemes-awards/grants/royal-society-wolfson-fellowship/), and a Fellow of the [Asia-Pacific Artificial Intelligence Association](https://www.aaia-ai.org/fellows), the [British Computer Society](https://www.bcs.org/membership-and-registrations/become-a-member/bcs-fellowship/), and the [Institute of Engineering and Technology](https://www.theiet.org/membership/become-a-member/fellow-membership/). He is also a [Distinguished Member of the ACM](https://awards.acm.org/distinguished-members) and a [Distinguished Visitor of the IEEE Computer Society](https://www.computer.org/communities/professional-chapters/distinguished-visitors-program). His research has been honored with numerous awards, NSF CAREER, DOE Early Career, IBM Faculty Award, Cisco Faculty Award, Sony Faculty Innovation Award, SFI-DEL Investigator Award, and the Marie Curie Individual Fellowship, among others. His research has also garnered nine Best Paper awards from premier conferences (including SC, PPoPP, IPDPS, CCGRID, and DATE) and three Best Paper Award nominations (ICS, SC, and HPDC). 
 
@@ -18,6 +14,10 @@ Dr. Nikolopoulos is an [IEEE Fellow](https://www.ieee.org/membership/fellows/ind
 
 Throughout his career, Dr. Nikolopoulos has mentored 24 Ph.D. students and 16 postdoctoral researchers, guiding them toward successful careers in academia and industry. His research initiatives have been supported by substantial external funding, amounting to $36.5 million of personal share of a total of $103.7 million in competitive grants
 from NSF, DOE, the European Commission, EPSRC, SFI, IBM, Cisco, and Sony. 
+
+**Educational Leadership:**
+
+As an educator, Dr. Nikolopoulos is dedicated to shaping the next generation of computer scientists through his instruction in [Computer Organization](https://cs.vt.edu/Undergraduate/courses/CS2506.html), [Systems and Networking Capstone](https://cs.vt.edu/Undergraduate/courses/CS4284.html), [Multiprocessor Programming](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS510) and [Warehouse-Scale Computing](https://cs.vt.edu/Graduate/Courses/GradCourseDescriptions.html#CS5914). Dr. Nikolopoulos has taught a variety of courses in Operating Systems, Computer Architecture, and Parallel Programming, and he has been recognized numerous times for teaching excellence by both his students and his peers.
 
 **Professional Service and Leadership**
 
