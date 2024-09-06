@@ -30,6 +30,6 @@ Dr. Nikolopoulos has held key academic leadership roles, such as the Head of the
 
 **Current Research and Opportunities:**
 
-Dr. Nikolopoulos currently directs the [Performance Engineering for Emerging Architectures Laboratory (PEARL)](https://www.linkedin.com/company/performance-of-emerging-architectures-laboratory/?viewAsMember=true) at Virginia Tech and serves as the Associate Director of the [Stack@CS Center for Computer Systems](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active). His mission is to foster convergent research that co-designs computing system stacks with engineering artifacts that address profound scientific inquiries and pressing societal needs.
+Dr. Nikolopoulos currently directs the [Performance Engineering for Emerging Architectures Laboratory (PEARL)](https://www.linkedin.com/company/performance-of-emerging-architectures-laboratory) at Virginia Tech and serves as the Associate Director of the [Stack@CS Center for Computer Systems](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active). His mission is to foster convergent research that co-designs computing system stacks with engineering artifacts that address profound scientific inquiries and pressing societal needs.
 
 
