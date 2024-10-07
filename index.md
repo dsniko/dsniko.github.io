@@ -5,6 +5,7 @@
 Dimitrios Nikolopoulos is the John W. Hancock Professor of Engineering at Virginia Tech. He is a Professor in the [Department of Computer Science](https://www.cs.vt.edu) and a Professor by courtesy in the [Bradley Department of Electrical and Computer Engineering](https://ece.vt.edu/). In these roles, he is committed to advancing knowledge and fostering discovery in High-Performance Computing and Computer Systems. His research endeavors in these areas have significantly impacted both academia and industry, contributing to the evolution of industry standards and the enhancement of commercial software products. 
 
 Dr. Nikolopoulos's scholarly contributions have been instrumental to the [OpenMP parallel programming standard](https://www.openmp.org) and have been adopted by [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux),  and a variety of commercial system software products, including parallelizing compilers, in-memory databases, and data stream processing systems. His work has also catalyzed advancements in experimental operating systems and programming languages for multiprocessor systems. Further information about his scholarly work can be found in his profiles on [DBLP](https://dblp.org/pid/50/1235.html), [Google Scholar](https://scholar.google.com/citations?user=PkCuYUQAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-0217-8307), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=7004096576), and his [CV](./cv.pdf).
+A [short bio](./bio.txt) is also available.
 
 **Accolades:**
 
