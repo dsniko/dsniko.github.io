@@ -10,6 +10,5 @@ location: "Blacksburg, VA"
 ---
 
 ## High Performance Code Generation using LLMs
-
 This course explores the use of Large Language Models (LLMs) for high-performance code generation. Students will engage with recent research papers, participate in class discussions, and undertake a semester-long research project. The course is designed to build a deep understanding of LLMs, their applications, and their implications in software development.
 
