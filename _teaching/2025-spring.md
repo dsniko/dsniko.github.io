@@ -5,6 +5,7 @@ type: "Graduate Course"
 permalink: /teaching/2025-spring
 venue: "Virginia Tech, Department of Computer Science"
 date: 2025-01-21
+semester: "Spring 2025"
 location: "Blacksburg, VA"
 ---
 
