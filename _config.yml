@@ -22,7 +22,7 @@ repository               : "dsniko.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "dsn_2021.jpg"
   name             : "Dimitrios S. Nikolopoulos"
   pronouns         : "he/him"  
   bio              : "Computer Science and Electrical and Computer Engineering Professor at Virginia Tech"
