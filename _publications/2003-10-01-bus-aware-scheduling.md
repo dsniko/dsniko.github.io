@@ -7,5 +7,5 @@ excerpt: "This paper introduces scheduling algorithms that incorporate system bu
 date: 2003-10-01
 venue: "2003 International Conference on Parallel Processing (ICPP)"
 paperurl: "https://doi.org/10.1109/ICPP.2003.1240622"
-citation: "Antonopoulos, C. D., Nikolopoulos, D. S., & Papatheodorou, T. S. (2003). "Scheduling Algorithms with Bus Bandwidth Considerations for SMPs." *ICPP 2003*, 547–554. https://doi.org/10.1109/ICPP.2003.1240622"
+citation: 'Antonopoulos, C. D., Nikolopoulos, D. S., & Papatheodorou, T. S. (2003). &quot;Scheduling Algorithms with Bus Bandwidth Considerations for SMPs.&quot; <i>ICPP 2003</i>, 547–554. https://doi.org/10.1109/ICPP.2003.1240622'
 ---
