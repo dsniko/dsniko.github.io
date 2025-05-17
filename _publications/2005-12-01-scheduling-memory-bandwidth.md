@@ -1,7 +1,7 @@
 ---
 title: "Realistic Workload Scheduling Policies for Taming the Memory Bandwidth Bottleneck of SMPs"
 collection: publications
-category: bookchapters
+category: conferences
 permalink: /publication/2005-12-01-scheduling-memory-bandwidth
 excerpt: "This chapter proposes scheduling policies that treat memory bandwidth as a first-class resource in multiprogrammed SMP systems."
 date: 2005-12-01
