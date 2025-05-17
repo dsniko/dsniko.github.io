@@ -3,7 +3,7 @@ title: "Dynamic Multigrain Parallelization on the Cell Broadband Engine"
 collection: publications
 category: conferences
 permalink: /publication/2007-03-01-dynamic-multigrain-cell
-excerpt: 'This paper presents a scheduler for adaptive, multigrain parallelism on the Cell Broadband Engine, demonstrating performance improvements using layered parallelism in RAxML workloads.'
+excerpt: 'This paper presents a scheduler for adaptive, multigrain parallelism on the Cell Broadband Engine, demonstrating performance improvements using layered parallelism in RAxML workloads. **Best Paper Award**'
 date: 2007-03-01
 venue: "Proceedings of the 12th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP)"
 paperurl: 'https://doi.org/10.1145/1229428.1229445'
