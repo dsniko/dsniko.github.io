@@ -1,7 +1,7 @@
 ---
 title: "Incremental Training of Deep Convolutional Neural Networks"
 collection: publications
-category: techreport
+category: techreports
 permalink: /publication/2018-03-01-incremental-training-cnn
 excerpt: "This paper introduces techniques for incremental training of deep convolutional neural networks to improve training efficiency over traditional methods."
 date: 2018-03-01
