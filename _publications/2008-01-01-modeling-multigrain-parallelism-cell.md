@@ -1,7 +1,7 @@
 ---
 title: "Modeling Multigrain Parallelism on Heterogeneous Multi-core Processors: A Case Study of the Cell BE"
 collection: publications
-category: bookchapters
+category: conferences
 permalink: /publication/2008-01-01-modeling-multigrain-parallelism-cell
 excerpt: "This chapter introduces a model for predicting scalability and performance of applications exploiting task- and data-level parallelism on heterogeneous multicore systems like the Cell BE."
 date: 2008-01-01
