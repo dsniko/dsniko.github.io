@@ -7,5 +7,5 @@ excerpt: "This book chapter presents gang-like scheduling techniques for SMP sys
 date: 2005-01-01
 venue: "High-Performance Computing, John Wiley & Sons"
 paperurl: "https://doi.org/10.1002/0471732710.ch16"
-citation: "Antonopoulos, C. D., Nikolopoulos, D. S., & Papatheodorou, T. S. (2005). "Scheduling Algorithms with Bus Bandwidth Considerations for SMPs." In *High-Performance Computing* (pp. 313–332). John Wiley & Sons. https://doi.org/10.1002/0471732710.ch16"
+citation: 'Antonopoulos, C. D., Nikolopoulos, D. S., & Papatheodorou, T. S. (2005). &quot;Scheduling Algorithms with Bus Bandwidth Considerations for SMPs.&quot; In <i>High-Performance Computing</i> (pp. 313–332). John Wiley & Sons. https://doi.org/10.1002/0471732710.ch16'
 ---
