@@ -3,7 +3,7 @@ title: "Code and Data Transformations for Improving Shared Cache Performance on 
 collection: publications
 category: conferences
 permalink: /publication/2003-07-01-shared-cache-smt
-excerpt: 'This chapter presents software techniques like dynamic tiling, copying, and block data layouts to improve cache performance on SMT processors through all-software partitioning approaches.'
+excerpt: 'This chapter presents software techniques like dynamic tiling, copying, and block data layouts to improve cache performance on SMT processors through all-software partitioning approaches. **Best Paper Award**'
 date: 2003-07-01
 venue: 'High Performance Computing (Springer)'
 paperurl: 'https://doi.org/10.1007/978-3-540-39707-6_5'
