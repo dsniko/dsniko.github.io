@@ -15,11 +15,11 @@ author_profile: true
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
 {% assign tech_reports = site.publications | where: "category", "bookchapters" %}
 
-<div class="wordwrap">Journal articles: {{ journal_pubs | size }}</div>
-<div class="wordwrap">Conference papers: {{ conf_pubs | size }}</div>
-<div class="wordwrap">Workshop papers: {{ workshop_pubs | size }}</div>
-<div class="wordwrap">Book chapters: {{ book_chapters | size }}</div>
-<div class="wordwrap">Technical reports: {{ tech_reports | size }}</div>
+<div class="wordwrap">Journal articles: ({{ journal_pubs | size }})</div>
+<div class="wordwrap">Conference papers: ({{ conf_pubs | size }})</div>
+<div class="wordwrap">Workshop papers: ({{ workshop_pubs | size }})</div>
+<div class="wordwrap">Book chapters: ({{ book_chapters | size }})</div>
+<div class="wordwrap">Technical reports: ({{ tech_reports | size }})</div>
 
 {% include base_path %}
 
