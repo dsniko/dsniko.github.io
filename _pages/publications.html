@@ -9,7 +9,14 @@ author_profile: true
   <div class="wordwrap">You can also browse my research publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<div class="wordwrap">Journal publications: {{ site.data.publications.manuscripts | size }}</div>
+{% assign journal_pubs = site.publications | where: "category", "manuscripts" %}
+{% assign conf_pubs = site.publications | where: "category", "conferences" %}
+{% assign workshop_pubs = site.publications | where: "category", "workshop" %}
+{% assign book_chapters = site.publications | where: "category", "bookchapter" %}
+
+<div class="wordwrap">Journal articles: {{ journal_pubs | size }}</div>
+<div class="wordwrap">Conference papers: {{ conf_pubs | size }}</div>
+<div class="wordwrap">Book chapters: {{ book_chapters | size }}</div>
 
 {% include base_path %}
 
