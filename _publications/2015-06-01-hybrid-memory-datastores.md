@@ -1,7 +1,7 @@
 ---
 title: "Energy-Efficient In-Memory Data Stores on Hybrid Memory Hierarchies"
 collection: publications
-category: conferences
+category: workshops
 permalink: /publication/2015-06-01-hybrid-memory-datastores
 excerpt: 'Proposes energy-efficient hybrid DRAM/NVM memory management for modern data stores using application-level policies for data placement.'
 date: 2015-06-01
