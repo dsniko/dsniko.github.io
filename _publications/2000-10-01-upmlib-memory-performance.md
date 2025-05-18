@@ -1,7 +1,7 @@
 ---
 title: "UPMLIB: A Runtime System for Tuning the Memory Performance of OpenMP Programs on Scalable Shared-Memory Multiprocessors"
 collection: publications
-category: bookchapters
+category: workshops
 permalink: /publication/2000-10-01-upmlib-memory-performance
 excerpt: "UPMLIB provides dynamic memory tuning for OpenMP programs by performing runtime page migrations using compiler and OS feedback on shared-memory multiprocessors."
 date: 2000-10-01
