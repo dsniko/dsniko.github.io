@@ -6,8 +6,20 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can browse my research publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">This page is under construction and the list below is partial. You can browse my full list of research publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
+
+{% assign journal_pubs = site.publications | where: "category", "manuscripts" %}
+{% assign conf_pubs = site.publications | where: "category", "conferences" %}
+{% assign workshop_pubs = site.publications | where: "category", "workshops" %}
+{% assign book_chapters = site.publications | where: "category", "bookchapters" %}
+{% assign tech_reports = site.publications | where: "category", "bookchapters" %}
+
+<div class="wordwrap">Journal articles: ({{ journal_pubs | size }})</div>
+<div class="wordwrap">Conference papers: ({{ conf_pubs | size }})</div>
+<div class="wordwrap">Workshop papers: ({{ workshop_pubs | size }})</div>
+<div class="wordwrap">Book chapters: ({{ book_chapters | size }})</div>
+<div class="wordwrap">Technical reports: ({{ tech_reports | size }})</div>
 
 {% include base_path %}
 
