@@ -1,10 +1,3 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
-
 {% if site.author.googlescholar %}
   <div class="wordwrap">This page is under construction and the list below is partial. You can browse my full list of research publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -15,34 +8,63 @@ author_profile: true
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
 {% assign tech_reports = site.publications | where: "category", "bookchapters" %}
 
-<div class="wordwrap">Journal articles: ({{ journal_pubs | size }})</div>
-<div class="wordwrap">Conference papers: ({{ conf_pubs | size }})</div>
-<div class="wordwrap">Workshop papers: ({{ workshop_pubs | size }})</div>
-<div class="wordwrap">Book chapters: ({{ book_chapters | size }})</div>
-<div class="wordwrap">Technical reports: ({{ tech_reports | size }})</div>
+<div class="wordwrap"><a href="#journal-articles">Journal articles: ({{ journal_pubs | size }})</a></div>
+<div class="wordwrap"><a href="#conference-papers">Conference papers: ({{ conf_pubs | size }})</a></div>
+<div class="wordwrap"><a href="#workshop-papers">Workshop papers: ({{ workshop_pubs | size }})</a></div>
+<div class="wordwrap"><a href="#book-chapters">Book chapters: ({{ book_chapters | size }})</a></div>
+<div class="wordwrap"><a href="#technical-reports">Technical reports: ({{ tech_reports | size }})</a></div>
 
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 id="{{ category[1].title | slugify }}">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
+  <!-- If no publication categories are defined, we need IDs for the sections -->
+  {% assign title_shown_manuscripts = false %}
+  {% assign title_shown_conferences = false %}
+  {% assign title_shown_workshops = false %}
+  {% assign title_shown_bookchapters = false %}
+  {% assign title_shown_techreports = false %}
+  
   {% for post in site.publications reversed %}
+    {% if post.category == "manuscripts" and title_shown_manuscripts == false %}
+      <h2 id="journal-articles">Journal articles</h2><hr />
+      {% assign title_shown_manuscripts = true %}
+    {% endif %}
+    
+    {% if post.category == "conferences" and title_shown_conferences == false %}
+      <h2 id="conference-papers">Conference papers</h2><hr />
+      {% assign title_shown_conferences = true %}
+    {% endif %}
+    
+    {% if post.category == "workshops" and title_shown_workshops == false %}
+      <h2 id="workshop-papers">Workshop papers</h2><hr />
+      {% assign title_shown_workshops = true %}
+    {% endif %}
+    
+    {% if post.category == "bookchapters" and title_shown_bookchapters == false %}
+      <h2 id="book-chapters">Book chapters</h2><hr />
+      {% assign title_shown_bookchapters = true %}
+    {% endif %}
+    
+    {% if post.category == "techreports" and title_shown_techreports == false %}
+      <h2 id="technical-reports">Technical reports</h2><hr />
+      {% assign title_shown_techreports = true %}
+    {% endif %}
+    
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
