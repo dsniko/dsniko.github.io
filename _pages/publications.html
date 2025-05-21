@@ -13,12 +13,14 @@ author_profile: true
 {% assign conf_pubs = site.publications | where: "category", "conferences" %}
 {% assign workshop_pubs = site.publications | where: "category", "workshops" %}
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
+{% assign magazine_articles = site.publications | where: "category", "magazines" %}
 {% assign tech_reports = site.publications | where: "category", "bookchapters" %}
 
 <div class="wordwrap"><a href="#journal-articles">Journal articles: ({{ journal_pubs | size }})</a></div>
 <div class="wordwrap"><a href="#conference-papers">Conference papers: ({{ conf_pubs | size }})</a></div>
 <div class="wordwrap"><a href="#workshop-papers">Workshop papers: ({{ workshop_pubs | size }})</a></div>
 <div class="wordwrap"><a href="#book-chapters">Book chapters: ({{ book_chapters | size }})</a></div>
+<div class="wordwrap"><a href="#magazine-articles">Magazine articles: ({{ magazine_articles | size }})</a></div>
 <div class="wordwrap"><a href="#technical-reports">Technical reports: ({{ tech_reports | size }})</a></div>
 
 {% include base_path %}
