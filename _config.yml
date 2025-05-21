@@ -88,6 +88,8 @@ publication_category:
     title: 'Workshop Papers'
   bookchapters:
     title: 'Book Chapters'
+  magazines:
+    title: 'Magazine Articles'
   techreports:
     title: 'Technical Reports'
 
