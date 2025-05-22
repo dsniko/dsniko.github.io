@@ -12,7 +12,6 @@ redirect_from:
 **[Download Full CV (PDF)]({{ base_path }}/cv.pdf){: .btn .btn--primary}**
 
 Education
-
 ======
 * Ph.D in Computer Engineering, University of Patras, 2000 
 * M.Sc. in Computer Engineering, University of Patras, 1997
