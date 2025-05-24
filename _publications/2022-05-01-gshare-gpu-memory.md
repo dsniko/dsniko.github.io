@@ -1,7 +1,7 @@
 ---
 title: "gShare: A centralized GPU memory management framework to enable GPU memory sharing for containers"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2022-05-01-gshare-gpu-memory
 excerpt: 'Presents gShare, a centralized GPU memory management framework that enables efficient GPU memory sharing for containers with near-native performance and secure isolation.'
 date: 2022-05-01
