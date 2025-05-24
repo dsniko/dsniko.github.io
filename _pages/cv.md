@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+**[Download Full CV (PDF)]({{ base_path }}/cv.pdf){: .btn .btn--primary}**
+
 Education
 ======
 * Ph.D in Computer Engineering, University of Patras, 2000 
