@@ -1,7 +1,7 @@
 ---
 title: "RIANN: Real-time Incremental Learning with Approximate Nearest Neighbor on Mobile Devices"
 collection: publications
-category: workshops
+category: conferences
 permalink: /publication/2020-07-01-riann-real-time-incremental-learning
 excerpt: 'Presents RIANN, a real-time incremental learning framework using approximate nearest neighbor algorithms optimized for mobile device constraints.'
 date: 2020-07-01
