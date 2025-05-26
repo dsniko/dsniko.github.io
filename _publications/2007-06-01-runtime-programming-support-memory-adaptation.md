@@ -1,7 +1,7 @@
 ---
 title: "Runtime and Programming Support for Memory Adaptation in Scientific Applications via Local Disk and Remote Memory"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2007-06-01-runtime-programming-support-memory-adaptation
 excerpt: 'Extends the MMlib framework to provide fully customizable memory malleability in scientific applications, treating DRAM as a dynamic cache with local disk and remote memory capabilities.'
 date: 2007-06-01
