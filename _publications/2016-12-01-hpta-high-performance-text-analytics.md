@@ -1,7 +1,7 @@
 ---
 title: "HPTA: High-performance text analytics"
 collection: publications
-category: conferences
+category: workshops
 permalink: /publication/2016-12-01-hpta-high-performance-text-analytics
 excerpt: 'Presents HPTA, a high-performance text analytics framework that optimizes data structures, memory management, and sparse matrix operations for improved text processing performance.'
 date: 2016-12-01
