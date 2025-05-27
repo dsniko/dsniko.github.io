@@ -1,7 +1,7 @@
 ---
 title: "Revealing dram operating guardbands through workload-aware error predictive modeling"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2020-11-01-revealing-dram-operating-guardbands
 excerpt: 'Reveals DRAM operating guardbands through workload-aware error predictive modeling to optimize memory reliability and performance trade-offs.'
 date: 2020-11-01
