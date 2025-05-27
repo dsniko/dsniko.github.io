@@ -92,6 +92,8 @@ publication_category:
     title: 'Magazine Articles'
   posters:
     title: 'Posters'
+  volumes:
+    title: 'Edited Volumes and Special Issues'
   techreports:
     title: 'Technical Reports'
 
