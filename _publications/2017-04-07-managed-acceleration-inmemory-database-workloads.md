@@ -1,7 +1,7 @@
 ---
 title: "Managed acceleration for In-Memory database analytic workloads"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2017-04-07-managed-acceleration-inmemory-database-workloads
 excerpt: 'Presents managed acceleration techniques for in-memory database analytic workloads to improve query performance and resource utilization in database management systems.'
 date: 2017-04-07
