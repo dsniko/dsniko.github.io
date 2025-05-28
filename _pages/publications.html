@@ -86,14 +86,14 @@ author_profile: true
       {% assign title_shown_posters = true %}
     {% endif %}
 
-    {% if post.category == "volumes" and title_shown_volumes == false %}
-      <h2 id="edited-volumes">Edited Volumes and Special Issues</h2><hr />
-      {% assign title_shown_volumes = true %}
-    {% endif %}
-
     {% if post.category == "magazines" and title_shown_magazines == false %}
       <h2 id="magazine-articles">Magazine Articles</h2><hr />
       {% assign title_shown_magazines = true %}
+    {% endif %}
+
+    {% if post.category == "volumes" and title_shown_volumes == false %}
+      <h2 id="edited-volumes">Edited Volumes and Special Issues</h2><hr />
+      {% assign title_shown_volumes = true %}
     {% endif %}
 
     {% include archive-single.html %}
