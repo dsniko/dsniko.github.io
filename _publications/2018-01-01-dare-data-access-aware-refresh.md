@@ -1,7 +1,7 @@
 ---
 title: "DARE: Data-Access Aware Refresh via spatial-temporal application resilience on commodity servers"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2018-01-01-dare-data-access-aware-refresh
 excerpt: 'Presents DARE, a Data-Access Aware Refresh system that leverages spatial-temporal application resilience to aggressively relax DRAM refresh rates on commodity servers, achieving complete hardware refresh disabling with only 2-18% quality loss.'
 date: 2018-01-01

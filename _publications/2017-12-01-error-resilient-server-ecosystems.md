@@ -1,7 +1,7 @@
 ---
 title: "Error-Resilient Server Ecosystems for Edge and Cloud Datacenters"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2017-12-01-error-resilient-server-ecosystems-edge-cloud
 excerpt: 'Presents error-resilient server ecosystems for edge and cloud datacenters, addressing performance and power variability through hardware exposure interfaces and energy-efficient microserver architectures for IoT applications.'
 date: 2017-12-01
