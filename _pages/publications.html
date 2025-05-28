@@ -14,7 +14,7 @@ author_profile: true
 {% assign workshop_pubs = site.publications | where: "category", "workshops" %}
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
 {% assign magazine_articles = site.publications | where: "category", "magazines" %}
-{% assign volumes = site.publications | where: "category", "volumes" %}
+{% assign edited_volumes = site.publications | where: "category", "volumes" %}
 {% assign posters = site.publications | where: "category", "posters" %}
 {% assign tech_reports = site.publications | where: "category", "techreports" %}
 
@@ -24,7 +24,7 @@ author_profile: true
 <div class="wordwrap"><a href="#book-chapters">Book chapters: ({{ book_chapters | size }})</a></div>
 <div class="wordwrap"><a href="#magazine-articles">Magazine articles: ({{ magazine_articles | size }})</a></div>
 <div class="wordwrap"><a href="#posters">Posters: ({{ posters | size }})</a></div>
-<div class="wordwrap"><a href="#volumes">Edited Volumes and Special Isssues: ({{ volumes | size }})</a></div>
+<div class="wordwrap"><a href="#edited-volumes">Edited Volumes and Special Isssues: ({{ edited_volumes | size }})</a></div>
 <div class="wordwrap"><a href="#technical-reports">Technical reports: ({{ tech_reports | size }})</a></div>
 
 {% include base_path %}
