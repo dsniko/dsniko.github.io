@@ -24,7 +24,7 @@ author_profile: true
 <div class="wordwrap"><a href="#book-chapters">Book chapters:</a> ({{ book_chapters | size }})</div>
 <div class="wordwrap"><a href="#magazine-articles">Magazine articles:</a> ({{ magazine_articles | size }})</div>
 <div class="wordwrap"><a href="#posters">Posters:</a> ({{ posters | size }})</div>
-<div class="wordwrap"><a href="#edited-volumes">Edited Volumes:</a> ({{ edited_volumes | size }}) </div>
+<div class="wordwrap"><a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }}) </div>
 <div class="wordwrap"><a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }}) </div>
 
 {% include base_path %}
@@ -92,7 +92,7 @@ author_profile: true
     {% endif %}
 
     {% if post.category == "volumes" and title_shown_volumes == false %}
-      <h2 id="edited-volumes">Edited Volumes</h2><hr />
+      <h2 id="edited-volumes">Edited Volumes and Journal Special Issues</h2><hr />
       {% assign title_shown_volumes = true %}
     {% endif %}
 
