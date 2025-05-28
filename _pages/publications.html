@@ -83,17 +83,17 @@ author_profile: true
     
     {% if post.category == "posters" and title_shown_posters == false %}
       <h2 id="posters">Posters</h2><hr />
-      {% assign title_shown_techreports = true %}
+      {% assign title_shown_posters = true %}
     {% endif %}
 
     {% if post.category == "volumes" and title_shown_volumes == false %}
-      <h2 id="edited-volumes">Edited Volumes and Special Issues:</h2><hr />
+      <h2 id="edited-volumes">Edited Volumes and Special Issues</h2><hr />
       {% assign title_shown_volumes = true %}
     {% endif %}
 
     {% if post.category == "magazines" and title_shown_magazines == false %}
       <h2 id="magazines">Magazine Articles</h2><hr />
-      {% assign title_shown_techreports = true %}
+      {% assign title_shown_magazines = true %}
     {% endif %}
 
     {% include archive-single.html %}
