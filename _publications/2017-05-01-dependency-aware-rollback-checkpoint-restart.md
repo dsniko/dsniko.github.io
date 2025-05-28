@@ -2,8 +2,8 @@
 title: "Dependency-Aware Rollback and Checkpoint-Restart for Distributed Task-Based Runtimes"
 collection: publications
 category: techreports
-permalink: /publication/2017-05-01-dependency-aware-rollback-checkpoint
-excerpt: 'Presents dependency-aware rollback and checkpoint-restart mechanisms for distributed task-based runtime systems to improve fault tolerance.'
+permalink: /publication/2017-05-01-dependency-aware-rollback-checkpoint-restart
+excerpt: 'Presents dependency-aware rollback and checkpoint-restart mechanisms for distributed task-based runtime systems to improve fault tolerance and recovery capabilities.'
 date: 2017-05-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/1705.10208'
