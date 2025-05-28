@@ -14,8 +14,8 @@ author_profile: true
 {% assign workshop_pubs = site.publications | where: "category", "workshops" %}
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
 {% assign magazine_articles = site.publications | where: "category", "magazines" %}
-{% assign edited_volumes = site.publications | where: "category", "volumes" %}
 {% assign posters = site.publications | where: "category", "posters" %}
+{% assign edited_volumes = site.publications | where: "category", "volumes" %}
 {% assign tech_reports = site.publications | where: "category", "techreports" %}
 
 <div class="wordwrap"><a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</div>
@@ -51,7 +51,7 @@ author_profile: true
   {% assign title_shown_workshops = false %}
   {% assign title_shown_bookchapters = false %}
   {% assign title_shown_techreports = false %}
-  {% assign title_shown_volumes = false %}
+  {% assign title_shown_volumes = true %}
   {% assign title_shown_posters = false %}
   {% assign title_shown_magazines = false %}
   
