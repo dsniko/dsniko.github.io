@@ -51,6 +51,9 @@ author_profile: true
   {% assign title_shown_workshops = false %}
   {% assign title_shown_bookchapters = false %}
   {% assign title_shown_techreports = false %}
+  {% assign title_shown_volumes = false %}
+  {% assign title_shown_posters = false %}
+  {% assign title_shown_magazines = false %}
   
   {% for post in site.publications reversed %}
     {% if post.category == "manuscripts" and title_shown_manuscripts == false %}
@@ -78,6 +81,21 @@ author_profile: true
       {% assign title_shown_techreports = true %}
     {% endif %}
     
+    {% if post.category == "posters" and title_shown_posters == false %}
+      <h2 id="posters">Posters</h2><hr />
+      {% assign title_shown_techreports = true %}
+    {% endif %}
+
+    {% if post.category == "volumes" and title_shown_volumes == false %}
+      <h2 id="volumes">Edited Volumes and Special Issues</h2><hr />
+      {% assign title_shown_techreports = true %}
+    {% endif %}
+
+    {% if post.category == "magazines" and title_shown_magazines == false %}
+      <h2 id="magazines">Magazine Articles</h2><hr />
+      {% assign title_shown_techreports = true %}
+    {% endif %}
+
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
