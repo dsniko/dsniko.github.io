@@ -1,9 +1,9 @@
 ---
-title: "Addressing the Challenges of Chip Multiprocessors using Autonomic Software"
+title: "The Challenges and Opportunities of Microservers in the HPC Ecosystem"
 collection: talks
 type: "Talk"
-permalink: /talks/2006-03-01-talk-16
-venue: "University of British Columbia, Department of Electrical and Computer Engineering"
-date: 2006-03-01
-location: "Vancouver, BC, Canada"
+permalink: /talks/2014-10-01-talk-16
+venue: "2014 Workshop on Clusters, Clouds and Data for Scientific Computing (CCDSC)"
+date: 2014-10-01
+location: "Lyon, France"
 ---

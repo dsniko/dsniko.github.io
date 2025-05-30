@@ -14,14 +14,18 @@ author_profile: true
 {% assign workshop_pubs = site.publications | where: "category", "workshops" %}
 {% assign book_chapters = site.publications | where: "category", "bookchapters" %}
 {% assign magazine_articles = site.publications | where: "category", "magazines" %}
+{% assign posters = site.publications | where: "category", "posters" %}
+{% assign edited_volumes = site.publications | where: "category", "volumes" %}
 {% assign tech_reports = site.publications | where: "category", "techreports" %}
 
-<div class="wordwrap"><a href="#journal-articles">Journal articles: ({{ journal_pubs | size }})</a></div>
-<div class="wordwrap"><a href="#conference-papers">Conference papers: ({{ conf_pubs | size }})</a></div>
-<div class="wordwrap"><a href="#workshop-papers">Workshop papers: ({{ workshop_pubs | size }})</a></div>
-<div class="wordwrap"><a href="#book-chapters">Book chapters: ({{ book_chapters | size }})</a></div>
-<div class="wordwrap"><a href="#magazine-articles">Magazine articles: ({{ magazine_articles | size }})</a></div>
-<div class="wordwrap"><a href="#technical-reports">Technical reports: ({{ tech_reports | size }})</a></div>
+<div class="wordwrap"><a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</div>
+<div class="wordwrap"><a href="#conference-papers">Conference papers:</a> ({{ conf_pubs | size }})</div>
+<div class="wordwrap"><a href="#workshop-papers">Workshop papers: </a> ({{ workshop_pubs | size }})</a></div>
+<div class="wordwrap"><a href="#book-chapters">Book chapters:</a> ({{ book_chapters | size }})</div>
+<div class="wordwrap"><a href="#magazine-articles">Magazine articles:</a> ({{ magazine_articles | size }})</div>
+<div class="wordwrap"><a href="#posters">Posters:</a> ({{ posters | size }})</div>
+<div class="wordwrap"><a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }}) </div>
+<div class="wordwrap"><a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }}) </div>
 
 {% include base_path %}
 
@@ -47,6 +51,9 @@ author_profile: true
   {% assign title_shown_workshops = false %}
   {% assign title_shown_bookchapters = false %}
   {% assign title_shown_techreports = false %}
+  {% assign title_shown_volumes = false %}
+  {% assign title_shown_posters = false %}
+  {% assign title_shown_magazines = false %}
   
   {% for post in site.publications reversed %}
     {% if post.category == "manuscripts" and title_shown_manuscripts == false %}
@@ -74,6 +81,21 @@ author_profile: true
       {% assign title_shown_techreports = true %}
     {% endif %}
     
+    {% if post.category == "posters" and title_shown_posters == false %}
+      <h2 id="posters">Posters</h2><hr />
+      {% assign title_shown_posters = true %}
+    {% endif %}
+
+    {% if post.category == "magazines" and title_shown_magazines == false %}
+      <h2 id="magazine-articles">Magazine Articles</h2><hr />
+      {% assign title_shown_magazines = true %}
+    {% endif %}
+
+    {% if post.category == "volumes" and title_shown_volumes == false %}
+      <h2 id="edited-volumes">Edited Volumes and Journal Special Issues</h2><hr />
+      {% assign title_shown_volumes = true %}
+    {% endif %}
+
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

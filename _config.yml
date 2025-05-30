@@ -90,6 +90,10 @@ publication_category:
     title: 'Book Chapters'
   magazines:
     title: 'Magazine Articles'
+  posters:
+    title: 'Posters'
+  volumes:
+    title: 'Edited Volumes and Special Issues'
   techreports:
     title: 'Technical Reports'
 
