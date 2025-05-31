@@ -1,5 +1,5 @@
 ---
-title: "Guest Editorial: Special Issue: Energy efficient computing with adaptive and heterogeneous architectures"
+title: "Special Issue: Energy efficient computing with adaptive and heterogeneous architectures"
 collection: publications
 category: volumes
 permalink: /publication/2015-01-01-guest-editorial-energy-efficient-computing-adaptive
