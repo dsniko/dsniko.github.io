@@ -1,7 +1,7 @@
 ---
 title: "Set-top supercomputing: scalable software for scientific simulations on game consoles"
 collection: publications
-category: magazines
+category: invited
 permalink: /publication/2008-01-01-set-top-supercomputing-game-consoles
 excerpt: 'Explores scalable software approaches for scientific simulations on game consoles, demonstrating the potential of consumer hardware for high-performance computing applications.'
 date: 2008-01-01
