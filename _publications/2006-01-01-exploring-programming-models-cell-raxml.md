@@ -1,7 +1,7 @@
 ---
 title: "Exploring Programming Models and Optimizations for the Cell Broadband Engine using RAxML"
 collection: publications
-category: conferences
+category: invited
 permalink: /publication/2006-01-01-exploring-programming-models-cell-raxml
 excerpt: 'Presents the port and optimization of RAxML phylogenetic tree computation on Cell processors, achieving 5× performance improvement through multilevel parallelization and Cell-specific optimizations.'
 date: 2006-01-01
