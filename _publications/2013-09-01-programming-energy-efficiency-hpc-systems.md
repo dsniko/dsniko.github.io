@@ -1,7 +1,7 @@
 ---
 title: "Programming the Energy Efficiency of High Performance Computing Systems"
 collection: publications
-category: conferences
+category: keynotes
 permalink: /publication/2013-09-01-programming-energy-efficiency-hpc-systems
 excerpt: 'Discusses programming methodologies and techniques for improving energy efficiency in high performance computing systems presented at the Fourth International Conference on Energy-Aware High Performance Computing.'
 date: 2013-09-01
