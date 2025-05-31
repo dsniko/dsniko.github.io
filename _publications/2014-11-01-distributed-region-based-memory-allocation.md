@@ -1,7 +1,7 @@
 ---
 title: "Distributed region-based memory allocation and synchronization"
 collection: publications
-category: magazines
+category: manuscripts
 permalink: /publication/2014-11-01-distributed-region-based-memory-allocation
 excerpt: 'Presents distributed region-based memory allocation and synchronization techniques for high-performance computing applications to improve memory management and coordination in distributed systems.'
 date: 2014-11-01
