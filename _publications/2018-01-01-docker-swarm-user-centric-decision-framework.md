@@ -1,7 +1,7 @@
 ---
 title: "Using Docker Swarm with a User-Centric Decision-Making Framework for Cloud Application Migration"
 collection: publications
-category: bookchapters
+category: conferences
 permalink: /publication/2018-01-01-docker-swarm-user-centric-decision-framework
 excerpt: 'Proposes MyMinder, a Multi-objective dYnamic MIgratioN Decision makER framework that assists cloud users in inter-cloud migration decisions and provides automated migration capabilities using Docker Swarm technology to overcome vendor lock-in challenges.'
 date: 2018-01-01
