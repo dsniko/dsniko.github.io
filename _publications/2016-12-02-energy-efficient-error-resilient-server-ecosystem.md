@@ -2,7 +2,7 @@
 title: "An Energy-Efficient and Error-Resilient Server Ecosystem Exceeding Conservative Scaling Limits"
 collection: publications
 category: workshops
-permalink: /publication/2016-12-02-energy-efficient-error-resilient-server-ecosystem
+permalink: /publication/2017-01-02-energy-efficient-error-resilient-server-ecosystem
 excerpt: 'Presents the UniServer approach for developing energy-efficient micro-servers that exceed conservative scaling boundaries through novel mechanisms across all design stack layers, including hardware heterogeneity exploitation and fault tolerance enhancement.'
 date: 2016-12-02
 venue: 'Workshop on Energy-efficient Servers for Cloud and Edge Computing (EnESCE 2017)'
