@@ -1,7 +1,7 @@
 ---
 title: "Student Research Poster: A Scalable General Purpose System for Large-Scale Graph Processing"
 collection: publications
-category: conferences
+category: posters
 permalink: /publication/2016-09-01-student-poster-scalable-graph-processing
 excerpt: 'Presents a student research poster on building a scalable graph analytics framework that hides the complexity of parallelism, data distribution and memory locality behind an abstract interface using NUMA-awareness.'
 date: 2016-09-01
