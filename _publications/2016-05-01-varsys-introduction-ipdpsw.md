@@ -1,5 +1,5 @@
 ---
-title: "VarSys Introduction"
+title: "Proceedings of the Workshop on Variability in Computer Systems (VarSys)"
 collection: publications
 category: volumes
 permalink: /publication/2016-05-01-varsys-introduction-ipdpsw

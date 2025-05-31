@@ -1,5 +1,5 @@
 ---
-title: "The 3rd International Workshop on Deployment and Use of Accelerators (DUAC 2023): message from the DUAC 2023 Organizing Committee"
+title: "Proceedings of the International Workshop on Deployment and Use of Accelerators"
 collection: publications
 category: volumes
 permalink: /publication/2023-08-01-3rd-duac-workshop-organizing-committee

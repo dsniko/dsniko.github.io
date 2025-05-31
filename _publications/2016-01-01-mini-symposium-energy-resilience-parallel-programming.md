@@ -1,5 +1,5 @@
 ---
-title: "Mini-symposium on energy and resilience in parallel programming"
+title: "Proceedings of the Mini-symposium on Energy and Resilience in Parallel Programming"
 collection: publications
 category: volumes
 permalink: /publication/2016-01-01-mini-symposium-energy-resilience-parallel-programming

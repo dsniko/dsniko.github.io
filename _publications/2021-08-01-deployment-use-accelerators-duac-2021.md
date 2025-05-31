@@ -1,5 +1,5 @@
 ---
-title: "Deployment and Use of Accelerators (DUAC 2021)"
+title: "Proceedings of the Workshop on Deployment and Use of Accelerators (DUAC)"
 collection: publications
 category: volumes
 permalink: /publication/2021-08-01-deployment-use-accelerators-duac-2021

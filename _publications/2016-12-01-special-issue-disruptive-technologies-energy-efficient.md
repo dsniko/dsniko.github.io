@@ -1,5 +1,5 @@
 ---
-title: "Special issue on Disruptive technologies for energy efficient computing"
+title: "Special issue on Disruptive Technologies for Energy Efficient Computing"
 collection: publications
 category: volumes
 permalink: /publication/2016-12-01-special-issue-disruptive-technologies-energy-efficient

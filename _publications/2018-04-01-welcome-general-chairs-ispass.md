@@ -1,5 +1,5 @@
 ---
-title: "Welcome from the General Chairs"
+title: "Proceedings of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)"
 collection: publications
 category: volumes 
 permalink: /publication/2018-04-01-welcome-general-chairs-ispass-2018

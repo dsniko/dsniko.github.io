@@ -1,5 +1,5 @@
 ---
-title: "MiniSymposium on Edge Computing"
+title: "Proceedings of the MiniSymposium on Edge Computing"
 collection: publications
 category: volumes
 permalink: /publication/2018-01-01-minisymposium-edge-computing

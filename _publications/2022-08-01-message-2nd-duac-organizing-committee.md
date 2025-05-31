@@ -1,5 +1,5 @@
 ---
-title: "2nd Internatoinal Workshop on Deployment and Use of Accelerators"
+title: "Proceedings of the International Workshop on Deployment and Use of Accelerators"
 collection: publications
 category: volumes
 permalink: /publication/2022-08-01-message-2nd-duac-organizing-committee
