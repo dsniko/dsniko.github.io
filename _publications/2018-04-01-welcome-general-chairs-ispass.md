@@ -1,7 +1,7 @@
 ---
 title: "Welcome from the General Chairs"
 collection: publications
-category: conferences
+category: volumes 
 permalink: /publication/2018-04-01-welcome-general-chairs-ispass-2018
 excerpt: 'Welcome message from the General Chairs of the 2018 IEEE International Symposium on Performance Analysis of Systems and Software.'
 date: 2018-04-01
