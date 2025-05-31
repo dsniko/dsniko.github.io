@@ -1,7 +1,7 @@
 ---
 title: "Edge-as-a-Service: Towards Distributed Cloud Architectures"
 collection: publications
-category: bookchapters
+category: conferences
 permalink: /publication/2017-01-01-edge-as-a-service
 excerpt: "This chapter introduces an Edge-as-a-Service platform that integrates edge nodes into cloud environments to reduce latency and improve Quality-of-Service."
 date: 2017-01-01
