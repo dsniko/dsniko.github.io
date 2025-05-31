@@ -1,7 +1,7 @@
 ---
 title: "Towards Efficient Python Interpreter for Tiered Memory Systems"
 collection: publications
-category: posters
+category: conferences
 permalink: /publication/2024-02-01-efficient-python-interpreter-tiered-memory
 excerpt: 'Presents optimizations for Python interpreter performance on tiered memory systems to improve execution efficiency and memory utilization.'
 date: 2024-02-01
