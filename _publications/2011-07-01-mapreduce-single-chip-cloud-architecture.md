@@ -1,7 +1,7 @@
 ---
 title: "MapReduce for the Single-Chip-Cloud Architecture"
 collection: publications
-category: conferences
+category: posters
 permalink: /publication/2011-07-01-mapreduce-single-chip-cloud-architecture
 excerpt: 'Presents a scalable implementation of MapReduce on the Intel SCC (Single-Chip Cloud), addressing scalability bottlenecks with customized data partitioning, combining and sorting algorithms for the SCC network-on-chip architecture.'
 date: 2011-07-01
