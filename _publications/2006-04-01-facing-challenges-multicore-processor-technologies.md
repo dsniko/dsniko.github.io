@@ -1,7 +1,7 @@
 ---
 title: "Facing the challenges of multicore processor technologies using autonomic system software"
 collection: publications
-category: workshops
+category: keynotes
 permalink: /publication/2006-04-01-facing-challenges-multicore-processor-technologies
 excerpt: 'Discusses major challenges of software adaptation to multicore technologies and motivates the use of autonomic, self-optimizing system software for high performance portability and energy-efficient execution.'
 date: 2006-04-01
