@@ -94,6 +94,10 @@ publication_category:
     title: 'Posters'
   volumes:
     title: 'Edited Volumes and Special Issues'
+  invited:
+    title: 'Invited Papers'
+  keynotes:
+    title: 'Keynote Presentations'
   techreports:
     title: 'Technical Reports'
 

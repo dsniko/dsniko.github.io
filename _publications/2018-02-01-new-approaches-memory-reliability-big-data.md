@@ -1,7 +1,7 @@
 ---
 title: "New Approaches to Memory Reliability Management for Big Data Workloads"
 collection: publications
-category: conferences
+category: invited
 permalink: /publication/2018-02-01-new-approaches-memory-reliability-big-data
 excerpt: 'Presents new approaches to memory reliability management specifically designed for big data workloads to improve system resilience and data integrity.'
 date: 2018-02-01

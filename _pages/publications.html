@@ -17,6 +17,8 @@ author_profile: true
 {% assign posters = site.publications | where: "category", "posters" %}
 {% assign edited_volumes = site.publications | where: "category", "volumes" %}
 {% assign tech_reports = site.publications | where: "category", "techreports" %}
+{% assign invited_papers = site.publications | where: "category", "invited" %}
+{% assign keynote_presenations = site.publications | where: "category", "keynotes" %}
 
 <div class="wordwrap"><a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</div>
 <div class="wordwrap"><a href="#conference-papers">Conference papers:</a> ({{ conf_pubs | size }})</div>
@@ -25,6 +27,8 @@ author_profile: true
 <div class="wordwrap"><a href="#magazine-articles">Magazine articles:</a> ({{ magazine_articles | size }})</div>
 <div class="wordwrap"><a href="#posters">Posters:</a> ({{ posters | size }})</div>
 <div class="wordwrap"><a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }}) </div>
+<div class="wordwrap"><a href="#invited-papers">Invited Papers:</a> ({{ invited_papers | size }}) </div>
+<div class="wordwrap"><a href="#keynote-presentations">Keynote Presentations:</a> ({{ keynote_presentations | size }}) </div>
 <div class="wordwrap"><a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }}) </div>
 
 {% include base_path %}
@@ -54,6 +58,8 @@ author_profile: true
   {% assign title_shown_volumes = false %}
   {% assign title_shown_posters = false %}
   {% assign title_shown_magazines = false %}
+  {% assign title_shown_invited= false %}
+  {% assign title_shown_keynotes= false %}
   
   {% for post in site.publications reversed %}
     {% if post.category == "manuscripts" and title_shown_manuscripts == false %}
@@ -94,6 +100,16 @@ author_profile: true
     {% if post.category == "volumes" and title_shown_volumes == false %}
       <h2 id="edited-volumes">Edited Volumes and Journal Special Issues</h2><hr />
       {% assign title_shown_volumes = true %}
+    {% endif %}
+
+    {% if post.category == "keynotes" and title_shown_keynotes == false %}
+      <h2 id="keynote-presentations">Keynote Presentations</h2><hr />
+      {% assign title_shown_keynotes = true %}
+    {% endif %}
+
+    {% if post.category == "invited" and title_shown_invited == false %}
+      <h2 id="invited-talks">Invited Papers</h2><hr />
+      {% assign title_shown_invited = true %}
     {% endif %}
 
     {% include archive-single.html %}
