@@ -1,7 +1,7 @@
 ---
 title: "Using Computational Significance and Resilience in System Software Stacks: Keynote Talk"
 collection: publications
-category: workshops
+category: keynotes
 permalink: /publication/2016-03-01-computational-significance-resilience-keynote
 excerpt: 'Keynote talk exploring how runtime systems and operating systems can leverage computational significance and resilience metrics to reduce energy footprint of parallel applications while tolerating higher error rates in future processors and memory technologies.'
 date: 2016-03-01
