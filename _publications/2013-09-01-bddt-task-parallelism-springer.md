@@ -1,7 +1,7 @@
 ---
 title: "BDDT: Block-Level Dynamic Dependence Analysis for Task-Based Parallelism"
 collection: publications
-category: bookchapters
+category: conferences
 permalink: /publication/2013-09-01-bddt-task-parallelism-springer
 excerpt: "A comprehensive treatment of the BDDT runtime with emphasis on block-level memory tracking and support for irregular applications in task-parallel environments."
 date: 2013-09-01
