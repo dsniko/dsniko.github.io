@@ -1,7 +1,7 @@
 ---
 title: "System Software Challenges and Opportunities on Asymmetric Multi-core Processors"
 collection: publications
-category: conferences
+category: invited 
 permalink: /publication/2007-09-01-asymmetric-multicore-systems
 excerpt: "Explores the implications of architectural asymmetry in multi-core systems for system software design, addressing challenges in scheduling, resource management, and performance tuning."
 date: 2007-09-01
