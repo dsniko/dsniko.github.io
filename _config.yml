@@ -239,7 +239,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  mentees:
     output: true
     permalink: /:collection/:path/
 
