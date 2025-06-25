@@ -24,7 +24,7 @@ Work experience
   * Departments of Computer Science and Electrical and Computer Engineering
   * Associate Director, Stacks@CS Center for Computer Systems Research
 
-* Jan'2012 - Aug'19: Professor, Director of Research, Chair in High Performance and Distributed Computing, Head of School, Global Research Institute Director
+* Jan'2012 - Aug'19: Professor, Director of Research, Chair in High Performance and Distributed Computing, Head of School of EEECS, Institute Director of ECIT
   * Queens University Belfast
   * School of Electronics, Electrical Engineering, and Computer Science
 
