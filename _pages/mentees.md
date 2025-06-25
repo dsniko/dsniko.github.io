@@ -1,0 +1,48 @@
+---
+layout: archive
+title: "Mentees"
+permalink: /mentees/
+author_profile: true
+---
+
+## Current Students
+
+{% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
+{% for student in current_students %}
+### [{{ student.title }}]({{ student.url }})
+**{{ student.category | capitalize }}** ({{ student.end_year | default: "Present" }})  
+{{ student.excerpt }}
+{% endfor %}
+
+## Alumni
+
+### PhD Graduates
+{% assign phd_alumni = site.mentees | where: "status", "alumni" | where: "category", "phd" | sort: "end_year" | reverse %}
+{% for alumnus in phd_alumni %}
+**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+*Dissertation:* "{{ alumnus.thesis_title }}"  
+{% if alumnus.awards %}*Award:* {{ alumnus.awards }}  {% endif %}
+{% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
+{% endfor %}
+
+### Postdocs
+{% assign postdoc_alumni = site.mentees | where: "status", "alumni" | where: "category", "postdoc" | sort: "end_year" | reverse %}
+{% for alumnus in postdoc_alumni %}
+**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+{% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
+{% endfor %}
+
+### Master's Students
+{% assign masters_alumni = site.mentees | where: "status", "alumni" | where: "category", "masters" | sort: "end_year" | reverse %}
+{% for alumnus in masters_alumni %}
+**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+{% if alumnus.thesis_title %}*Thesis:* "{{ alumnus.thesis_title }}"  {% endif %}
+{% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
+{% endfor %}
+
+### Undergraduate Researchers
+{% assign undergrad_alumni = site.mentees | where: "status", "alumni" | where: "category", "undergrad" | sort: "end_year" | reverse %}
+{% for alumnus in undergrad_alumni %}
+**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+{% if alumnus.current_position %}*Current Status:* {{ alumnus.current_position }}  {% endif %}
+{% endfor %}
