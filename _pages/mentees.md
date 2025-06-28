@@ -24,6 +24,7 @@ author_profile: true
 {% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
 {% if alumnus.department %}*Department:* {{ alumnus.department}}  {% endif %}
 {% if alumnus.awards %}*Award:* {{ alumnus.awards }}  {% endif %}
+{% if alumnus.website %}*Website:* {{ alumnus.website }}  {% endif %}
 {% endfor %}
 
 ### Postdocs
