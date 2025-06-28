@@ -19,10 +19,11 @@ author_profile: true
 ### PhD Graduates
 {% assign phd_alumni = site.mentees | where: "status", "alumni" | where: "category", "phd" | sort: "end_year" | reverse %}
 {% for alumnus in phd_alumni %}
-**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+**[{{ alumnus.title }}]({{ alumnus.linkedin }})** ({{ alumnus.end_year }})  
 *Dissertation:* "{{ alumnus.thesis_title }}"  
-{% if alumnus.awards %}*Award:* {{ alumnus.awards }}  {% endif %}
 {% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
+{% if alumnus.department %}*Department:* {{ alumnus.department}}  {% endif %}
+{% if alumnus.awards %}*Award:* {{ alumnus.awards }}  {% endif %}
 {% endfor %}
 
 ### Postdocs
