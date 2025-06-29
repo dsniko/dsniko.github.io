@@ -9,6 +9,6 @@ thesis_title: "Myrmics: A Scalable Runtime System for Global Address Spaces"
 department: "Computer Science, University of Crete"
 current_position: "Senior Principal Engineer at ARM"  # You can fill this from LinkedIn
 first_position: ""    # You can fill this from LinkedIn
-linkedin: "https://www.linkedin.com/in/spyros-lyberis-86410372/"
+website: "https://www.linkedin.com/in/spyros-lyberis-86410372/"
 scholar: ""
 ---

@@ -10,6 +10,6 @@ department: "Computer Science, Virginia Tech"
 awards: "Virginia Tech Outstanding Ph.D. Dissertation Award"
 current_position: "Principal Software Engineer at NetApp"  # You can fill this from LinkedIn
 first_position: ""    # You can fill this from LinkedIn
-linkedin: "https://www.linkedin.com/in/matthew-curtis-maury-70409a20/"
+website: "https://www.linkedin.com/in/matthew-curtis-maury-70409a20/"
 scholar: ""
 ---
