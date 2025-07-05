@@ -10,7 +10,7 @@ author_profile: true
 {% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
 {% for student in current_students %}
 ### [{{ student.title }}]({{ student.url }})
-**{{ student.category | capitalize }}** ({{ student.end_year | default: "Present" }})  
+**{{ student.category | capitalize }}** ({{student.department}}) ({{ student.end_year | default: "Present" }})  
 {{ student.excerpt }}
 {% endfor %}
 
