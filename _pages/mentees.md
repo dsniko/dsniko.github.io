@@ -10,11 +10,16 @@ author_profile: true
 {% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
 {% for student in current_students %}
 ### [{{ student.title }}]({{ student.url }})
-**{{ student.category | capitalize }}** ({{ student.department }})  
+{% case student.category %}
+  {% when "phd" %}**PhD**
+  {% when "postdoc" %}**Postdoc**
+  {% when "masters" %}**Master’s**
+  {% when "undergrad" %}**Undergraduate**
+  {% else %}**{{ student.category | capitalize }}**
+{% endcase %} ({{ student.department }})<br>
 ({{ student.end_year | default: "Present" }})  
 {{ student.excerpt }}
 {% endfor %}
-
 
 ## Alumni
 
