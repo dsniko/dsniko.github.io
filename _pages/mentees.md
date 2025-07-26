@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
 {% for student in current_students %}
-**[{{ student.title }}]({{ student.url }})
+[{{ student.title }}]({{ student.url }})
 {% case student.category %}
   {% when "phd" %}**PhD**
   {% when "postdoc" %}**Postdoc**
@@ -17,7 +17,7 @@ author_profile: true
   {% when "undergrad" %}**Undergraduate**
   {% else %}**{{ student.category | capitalize }}**
 {% endcase %} ({{ student.department }})
-*{{ student.end_year | default: "Present" }}  
+{{ student.end_year | default: "Present" }}  
 {{ student.excerpt }}
 {% endfor %}
 
