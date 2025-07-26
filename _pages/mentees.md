@@ -16,7 +16,7 @@ author_profile: true
   {% when "masters" %}**Master’s**
   {% when "undergrad" %}**Undergraduate**
   {% else %}**{{ student.category | capitalize }}**
-{% endcase %} ({{ student.department }})<br>
+{% endcase %} ({{ student.department }})
 {{ student.end_year | default: "Present" }}  
 {{ student.excerpt }}
 {% endfor %}
