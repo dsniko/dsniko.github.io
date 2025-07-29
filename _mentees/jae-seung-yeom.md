@@ -8,7 +8,6 @@ status: alumni
 thesis_title: "Optimizing Data Accesses for Scaling Data-Intensive Scientific Applications"
 department: "Computer Science, Virginia Tech (co-advised with Madhav Marathe)"
 current_position: "Computer Scientist at Lawrence Livermore National Laboratory"  # You can fill this from LinkedIn
-first_position: ""    # You can fill this from LinkedIn
 website: "https://people.llnl.gov/yeom2"
 scholar: ""
 ---

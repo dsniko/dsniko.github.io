@@ -8,7 +8,6 @@ status: current
 thesis_title: ""
 department: "Computer Science, Virginia Tech, co-advised with Scott Midkiff"
 current_position: ""  # You can fill this from LinkedIn
-first_position: ""    # You can fill this from LinkedIn
 website: "https://www.linkedin.com/in/emadeldin-mazied-abdrabou-115b19120/"
 scholar: ""
 ---

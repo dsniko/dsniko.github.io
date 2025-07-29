@@ -8,7 +8,6 @@ status: alumni
 thesis_title: "Dynamic Adaptation to CPU and Memory Load in Scientific Applications"
 department: "Computer Science, College of William & Mary (co-advised with Andreas Stathopoulos)"
 current_position: "Computational Scientist, Argonne National Laboratory"  # You can fill this from LinkedIn
-first_position: ""    # You can fill this from LinkedIn
 website: "https://www.anl.gov/profile/richard-tran-mills"
 scholar: ""
 ---

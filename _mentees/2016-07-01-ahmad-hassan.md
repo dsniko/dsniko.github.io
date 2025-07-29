@@ -8,7 +8,6 @@ status: alumni
 thesis_title: "Software Management of Hybrid Main Memory Systems"
 department: "Electronics, Electrical Engineering and Computer Science, Queen's University of Belfast (co-advised with Hans Vandierendonck)"
 current_position: "Development Expert at SAP"
-first_position: ""  # You can fill this from LinkedIn
 website: "https://www.linkedin.com/in/ahmadhassan/"
 scholar: ""
 ---
