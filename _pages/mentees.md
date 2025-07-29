@@ -9,16 +9,15 @@ author_profile: true
 
 {% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
 {% for student in current_students %}
-[{{ student.title }}]({{ student.url }})
+[{{ student.title }}]({{ student.url }})  
 {% case student.category %}
   {% when "phd" %}**PhD**
   {% when "postdoc" %}**Postdoc**
   {% when "masters" %}**Master’s**
   {% when "undergrad" %}**Undergraduate**
   {% else %}**{{ student.category | capitalize }}**
-{% endcase %} ({{ student.department }})
-{{ student.end_year | default: "Present" }}  
-{{ student.excerpt }}
+{% endcase %}  
+({{ student.department }}) {{ student.end_year | default: "Present" }}{{ student.excerpt }}
 {% endfor %}
 
 ## Alumni
@@ -28,10 +27,10 @@ author_profile: true
 {% for alumnus in phd_alumni %}
 **[{{ alumnus.title }}]({{ alumnus.website }})** ({{ alumnus.end_year }})
 *Dissertation:* "{{ alumnus.thesis_title }}"  
-{% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
-{% if alumnus.first_position %}*First Position:* {{ alumnus.first_position }}  {% endif %}
-{% if alumnus.department %}*Department:* {{ alumnus.department}}  {% endif %}
-{% if alumnus.awards %}*Award:* {{ alumnus.awards }}  {% endif %}
+{% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}{% endif %}  
+{% if alumnus.first_position %}*First Position:* {{ alumnus.first_position }}{% endif %}  
+{% if alumnus.department %}*Department:* {{ alumnus.department}}{% endif %}  
+{% if alumnus.awards %}*Award:* {{ alumnus.awards }}{% endif %}
 {% endfor %}
 
 ### Postdocs
