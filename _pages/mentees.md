@@ -16,7 +16,7 @@ author_profile: true
   {%- when "masters" -%}Masters Student
   {%- when "undergrad" -%}Undergraduate Researcher
   {% else %}{{student.category|capitalize}}{% endcase %}
-({{ student.department }}) {{ student.end_year | default: "Present" }}{{ student.excerpt }}
+{{ student.department }}{{ student.end_year|default:"Present"}}{{ student.excerpt }}
 {% endfor %}
 
 ## Alumni
