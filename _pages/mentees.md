@@ -26,8 +26,8 @@ author_profile: true
 ### PhD Graduates
 {% assign phd_alumni = site.mentees | where: "status", "alumni" | where: "category", "phd" | sort: "end_year" | reverse %}
 {% for alumnus in phd_alumni %}
-**[{{ alumnus.title }}]({{ alumnus.website }})** ({{ alumnus.end_year }})  
-*Dissertation:* "{{ alumnus.thesis_title }}"  
+**[{{ alumnus.title }}]({{ alumnus.website }})** ({{ alumnus.end_year }})
+*Dissertation:* "{{ alumnus.thesis_title }}"
 {% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
 {% if alumnus.first_position %}<br>*First Position:* {{ alumnus.first_position }}{% endif %}
 {% if alumnus.department %}*Department:* {{ alumnus.department}}  {% endif %}
