@@ -11,12 +11,12 @@ author_profile: true
 {% for student in current_students %}
 [{{ student.title }}]({{ student.url }})  
 {% case student.category %}
-  {%- when "phd" -%}PhD Student
-  {%- when "postdoc" -%}Postdoc
-  {%- when "masters" -%}Masters Student
-  {%- when "undergrad" -%}Undergraduate Researcher
+  {%- when "phd" -%}PhD Student,
+  {%- when "postdoc" -%}Postdoc, 
+  {%- when "masters" -%}Masters Student, 
+  {%- when "undergrad" -%}Undergraduate Researcher, 
   {% else %}{{student.category|capitalize}}{% endcase %}
-{{ student.department }}{{ student.end_year|default:"Present"}}{{ student.excerpt }}
+{{ student.department }}, {{student.end_year | default:"Present"}}{{ student.excerpt }}
 {% endfor %}
 
 ## Alumni
