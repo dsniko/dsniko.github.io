@@ -5,6 +5,14 @@ permalink: /mentees/
 author_profile: true
 ---
 
+### Quick Navigation
+[Current Students](#current-students) · 
+[Alumni](#alumni) · 
+[PhD Graduates](#phd-graduates) · 
+[Postdocs](#postdocs) · 
+[Master’s Students](#masters-students) · 
+[Undergraduate Researchers](#undergraduate-researchers)
+
 ## Current Students
 
 {% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
