@@ -20,19 +20,18 @@ author_profile: true
 {% assign keynote_presentations = site.publications | where: "category", "keynotes" %}
 {% assign magazine_articles= site.publications | where: "category", "magazines" %}
 
-<div class="pub-category-links" style="display: flex; flex-wrap: wrap; gap: 1rem;">
-  <div class="wordwrap"><a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</div>
-  <div class="wordwrap"><a href="#conference-papers">Conference papers:</a> ({{ conf_pubs | size }})</div>
-  <div class="wordwrap"><a href="#workshop-papers">Workshop papers:</a> ({{ workshop_pubs | size }})</div>
-  <div class="wordwrap"><a href="#book-chapters">Book chapters:</a> ({{ book_chapters | size }})</div>
-  <div class="wordwrap"><a href="#posters">Posters:</a> ({{ posters | size }})</div>
-  <div class="wordwrap"><a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }})</div>
-  <div class="wordwrap"><a href="#invited-papers">Invited Papers:</a> ({{ invited_papers | size }})</div>
-  <div class="wordwrap"><a href="#keynote-presentations">Keynote Presentations:</a> ({{ keynote_presentations | size }})</div>
-  <div class="wordwrap"><a href="#magazine-articles">Magazine Articles:</a> ({{ magazine_articles | size }})</div>
-  <div class="wordwrap"><a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }})</div>
+<div class="pub-category-links" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+  <span>• <a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</span>
+  <span>• <a href="#conference-papers">Conference papers:</a> ({{ conf_pubs | size }})</span>
+  <span>• <a href="#workshop-papers">Workshop papers:</a> ({{ workshop_pubs | size }})</span>
+  <span>• <a href="#book-chapters">Book chapters:</a> ({{ book_chapters | size }})</span>
+  <span>• <a href="#posters">Posters:</a> ({{ posters | size }})</span>
+  <span>• <a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }})</span>
+  <span>• <a href="#invited-papers">Invited Papers:</a> ({{ invited_papers | size }})</span>
+  <span>• <a href="#keynote-presentations">Keynote Presentations:</a> ({{ keynote_presentations | size }})</span>
+  <span>• <a href="#magazine-articles">Magazine Articles:</a> ({{ magazine_articles | size }})</span>
+  <span>• <a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }})</span>
 </div>
-
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
