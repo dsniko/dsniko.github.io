@@ -20,18 +20,41 @@ author_profile: true
 {% assign keynote_presentations = site.publications | where: "category", "keynotes" %}
 {% assign magazine_articles= site.publications | where: "category", "magazines" %}
 
-<div class="pub-category-links" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
-  <span>• <a href="#journal-articles">Journal articles:</a> ({{ journal_pubs | size }})</span>
-  <span>• <a href="#conference-papers">Conference papers:</a> ({{ conf_pubs | size }})</span>
-  <span>• <a href="#workshop-papers">Workshop papers:</a> ({{ workshop_pubs | size }})</span>
-  <span>• <a href="#book-chapters">Book chapters:</a> ({{ book_chapters | size }})</span>
-  <span>• <a href="#posters">Posters:</a> ({{ posters | size }})</span>
-  <span>• <a href="#edited-volumes">Edited Volumes and Journal Special Issues:</a> ({{ edited_volumes | size }})</span>
-  <span>• <a href="#invited-papers">Invited Papers:</a> ({{ invited_papers | size }})</span>
-  <span>• <a href="#keynote-presentations">Keynote Presentations:</a> ({{ keynote_presentations | size }})</span>
-  <span>• <a href="#magazine-articles">Magazine Articles:</a> ({{ magazine_articles | size }})</span>
-  <span>• <a href="#technical-reports">Technical reports:</a> ({{ tech_reports | size }})</span>
+<style>
+  .pub-category-links a {
+    position: relative;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .pub-category-links a::before {
+    content: "•";
+    margin-right: 0.4rem;
+    color: #333;
+  }
+
+  .pub-category-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.4;
+  }
+</style>
+
+<div class="pub-category-links">
+  <a href="#journal-articles">Journal articles: ({{ journal_pubs | size }})</a>
+  <a href="#conference-papers">Conference papers: ({{ conf_pubs | size }})</a>
+  <a href="#workshop-papers">Workshop papers: ({{ workshop_pubs | size }})</a>
+  <a href="#book-chapters">Book chapters: ({{ book_chapters | size }})</a>
+  <a href="#posters">Posters: ({{ posters | size }})</a>
+  <a href="#edited-volumes">Edited Volumes and Journal Special Issues: ({{ edited_volumes | size }})</a>
+  <a href="#invited-papers">Invited Papers: ({{ invited_papers | size }})</a>
+  <a href="#keynote-presentations">Keynote Presentations: ({{ keynote_presentations | size }})</a>
+  <a href="#magazine-articles">Magazine Articles: ({{ magazine_articles | size }})</a>
+  <a href="#technical-reports">Technical reports: ({{ tech_reports | size }})</a>
 </div>
+
 {% include base_path %}
 
 <!-- New style rendering if publication categories are defined -->
