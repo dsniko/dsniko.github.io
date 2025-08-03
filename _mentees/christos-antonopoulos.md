@@ -3,7 +3,7 @@ title: "Christos Antonopoulos"
 collection: mentees
 permalink: /mentee/christos-antonopoulos
 category: postdoc
-end_year: 2004-2006
+end_year: 08/2004-08/2006
 status: alumni
 thesis_title: ""
 department: "Computer Science, College of William & Mary"

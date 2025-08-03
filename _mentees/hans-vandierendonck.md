@@ -3,7 +3,7 @@ title: "Hans Vandierendonck"
 collection: mentees
 permalink: /mentee/hans-vandierendonck
 category: postdoc
-end_year: 2010-2011
+end_year: 10/2010-10/2011
 status: alumni
 thesis_title: ""
 department: "Institute of Computer Science (FORTH-ICS) and University of Crete"
