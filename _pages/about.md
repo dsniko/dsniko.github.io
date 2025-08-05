@@ -40,6 +40,7 @@ Dimitrios currently directs the [Performance Engineering for Emerging Architectu
 
 **Education**
 
-Dimitrios obtained the Diploma of Engineering in [Computer Engineering and Informatics](https://www.ceid.upatras.gr) from the [University of Patras](https://www.upatras.gr), Greece, in 1996. This five-year program is regarded as academically equivalent to a qualification between a U.S. bachelor’s and master’s degree. He subsequently earned the Master of Engineering in 1997 and completed his Ph.D. in 2000, both from the same institution and within the same discipline.
-Dimitrios studied for his Ph.D. under the mentorship of the late [Theodore S. Papatheodorou](http://old.math.upatras.gr/~vrahatis/papers/other/AkrivisDGHKNSV16_APPL_NUMER_MATH_104_pp99-102_2016.pdf), a gentleman and unassuming researcher,
-yet a pioneer of the early days of parallel and distribured computing. 
+Dimitrios earned his Diploma of Engineering in [Computer Engineering and Informatics](https://www.ceid.upatras.gr) from the [University of Patras](https://www.upatras.gr), Greece, in 1996. This rigorous five-year program is considered academically equivalent to a qualification between a U.S. bachelor’s and master’s degree. He went on to receive his Master of Engineering in 1997 and completed his Ph.D. in 2000, both from the same institution and in the same discipline.
+
+His doctoral studies were guided by the late [Theodore S. Papatheodorou](http://old.math.upatras.gr/~vrahatis/papers/other/AkrivisDGHKNSV16_APPL_NUMER_MATH_104_pp99-102_2016.pdf), a gentleman and unassuming researcher who was nonetheless a pioneer in the early days of parallel and distributed computing. Dimitrios later continued his research as a postdoctoral scholar under the mentorship of [Constantine Polychronopoulos](https://www.linkedin.com/in/constantinepolychronopoulos/), a world-renowned authority in parallelizing compilers and a successful innovator in web technologies, streaming video, and transport protocol optimization through multi-threading.
+
