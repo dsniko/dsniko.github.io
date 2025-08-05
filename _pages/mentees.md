@@ -5,13 +5,19 @@ permalink: /mentees/
 author_profile: true
 ---
 
+{% assign current_students = site.mentees | where: "status", "current" %}
+{% assign phd_alumni = site.mentees | where: "status", "alumni" | where: "category", "phd" %}
+{% assign postdoc_alumni = site.mentees | where: "status", "alumni" | where: "category", "postdoc" %}
+{% assign masters_alumni = site.mentees | where: "status", "alumni" | where: "category", "masters" %}
+{% assign undergrad_alumni = site.mentees | where: "status", "alumni" | where: "category", "undergrad" %}
+
 ### Quick Navigation
-[Current Students](#current-students) · 
+[Current Students ({{ current_students.size }})](#current-students) · 
 [Alumni](#alumni) · 
-[PhD Graduates](#phd-graduates) · 
-[Postdocs](#postdocs) · 
-[Master’s Students](#masters-students) · 
-[Undergraduate Researchers](#undergraduate-researchers)
+[PhD Graduates ({{ phd_alumni.size }})](#phd-graduates) · 
+[Postdocs ({{ postdoc_alumni.size }})](#postdocs) · 
+[Master’s Students ({{ masters_alumni.size }})](#masters-students) · 
+[Undergraduate Researchers ({{ undergrad_alumni.size }})](#undergraduate-researchers)
 
 ## Current Students
 
