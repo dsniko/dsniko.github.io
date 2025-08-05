@@ -37,3 +37,7 @@ In his administrative career, Dimitrios has held key academic leadership positio
 **Current Research and Opportunities:**
 
 Dimitrios currently directs the [Performance Engineering for Emerging Architectures Laboratory (PEARL)](https://www.linkedin.com/company/performance-of-emerging-architectures-laboratory) at Virginia Tech and serves as the Associate Director of the [Stack@CS Center for Computer Systems](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active). His mission is to promote convergent research that co-designs computing system stacks alongside engineering artifacts to tackle significant scientific challenges and urgent societal needs. Through this work, he continues to build bridges between principles of scalable computing systems and practical applications that address real-world problems.
+
+**Education**
+
+Dimitrios obtained the Diploma of Engineering in Computer Engineering and Informatics from the University of Patras, Greece, in 1996. This five-year program is regarded as academically equivalent to a qualification between a U.S. bachelor’s and master’s degree. He subsequently earned the Master of Engineering in 1997 and completed his Ph.D. in 2000, both from the same institution and within the same discipline.
