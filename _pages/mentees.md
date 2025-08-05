@@ -13,7 +13,6 @@ author_profile: true
 
 ### Quick Navigation
 [Current Students ({{ current_students.size }})](#current-students) · 
-[Alumni](#alumni) · 
 [PhD Graduates ({{ phd_alumni.size }})](#phd-graduates) · 
 [Postdocs ({{ postdoc_alumni.size }})](#postdocs) · 
 [Master’s Students ({{ masters_alumni.size }})](#masters-students) · 
