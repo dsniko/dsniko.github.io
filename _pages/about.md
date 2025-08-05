@@ -40,4 +40,4 @@ Dimitrios currently directs the [Performance Engineering for Emerging Architectu
 
 **Education**
 
-Dimitrios obtained the Diploma of Engineering in Computer Engineering and Informatics from the University of Patras, Greece, in 1996. This five-year program is regarded as academically equivalent to a qualification between a U.S. bachelor’s and master’s degree. He subsequently earned the Master of Engineering in 1997 and completed his Ph.D. in 2000, both from the same institution and within the same discipline.
+Dimitrios obtained the Diploma of Engineering in [Computer Engineering and Informatics](https://www.ceid.upatras.gr) from the [University of Patras](https://www.upatras.gr), Greece, in 1996. This five-year program is regarded as academically equivalent to a qualification between a U.S. bachelor’s and master’s degree. He subsequently earned the Master of Engineering in 1997 and completed his Ph.D. in 2000, both from the same institution and within the same discipline.
