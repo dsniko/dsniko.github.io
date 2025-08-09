@@ -3,7 +3,8 @@ title: "Lev Mukhanov"
 collection: mentees
 permalink: /mentee/lev-mukhanov
 category: postdoc
-end_year: 04/2014-12/2020
+start_year: 2014
+end_year: 2020
 status: alumni
 thesis_title: ""
 department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"

@@ -3,7 +3,8 @@ title: "Paul Harvey"
 collection: mentees
 permalink: /mentee/paul-harvey
 category: postdoc
-end_year: 01/2016-09/2016
+start_year: 2016
+end_year: 2016
 status: alumni
 thesis_title: ""
 department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"

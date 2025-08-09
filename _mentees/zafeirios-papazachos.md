@@ -3,7 +3,8 @@ title: "Zafeirios Papazachos"
 collection: mentees
 permalink: /mentee/zafeirios-papazachos
 category: postdoc
-end_year: 01/2014-08/2019
+start_year: 2014
+end_year: 2019
 status: alumni
 thesis_title: ""
 department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"
