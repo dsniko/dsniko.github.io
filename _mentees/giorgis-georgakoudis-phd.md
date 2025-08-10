@@ -1,0 +1,13 @@
+---
+title: "Giorgis Georgakoudis"
+collection: mentees
+permalink: /mentee/roxana-istrate
+category: phd
+end_year: 2016
+status: alumni
+thesis_title: "Scheduling and Performance Characterization on Heterogeneous Multicore Systems"
+department: "Electrical and Computer Engineering, Universty of Thessaly (co-advised with Spyros Lalis)"
+current_position: "Computer Scientist at Lawrence Livermore National Laboratory"  # You can fill this from LinkedIn
+website: "https://people.llnl.gov/georgakoudis1"
+scholar: ""
+---
