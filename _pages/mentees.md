@@ -5,6 +5,10 @@ permalink: /mentees/
 author_profile: true
 ---
 
+{% if site.author.googlescholar %}
+  <div class="wordwrap">This page is under construction and the list below is partial.</div>
+{% endif %}
+
 {% assign current_students = site.mentees | where: "status", "current" %}
 {% assign phd_alumni = site.mentees | where: "status", "alumni" | where: "category", "phd" %}
 {% assign postdoc_alumni = site.mentees | where: "status", "alumni" | where: "category", "postdoc" %}
