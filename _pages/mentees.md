@@ -24,7 +24,7 @@ author_profile: true
 
 ## Current Students
 
-{% assign current_students = site.mentees | where: "status", "current" | sort: "category" %}
+{% assign current_students = site.mentees | where: "status", "current" | sort: "end_year" %}
 {% for student in current_students %}
 [{{ student.title }}]({{ student.url }})  
 {% case student.category %}
