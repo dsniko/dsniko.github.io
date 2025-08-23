@@ -1,7 +1,7 @@
 ---
 title: "Jyotirmaya Tripathi"
 collection: mentees
-permalink: /mentee/jyotirmaya-tripathi-ms
+permalink: /mentee/jyotirmaya-tripathi
 category: masters
 end_year: 2008
 status: alumni

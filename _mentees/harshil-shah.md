@@ -1,7 +1,7 @@
 ---
 title: "Harshil Shah"
 collection: mentees
-permalink: /mentee/harshil-shah-ms
+permalink: /mentee/harshil-shah
 category: masters
 end_year: 2008
 status: alumni

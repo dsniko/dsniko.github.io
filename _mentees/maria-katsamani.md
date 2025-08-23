@@ -1,7 +1,7 @@
 ---
 title: "Maria Katsamani"
 collection: mentees
-permalink: /mentee/maria-katsamani-ms
+permalink: /mentee/maria-katsamani
 category: masters
 end_year: 2010
 status: alumni

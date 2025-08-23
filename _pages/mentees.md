@@ -51,7 +51,7 @@ author_profile: true
 ### Postdocs
 {% assign postdoc_alumni = site.mentees | where: "status", "alumni" | where: "category", "postdoc" | sort: "end_year" | reverse %}
 {% for alumnus in postdoc_alumni %}
-**[{{ alumnus.title }}]({{ alumnus.url }})**  ({{alumnus.start_year}} - {{ alumnus.end_year }})  
+**[{{ alumnus.title }}]({{ alumnus.website }})**  ({{alumnus.start_year}} - {{ alumnus.end_year }})  
 {% if alumnus.department %}*Department:* {{ alumnus.department}}  {% endif %}
 {% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
 {% endfor %}
@@ -59,7 +59,7 @@ author_profile: true
 ### Master's Students
 {% assign masters_alumni = site.mentees | where: "status", "alumni" | where: "category", "masters" | sort: "end_year" | reverse %}
 {% for alumnus in masters_alumni %}
-**[{{ alumnus.title }}]({{ alumnus.url }})** ({{ alumnus.end_year }})  
+**[{{ alumnus.title }}]({{ alumnus.website }})** ({{ alumnus.end_year }})  
 {% if alumnus.thesis_title %}*Thesis:* "{{ alumnus.thesis_title }}"  {% endif %}
 {% if alumnus.current_position %}*Current Position:* {{ alumnus.current_position }}  {% endif %}
 {% endfor %}
