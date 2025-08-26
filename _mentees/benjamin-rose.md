@@ -1,7 +1,7 @@
 ---
 title: "Benjamin Rose"
 collection: mentees
-permalink: /mentee/benjamin-rose-ms
+permalink: /mentee/benjamin-rose
 category: masters
 end_year: 2009
 status: alumni
