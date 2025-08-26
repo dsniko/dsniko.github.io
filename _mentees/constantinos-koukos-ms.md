@@ -8,6 +8,6 @@ status: alumni
 thesis_title: "Locality Management in Task-Based Parallel Programming Models"
 department: "Computer Science, University of Crete (co-supervised with Angelos Bilas)"
 current_position: "Compiler Engineer, IAR Systems"
-website: ""
+website: "https://www.linkedin.com/in/konstantinos-koukos-29b26228/"
 scholar: ""
 ---

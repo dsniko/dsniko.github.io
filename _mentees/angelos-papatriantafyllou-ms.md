@@ -8,6 +8,6 @@ status: alumni
 thesis_title: "Optimized Block-Based Dependence Analysis for Task Parallelism"
 department: "Computer Science, University of Crete"
 current_position: "Software Developer Senior Specialist, Nasdaq"
-website: ""
+website: "https://www.linkedin.com/in/angelos-papatriantafyllou-25769844/"
 scholar: ""
 ---

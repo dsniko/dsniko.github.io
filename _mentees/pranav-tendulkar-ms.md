@@ -8,6 +8,6 @@ status: alumni
 thesis_title: "Runtime OpenMP Support using Hardware Primitives on Explicitly Memory Managed Multi-Processors"
 department: "ALaRi Institute Advanced Studies in Embedded Systems Design"
 current_position: "Software Engineering Manager, Qualinx"
-website: ""
+website: "https://www.linkedin.com/in/pranavtendulkar/"
 scholar: ""
 ---
