@@ -19,7 +19,9 @@ Dimitrios is an [IEEE Fellow](https://www.ieee.org/membership/fellows/index.html
 
 **Mentorship and Funding:**
 
-Throughout his career, Dimitrios has mentored 24 Ph.D. students and 16 postdoctoral researchers, guiding them toward successful careers in both academia and industry. He has led $36.5 million in awarded research and has served as a Co-Investigator for an additional $67.3 million from NSF, DOE, the European Commission, EPSRC, SFI, IBM, Cisco, and Sony.
+Throughout his career, Dimitrios has mentored 24 Ph.D. students and 16 postdoctoral researchers, guiding them toward successful careers in both academia and industry. 
+He has led research initiatives totaling $36.5 million in awarded funding and contributed as Co-Investigator to an additional $67.3 million in grants supported by NSF, DOE, the European Commission, EPSRC, SFI, IBM, Cisco, and Sony.
+
 
 **Educational Leadership:**
 
