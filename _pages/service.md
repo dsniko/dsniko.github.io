@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: archive
 title: "Service"
 permalink: /service/
+author_profile: true
 ---
 
 {% assign sorted = site.service | sort: 'start' | reverse %}
