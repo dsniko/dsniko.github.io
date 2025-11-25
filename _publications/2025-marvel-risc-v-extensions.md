@@ -7,5 +7,5 @@ excerpt: 'Presents MARVEL, an end-to-end framework for generating model-class aw
 date: 2025-07-09
 venue: 'IEEE Open Journal of Circuits and Systems'
 paperurl: ''
-citation: 'Kumar, A., O&apos;Mahoney, C., Kreutz Werle, P., Shanker, S., Nikolopoulos, D. S., Ji, B., Vandierendonck, H., & John, D. (2025). &quot;MARVEL: An End-to-End Framework for Generating Model-Class Aware Custom RISC-V Extensions for Lightweight AI.&quot; <i>IEEE Open Journal of Circuits and Systems</i>. (Accepted)'
+citation: 'Kumar, A., O&apos;Mahoney, C., Kreutz Werle, P., Shanker, S., Nikolopoulos, D. S., Ji, B., Vandierendonck, H., & John, D. (2025). &quot;MARVEL: An End-to-End Framework for Generating Model-Class Aware Custom RISC-V Extensions for Lightweight AI.&quot; <i>IEEE Open Journal of Circuits and Systems</i>. Vol. 6, pp. 445-456'
 ---
