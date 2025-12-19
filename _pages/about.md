@@ -13,7 +13,7 @@ redirect_from:
 
 Dimitrios's scholarly contributions have been instrumental to the [OpenMP parallel programming standard](https://www.openmp.org) and have been adopted by [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) and many commercial system software products, including parallelizing compilers from major hardware vendors, in-memory databases, and data stream processing systems. His work has also catalyzed advancements in experimental operating systems and programming languages for multiprocessors and computational accelerators 
 
-Dimitrios's current research interests include **efficient and resilient AI systems across the computing continuum**, **performance engineering for modern accelerators**, and **systems for real-world, data-intensive science and cyberinfrasturcture**.
+Dimitrios's current research interests include **efficient and resilient AI systems across the computing continuum**, **performance engineering for modern accelerators**, and **systems for real-world, data-intensive science and cyberinfrastructure**.
 An overarching goal of his current work is to establish and advance sustainable AI practices, by distributing, reducing, and rationalizing the infrastructure footprint of AI. Further information about his scholarly work can be found in his profiles on [DBLP](https://dblp.org/pid/50/1235.html), [Google Scholar](https://scholar.google.com/citations?user=PkCuYUQAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0003-0217-8307), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=7004096576), and his [CV](./cv.pdf). A [short bio](./bio.txt) is also available, along with a [Wikipedia entry](https://en.wikipedia.org/wiki/Dimitrios_S._Nikolopoulos) about his work.
 
 **Accolades:**
