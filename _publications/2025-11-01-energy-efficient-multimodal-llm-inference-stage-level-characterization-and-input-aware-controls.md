@@ -6,6 +6,6 @@ permalink: /publication/2025-11-01-energy-efficient-multimodal-llm-inference-sta
 excerpt: "Refereed poster: Energy-Efficient Multimodal LLM Inference: Stage-Level Characterization and Input-Aware Controls."
 date: 2025-11-01
 venue: "SC 2025 (St. Louis, MO) — Poster"
-paperurl: ""
+paperurl: "https://sc25.supercomputing.org/proceedings/posters/poster_files/post286s2-file3.pdf"
 citation: 'Mona Moghadampanah, Adib Rezaei Shahmirzadi, and Dimitrios S. Nikolopoulos (2025). &quot;Energy-Efficient Multimodal LLM Inference: Stage-Level Characterization and Input-Aware Controls.&quot; In <i>Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis (SC25)</i>. Poster.'
 ---
