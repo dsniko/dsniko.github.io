@@ -44,11 +44,11 @@ Work experience
   * College of William & Mary
   * Department of Computer Science
 
-*Jan'2001 - Aug'2002: Visiting Assistant Professor
+* Jan'2001 - Aug'2002: Visiting Assistant Professor
   * Department of Electrical and Computer Engineering and Coordinated Sciences Laboratory
   * University of Illinois, Urbana-Champaign
 
-*Sep'1996 - Dec'2000: Graduate Research Assistant
+* Sep'1996 - Dec'2000: Graduate Research Assistant
   * Department of Computer Engineering and Informatics
   * University of Patras
 
