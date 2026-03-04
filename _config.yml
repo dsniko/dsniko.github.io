@@ -22,7 +22,7 @@ repository               : "dsniko.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "dsn_2021.jpg"
+  avatar           : "dsn_sketch.png"
   name             : "Dimitrios S. Nikolopoulos"
   pronouns         : "he/him"  
   bio              : "John W. Hancock Jr. Professor of Engineering at Virginia Tech"
