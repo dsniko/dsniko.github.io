@@ -2,7 +2,7 @@
 title: "Access-aware DRAM failure-rate estimation under relaxed refresh operations"
 collection: publications
 category: conferences
-permalink: /publication/2017-07-01-access-aware-dram-failure-rate-estimation
+permalink: /publication/2017-07-01-access-aware-dram-failure-rate
 excerpt: 'Presents access-aware DRAM failure-rate estimation techniques under relaxed refresh operations using memory tracing, fault injection, and binary instrumentation to optimize memory reliability and energy consumption.'
 date: 2017-07-01
 venue: 'International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)'

@@ -2,7 +2,7 @@
 title: "HiRED: Attention-Guided Token Dropping for Efficient Inference of High-Resolution Vision-Language Models"
 collection: publications
 category: conferences
-permalink: /publication/2025-04-11-hired-token-dropping
+permalink: /publication/2025-04-11-hired-attention-token-dropping
 excerpt: 'This paper proposes High-Resolution Early Dropping (HiRED), a plug-and-play token-dropping method that enhances efficiency in high-resolution vision-language models while maintaining performance.'
 date: 2025-04-11
 venue: 'AAAI Conference on Artificial Intelligence'

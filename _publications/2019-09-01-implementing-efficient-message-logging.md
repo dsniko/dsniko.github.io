@@ -2,7 +2,7 @@
 title: "Implementing efficient message logging protocols as MPI application extensions"
 collection: publications
 category: conferences
-permalink: /publication/2019-09-01-implementing-efficient-message-logging-mpi
+permalink: /publication/2019-09-01-implementing-efficient-message-logging
 excerpt: 'Implements efficient message logging protocols as MPI application extensions to enable local rollback capabilities without requiring a complete MPI library redesign, demonstrated on CG and LULESH kernels.'
 date: 2019-09-01
 venue: 'European MPI Users'' Group Meeting (EuroMPI)'

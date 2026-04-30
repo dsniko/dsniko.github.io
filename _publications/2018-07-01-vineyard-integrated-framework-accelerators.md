@@ -2,7 +2,7 @@
 title: "The VINEYARD integrated framework for hardware accelerators in the cloud"
 collection: publications
 category: conferences
-permalink: /publication/2018-07-01-vineyard-integrated-framework-hardware-accelerators
+permalink: /publication/2018-07-01-vineyard-integrated-framework-accelerators
 excerpt: 'Presents the VINEYARD framework for seamless deployment and utilization of hardware accelerators in the cloud, achieving up to 25× speedup without increasing programming complexity for machine learning and neurocomputing applications.'
 date: 2018-07-01
 venue: '18th International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)'

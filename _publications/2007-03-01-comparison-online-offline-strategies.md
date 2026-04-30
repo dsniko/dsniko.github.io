@@ -2,7 +2,7 @@
 title: "A comparison of online and offline strategies for program adaptation"
 collection: publications
 category: conferences
-permalink: /publication/2007-03-01-comparison-online-offline-strategies-program-adaptation
+permalink: /publication/2007-03-01-comparison-online-offline-strategies
 excerpt: 'Compares online and offline strategies for program adaptation in high-performance computing, analyzing the pros and cons of different information collection and analysis approaches for dynamic adaptation based on execution length and use characteristics.'
 date: 2007-03-01
 venue: 'Annual ACM Southeast Conference (ACMSE)'

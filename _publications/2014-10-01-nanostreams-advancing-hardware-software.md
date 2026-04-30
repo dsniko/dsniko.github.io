@@ -2,7 +2,7 @@
 title: "NanoStreams: Advancing the hardware and software stack for real-time analytics on fast data streams"
 collection: publications
 category: conferences
-permalink: /publication/2014-10-01-nanostreams-advancing-hardware-software-stack
+permalink: /publication/2014-10-01-nanostreams-advancing-hardware-software
 excerpt: 'Presents NanoStreams, an advanced hardware and software stack designed for real-time analytics on fast data streams, targeting high-performance server architectures and system-on-chip implementations.'
 date: 2014-10-01
 venue: 'eChallenges e-2014 Conference'
