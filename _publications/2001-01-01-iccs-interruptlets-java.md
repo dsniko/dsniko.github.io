@@ -11,4 +11,5 @@ pages: "223–232"
 address: "Berlin, Heidelberg"
 isbn: "978-3-540-45545-5"
 citation: "Craig, D., Carroll, S., Breg, F., Nikolopoulos, D. S., & Polychronopoulos, C. (2001). Improving Java Server Performance with Interruptlets. In *Computational Science – ICCS 2001* (V. N. Alexandrov et al., Eds.), pp. 223–232, Springer."
+paperurl: "https://doi.org/10.1007/3-540-45545-0_31"
 ---

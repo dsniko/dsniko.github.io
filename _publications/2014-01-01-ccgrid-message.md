@@ -8,4 +8,5 @@ date: 2014-01-01
 venue: "IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing"
 doi: "10.1109/CCGrid.2014.5"
 citation: "Cameron, K. W., & Nikolopoulos, D. S. (2014). Message from Technical Program Committee Co-Chairs. *Proceedings of the 14th IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing (CCGrid 2014)*, IEEE. https://doi.org/10.1109/CCGrid.2014.5"
+paperurl: "https://doi.org/10.1109/CCGrid.2014.5"
 ---

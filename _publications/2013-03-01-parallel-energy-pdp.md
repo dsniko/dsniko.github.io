@@ -7,4 +7,5 @@ excerpt: "Keynote address discussing the interplay between parallel programming 
 date: 2013-03-01
 venue: "Euromicro International Conference on Parallel, Distributed and Network-Based Computing (PDP)"
 citation: "Nikolopoulos, D. (2013). Connecting the Dots between Parallel Programming and Energy. Keynote at *PDP 2013 – 21st Euromicro International Conference on Parallel, Distributed and Network-Based Computing*, March 1."
+paperurl: "https://pure.qub.ac.uk/en/publications/connecting-the-dots-between-parallel-programming-and-energy"
 ---

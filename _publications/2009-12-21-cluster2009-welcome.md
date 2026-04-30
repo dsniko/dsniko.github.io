@@ -10,4 +10,5 @@ publisher: "Institute of Electrical and Electronics Engineers Inc."
 issn: "1552-5244"
 doi: "10.1109/CLUSTR.2009.5289209"
 citation: "Nikolopoulos, D., & Ribbens, C. (2009). Welcome to New Orleans and PPAC'09! In *Proceedings of the IEEE International Conference on Cluster Computing (CLUSTER 2009)*, December 21. IEEE. https://doi.org/10.1109/CLUSTR.2009.5289209"
+paperurl: "https://doi.org/10.1109/CLUSTR.2009.5289209"
 ---

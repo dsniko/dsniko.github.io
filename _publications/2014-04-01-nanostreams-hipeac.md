@@ -8,4 +8,5 @@ date: 2014-04-01
 venue: "HiPEAC Info, Volume 38"
 publisher: "European Network of Excellence on High Performance and Embedded Architectures and Compilation"
 citation: "Nikolopoulos, D. (2014). NanoStreams: A Hardware and Software Stack for Real-Time Analytics on Fast Data Streams. *HiPEAC Info*, 38, April."
+paperurl: "https://pure.qub.ac.uk/en/publications/nanostreams-a-hardware-and-software-stack-for-real-time-analytics"
 ---
