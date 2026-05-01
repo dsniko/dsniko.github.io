@@ -3,7 +3,7 @@ title: "Hemant Kumar Mehta"
 collection: mentees
 permalink: /mentee/hemant-mehta
 category: postdoc
-start_yer: 2015
+start_year: 2015
 end_year: 2017
 status: alumni
 thesis_title: ""

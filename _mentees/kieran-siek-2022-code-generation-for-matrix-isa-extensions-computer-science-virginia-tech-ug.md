@@ -6,7 +6,7 @@ category: undergrad
 end_year: 2022
 status: alumni
 thesis_title: "Code Generation for Matrix ISA Extensions"
-department: " Computer Science, Virginia Tech"
+department: "Computer Science, Virginia Tech"
 current_position: "Graduate Teaching Assistant at Virginia Tech"
 website: "https://www.linkedin.com/in/kieransiek/"
 scholar: ""

@@ -5,8 +5,8 @@ permalink: /mentee/james-dzierwa-2006-hardware-monitors-for-power-performance-ad
 category: undergrad
 end_year: 2006
 status: alumni
-thesis_title: " Hardware Monitors for Power-Performance Adaptation"
-department: " Computer Science, College of William & Mary"
+thesis_title: "Hardware Monitors for Power-Performance Adaptation"
+department: "Computer Science, College of William & Mary"
 current_position: "Principal Software Engineer at Riot Games"
 website: "https://www.linkedin.com/in/jamesdzierwa/"
 scholar: ""

@@ -1,7 +1,7 @@
 ---
 title: "Yun Wu"
 collection: mentees
-permalink: /mentee/paul-harvey
+permalink: /mentee/yun-wu
 category: postdoc
 start_year: 2014
 end_year: 2017

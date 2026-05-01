@@ -5,9 +5,9 @@ permalink: /mentee/kallia-chronaki-2011-parallel-loop-scheduling-on-the-sarc-mul
 category: undergrad
 end_year: 2011
 status: alumni
-thesis_title: " Parallel Loop Scheduling on the SARC Multi-core Processor"
+thesis_title: "Parallel Loop Scheduling on the SARC Multi-core Processor"
 department: "Computer Science, University of Crete"
-current_position: "Compiler Performance Engineer, ARM"
-website: "https://www.linkedin.com/in/alexandros-lamprineas-b852a99a/"
+current_position: ""  # TODO: fill in Kallia Chronaki's current position
+website: ""  # TODO: fill in Kallia Chronaki's profile URL
 scholar: ""
 ---

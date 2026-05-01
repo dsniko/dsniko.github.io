@@ -1,7 +1,7 @@
 ---
 title: "Giorgis Georgakoudis"
 collection: mentees
-permalink: /mentee/roxana-istrate
+permalink: /mentee/giorgis-georgakoudis-phd
 category: phd
 end_year: 2016
 status: alumni

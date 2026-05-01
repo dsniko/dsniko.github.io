@@ -5,7 +5,7 @@ permalink: /mentee/aditya-iyer-2022-faas-workload-characterization-computer-scie
 category: undergrad
 end_year: 2022
 status: alumni
-thesis_title: "  FaaS Workload Characterization"
+thesis_title: "FaaS Workload Characterization"
 department: "Computer Science, Virginia Tech"
 current_position: ""
 website: ""

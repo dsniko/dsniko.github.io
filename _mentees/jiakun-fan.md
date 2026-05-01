@@ -1,7 +1,7 @@
 ---
 title: "Jiakun Fan"
 collection: mentees
-permalink: /mentee/xiangchen-li
+permalink: /mentee/jiakun-fan
 category: phd
 end_year: 2029 (expected)
 status: current
