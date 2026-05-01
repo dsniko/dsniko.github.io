@@ -7,7 +7,7 @@ start_year: 2015
 end_year: 2017
 status: alumni
 thesis_title: ""
-department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"
+department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: ""  # You can fill this from LinkedIn
 website: "https://scholar.google.com/citations?user=JtpjiaQAAAAJ&hl=en"
 scholar: ""

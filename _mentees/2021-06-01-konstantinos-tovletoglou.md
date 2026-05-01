@@ -6,7 +6,7 @@ category: phd
 end_year: 2021
 status: alumni
 thesis_title: "Modeling and design of energy-efficient dependable memory sub-systems"
-department: "Electronics, Electrical Engineering and Computer Science, Queen's University of Belfast (co-advised with Georgios Karakonstantis)"
+department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Georgios Karakonstantis)"
 current_position: "Researcher, Imec Institute"
 website: "https://www.linkedin.com/in/ktovletoglou/"
 scholar: ""

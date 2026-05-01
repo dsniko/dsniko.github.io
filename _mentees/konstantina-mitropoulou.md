@@ -7,7 +7,7 @@ start_year: 2014
 end_year: 2014
 status: alumni
 thesis_title: ""
-department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"
+department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: "LLVM Developer, AMD"  # You can fill this from LinkedIn
 website: "https://www.linkedin.com/in/konstantina-m-949bb640/"
 scholar: ""

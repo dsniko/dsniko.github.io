@@ -7,7 +7,7 @@ start_year: 2014
 end_year: 2017
 status: alumni
 thesis_title: ""
-department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"
+department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: "Lecturer (Assistant Professor), School of Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"  # You can fill this from LinkedIn
 website: "https://pure.qub.ac.uk/en/persons/yun-wu-2/publications/"
 scholar: ""

@@ -7,7 +7,7 @@ start_year: 2016
 end_year: 2018
 status: alumni
 thesis_title: ""
-department: "Electronics, Electrical Engineering and Computer Science, Queens University Belfast"
+department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: "Computer Scientist, Lawrence Livermore National Laboratory" # You can fill this from LinkedIn
 website: "https://people.llnl.gov/georgakoudis1"
 scholar: ""
