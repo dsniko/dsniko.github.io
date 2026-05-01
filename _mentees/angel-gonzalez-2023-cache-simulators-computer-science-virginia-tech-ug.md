@@ -1,5 +1,5 @@
 ---
-title: "Angel Perez-Gonzalez"
+title: "Angel Gonzalez"
 collection: mentees
 permalink: /mentee/angel-gonzalez-2023-cache-simulators-computer-science-virginia-tech-ug
 category: undergrad
