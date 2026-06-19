@@ -114,6 +114,33 @@ author_profile: true
     border-top: 2px solid var(--global-link-color, #52adc8);
     opacity: 0.35;
   }
+
+  /* Back-to-top link after each section */
+  .pub-back-to-top {
+    margin: 1.1rem 0 0.5rem;
+    padding-top: 0.6rem;
+    text-align: right;
+    border-top: 1px solid var(--global-link-color, #52adc8);
+    border-color: color-mix(in srgb, var(--global-link-color, #52adc8) 25%, transparent);
+  }
+  .pub-back-to-top a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--global-link-color, #52adc8);
+    opacity: 0.85;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+  .pub-back-to-top a:hover,
+  .pub-back-to-top a:focus {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
 </style>
 
 {% assign total_pubs = site.publications | size %}
@@ -143,5 +170,6 @@ author_profile: true
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    <p class="pub-back-to-top"><a href="#top">&uarr;&ensp;Back to top</a></p>
   {% endif %}
 {% endfor %}
