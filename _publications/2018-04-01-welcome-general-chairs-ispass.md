@@ -1,7 +1,7 @@
 ---
 title: "Proceedings of the IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)"
 collection: publications
-category: volumes 
+category: volumes
 permalink: /publication/2018-04-01-welcome-general-chairs-ispass
 excerpt: 'Welcome message from the General Chairs of the 2018 IEEE International Symposium on Performance Analysis of Systems and Software.'
 date: 2018-04-01

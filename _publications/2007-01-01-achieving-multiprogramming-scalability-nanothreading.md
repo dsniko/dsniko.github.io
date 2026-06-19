@@ -1,7 +1,7 @@
 ---
 title: "Achieving Multiprogramming Scalability of Parallel Programs on Intel SMP Platforms: Nanothreading in the Linux Kernel"
 collection: publications
-category: conferences 
+category: conferences
 permalink: /publication/2007-01-01-achieving-multiprogramming-scalability-nanothreading
 excerpt: "Presents the design and implementation of a nanothreading interface in the Linux kernel for Intel SMP platforms to achieve robust performance and increased throughput in multiprogrammed environments."
 date: 2007-01-01
