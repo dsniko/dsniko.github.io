@@ -21,7 +21,7 @@ An overarching goal of his current work is to establish and advance sustainable 
 - X. Li et al., "[WISP: Waste- and Interference-Suppressed Distributed Speculative LLM Serving at the Edge](https://arxiv.org/abs/2601.11652)," **ACM SIGMETRICS / POMACS**, 2026.
 - M. Lee et al., "[ParvaGPU: Efficient Spatial GPU Sharing for Large-Scale DNN Inference in Cloud Environments](https://doi.org/10.1109/SC41406.2024.00048)," **SC**, 2024.
 - K. H. I. Arif et al., "[HiRED: Attention-Guided Token Dropping for Efficient Inference of High-Resolution Vision-Language Models](https://doi.org/10.1609/aaai.v39i2.32171)," **AAAI**, 2025.
-- F. Amin et al., "[DiffPro: Joint Timestep and Layer-Wise Precision Optimization for Efficient Diffusion Inference](https://arxiv.org/abs/2511.11446)," **ECCV**, 2026.
+- J. Fan et al., "[APEX: Asynchronous Parallel CPU-GPU Execution for Online LLM Inference on Constrained GPUs](https://arxiv.org/abs/2506.03296)," **IEEE IPDPS**, 2026.
 - J. Fan et al., "[dLLM-Serve: Bridging the Memory Gap in Diffusion Language Model Serving](https://arxiv.org/abs/2512.17077)," **ICS**, 2026.
 
 A complete, categorized list is on the [publications page](/publications/).
