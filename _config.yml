@@ -78,8 +78,6 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'
   conferences:
@@ -88,16 +86,18 @@ publication_category:
     title: 'Workshop Papers'
   bookchapters:
     title: 'Book Chapters'
-  magazines:
-    title: 'Magazine Articles'
-  posters:
-    title: 'Posters'
+  books:
+    title: 'Books'
   volumes:
     title: 'Edited Volumes and Special Issues'
+  posters:
+    title: 'Posters'
   invited:
     title: 'Invited Papers'
   keynotes:
     title: 'Keynote Presentations'
+  magazines:
+    title: 'Magazine Articles'
   techreports:
     title: 'Technical Reports'
 
