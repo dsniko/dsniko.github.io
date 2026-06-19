@@ -175,6 +175,7 @@ include:
   - _pages
   - files
 exclude:
+  - "Web page"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
