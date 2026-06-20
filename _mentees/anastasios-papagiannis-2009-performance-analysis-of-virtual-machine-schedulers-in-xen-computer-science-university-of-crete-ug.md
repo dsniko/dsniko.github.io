@@ -7,7 +7,7 @@ end_year: 2009
 status: alumni
 thesis_title: "Performance Analysis of Virtual Machine Schedulers in Xen."
 department: "Computer Science, University of Crete"
-current_position: "Software Engineer at Isovalent"
+current_position: "Software Engineer, Isovalent (now part of Cisco)"
 website: "https://www.linkedin.com/in/anastasios-papagiannis-56731826/"
 scholar: ""
 ---

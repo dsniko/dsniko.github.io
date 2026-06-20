@@ -7,7 +7,7 @@ end_year: 2020
 status: alumni
 thesis_title: "Resource Management for Edge Computing Systems"
 department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Blesson Varghese, Michalis Matthaiou)"
-current_position: "Manager at mindtrace.ai"  # You can fill this from LinkedIn
+current_position: "Head of Asset Inspection Solutions, Mindtrace"
 website: "https://www.linkedin.com/in/wangnan0024/"
 scholar: ""
 ---
