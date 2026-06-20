@@ -5,8 +5,169 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  /* ---- Teaching page ---- */
+  .teach-intro { font-size: 0.97em; opacity: 0.9; margin: 0 0 1.5rem; }
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+  .teach-now {
+    border-left: 4px solid var(--global-link-color, #52adc8);
+    background: color-mix(in srgb, var(--global-link-color, #52adc8) 8%, transparent);
+    padding: 0.85rem 1.1rem;
+    border-radius: 0 6px 6px 0;
+    margin: 0 0 2.25rem;
+  }
+  .teach-now .now-label {
+    display: inline-block;
+    font-size: 0.68em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--global-link-color, #52adc8);
+    margin-bottom: 0.2rem;
+  }
+  .teach-now .now-course { font-size: 1.05em; font-weight: 700; }
+  .teach-now .now-meta { font-size: 0.9em; opacity: 0.8; }
+
+  .teach-section-title {
+    margin-top: 2.5rem;
+    margin-bottom: 0.3rem;
+    scroll-margin-top: 90px;
+  }
+  .teach-section-title + hr {
+    margin-top: 0.3rem;
+    margin-bottom: 1.25rem;
+    border: 0;
+    border-top: 2px solid var(--global-link-color, #52adc8);
+    opacity: 0.35;
+  }
+
+  .course { margin: 0 0 1.15rem; }
+  .course-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .course-code {
+    font-weight: 700;
+    color: var(--global-link-color, #52adc8);
+  }
+  .course-name { font-weight: 700; }
+  .level {
+    font-size: 0.66em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    border: 1px solid var(--global-link-color, #52adc8);
+    color: var(--global-link-color, #52adc8);
+    white-space: nowrap;
+  }
+  .course-meta { font-size: 0.88em; opacity: 0.82; margin-top: 0.15rem; }
+  .course-note { font-size: 0.86em; font-style: italic; opacity: 0.75; margin-top: 0.1rem; }
+
+  .teach-list { margin: 0; padding: 0; list-style: none; }
+  .teach-list li { margin: 0 0 0.6rem; font-size: 0.92em; }
+  .teach-list .pri { font-weight: 600; }
+  .teach-inst { font-weight: 700; margin: 1.1rem 0 0.4rem; }
+</style>
+
+<p class="teach-intro">
+Across more than two decades and five institutions, Dimitrios has taught the full systems curriculum &mdash; computer organization and architecture, operating systems, parallel and multicore programming, and warehouse-scale and AI systems &mdash; from first-year undergraduate courses to advanced graduate seminars. His Virginia Tech courses consistently earn strong student evaluations (around 5.3&nbsp;/&nbsp;6).
+</p>
+
+<div class="teach-now">
+  <span class="now-label">Currently teaching &middot; Spring 2026</span><br />
+  <span class="now-course">CS2506 &mdash; Computer Organization II</span><br />
+  <span class="now-meta">Virginia Tech &middot; undergraduate &middot; ~200 students</span>
+</div>
+
+<h2 id="virginia-tech" class="teach-section-title">Virginia Tech <span style="font-size:0.6em;font-weight:600;opacity:0.7;">(2006&ndash;present)</span></h2><hr />
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS2506</span> <span class="course-name">Computer Organization II</span> <span class="level">Undergraduate</span></div>
+  <div class="course-meta">7 offerings, Spring 2020 &ndash; Spring 2026 &middot; 82&ndash;216 students &middot; evaluations 4.87&ndash;5.16 / 6</div>
+  <div class="course-note">Redeveloped in 2022 around a new open-source processor and toolchain.</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS5510 / ECE5510</span> <span class="course-name">Multiprocessor Programming</span> <span class="level">Graduate</span></div>
+  <div class="course-meta">Fall 2021, Fall 2023 &middot; up to 5.78 / 6</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS5914</span> <span class="course-name">Special Topics in Computer Science</span> <span class="level">Graduate</span></div>
+  <div class="course-meta"><em>LLMs for High-Performance Code Generation</em> (Spring 2025, 5.70 / 6) &middot; <em>Warehouse-Scale Computing</em> (Fall 2022, 5.79 / 6)</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS4284</span> <span class="course-name">Systems &amp; Networking Capstone</span> <span class="level">Undergraduate</span></div>
+  <div class="course-meta">Fall 2020 &middot; 5.85 / 6</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS5234</span> <span class="course-name">Advanced Parallel Computation</span> <span class="level">Graduate</span></div>
+  <div class="course-meta">Fall 2007 &middot; developed from scratch</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS4234</span> <span class="course-name">Parallel Computation</span> <span class="level">Undergraduate</span></div>
+  <div class="course-meta">Fall 2006</div>
+</div>
+
+<div class="course">
+  <div class="course-head"><span class="course-code">CS2504</span> <span class="course-name">Introduction to Computer Organization</span> <span class="level">Undergraduate</span></div>
+  <div class="course-meta">Spring 2007, Fall 2007</div>
+</div>
+
+<h2 id="earlier-institutions" class="teach-section-title">Earlier institutions</h2><hr />
+
+<p class="teach-inst">Queen's University Belfast <span style="font-weight:400;opacity:0.7;font-size:0.9em;">(2012&ndash;2015)</span></p>
+<ul class="teach-list">
+  <li><span class="pri">ECS1002 &mdash; Software &amp; Electronic Systems Engineering Design Projects (1st Stage)</span> &middot; Spring 2013&ndash;2015 &middot; <em>developed from scratch</em></li>
+  <li><span class="pri">ECS2001 &mdash; Design Projects (2nd Stage)</span> &middot; Fall 2012&ndash;2015 &middot; <em>developed from scratch</em></li>
+</ul>
+
+<p class="teach-inst">University of Crete <span style="font-weight:400;opacity:0.7;font-size:0.9em;">(2008&ndash;2011)</span></p>
+<ul class="teach-list">
+  <li><span class="pri">CS425 &mdash; Computer Systems Architecture</span> &middot; Fall 2008&ndash;2011 &middot; <em>major revision (2009)</em></li>
+  <li><span class="pri">CS529 &mdash; Multi-core Systems Programming</span> &middot; Spring 2009&ndash;2011 &middot; <em>developed from scratch (2009)</em></li>
+  <li><span class="pri">CS225 &mdash; Computer Organization</span> &middot; Spring 2009&ndash;2011 &middot; <em>major revision: multi-core &amp; cache coherence (2009)</em></li>
+  <li><span class="pri">CS100 &mdash; Introduction to Computer Science</span> &middot; Fall 2011</li>
+</ul>
+
+<p class="teach-inst">College of William &amp; Mary <span style="font-weight:400;opacity:0.7;font-size:0.9em;">(2002&ndash;2006)</span></p>
+<ul class="teach-list">
+  <li><span class="pri">CSCI644 &mdash; Advanced Computer Architecture</span> &middot; Spring 2003&ndash;2006</li>
+  <li><span class="pri">CSCI444 / 544 &mdash; Principles of Operating Systems</span> &middot; Fall 2002&ndash;2005</li>
+</ul>
+
+<p class="teach-inst">University of Illinois at Urbana-Champaign <span style="font-weight:400;opacity:0.7;font-size:0.9em;">(2002)</span></p>
+<ul class="teach-list">
+  <li><span class="pri">ECE291 &mdash; Computer Engineering II</span> &middot; Spring 2002</li>
+</ul>
+
+<h2 id="curriculum-development" class="teach-section-title">Course &amp; curriculum development</h2><hr />
+<ul class="teach-list">
+  <li><span class="pri">CS2506 Computer Organization II</span> &mdash; redeveloped around a new open-source processor and tools, Virginia Tech, 2022</li>
+  <li><span class="pri">ECS1002 &amp; ECS2001 Design Projects</span> &mdash; developed from scratch, Queen's University Belfast, 2016</li>
+  <li><span class="pri">CS529 Multicore Processor Programming</span> &mdash; developed from scratch, University of Crete, 2009</li>
+  <li><span class="pri">CS425 Computer Systems Architecture</span> &amp; <span class="pri">CS225 Computer Organization</span> &mdash; major revisions (multi-core, cache coherence), University of Crete, 2009</li>
+  <li><span class="pri">CS5234 Advanced Parallel Computation</span> &mdash; developed from scratch, Virginia Tech, 2006</li>
+</ul>
+
+<h2 id="seminars" class="teach-section-title">Seminars &amp; short courses</h2><hr />
+<ul class="teach-list">
+  <li><span class="pri">Implementation of Multi-core Programming Models</span> &middot; Universitat Politecnica de Catalunya &middot; 2012</li>
+  <li><span class="pri">Multi-core Systems Programming &amp; Optimization</span> &middot; Universitat Politecnica de Catalunya &middot; 2007, 2008, 2010</li>
+  <li><span class="pri">Multithreaded Architectures &amp; Software</span> &middot; College of William &amp; Mary &middot; 2004</li>
+</ul>
+
+<h2 id="teaching-grants" class="teach-section-title">Teaching grants</h2><hr />
+<ul class="teach-list">
+  <li><span class="pri">Advanced Topics in Implementing Multicore Programming Models</span> &middot; Universitat Politecnica de Catalunya &middot; PI &middot; &euro;2,400 &middot; 2012</li>
+  <li><span class="pri">Multi-core Systems Programming</span> &middot; Universitat Politecnica de Catalunya &middot; PI &middot; &euro;2,400 &middot; 2010</li>
+  <li><span class="pri">Multi-core Systems Programming</span> &middot; Universitat Politecnica de Catalunya &middot; PI &middot; &euro;3,600 &middot; 2008</li>
+  <li><span class="pri">Multi-core Systems Programming &amp; Optimization</span> &middot; Universitat Politecnica de Catalunya &middot; PI &middot; &euro;3,600 &middot; 2007</li>
+</ul>
