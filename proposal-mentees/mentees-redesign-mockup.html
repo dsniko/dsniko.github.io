@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentees — Redesign Proposal</title>
+<style>
+  :root{
+    --primary:#2b7a8b; --ink:#21323b; --maroon:#861F41;
+    --muted:#5d6b72; --line:#e4e9ec; --bg:#f7f9fa; --card:#ffffff;
+    --industry:#2b7a8b; --academia:#7a4ea3; --lab:#b4632a;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px 80px;}
+  a{color:var(--primary);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .hero{padding:54px 0 26px;border-bottom:1px solid var(--line);margin-bottom:32px;}
+  .hero h1{font-size:2.6rem;margin:0 0 10px;letter-spacing:-.02em;font-weight:700;}
+  .hero h1 .accent{color:var(--primary);}
+  .hero p{font-size:1.12rem;color:var(--muted);max-width:680px;margin:0;}
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:30px 0 14px;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:18px 14px;text-align:center;box-shadow:0 1px 2px rgba(20,40,50,.04);}
+  .stat .num{font-size:2.05rem;font-weight:700;color:var(--ink);line-height:1;}
+  .stat .num small{font-size:.95rem;color:var(--primary);font-weight:600;}
+  .stat .lbl{font-size:.82rem;color:var(--muted);margin-top:7px;text-transform:uppercase;letter-spacing:.04em;}
+  .stat.total{background:linear-gradient(135deg,var(--primary),#1f5e6c);border:none;}
+  .stat.total .num,.stat.total .lbl{color:#fff;}
+  .stat.total .lbl{opacity:.85;}
+  .placement{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:22px 24px;margin:26px 0 8px;box-shadow:0 1px 2px rgba(20,40,50,.04);}
+  .placement h2{font-size:1.02rem;margin:0 0 4px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700;}
+  .placement .sub{color:var(--muted);font-size:.9rem;margin-bottom:16px;}
+  .bar{display:flex;height:14px;border-radius:8px;overflow:hidden;margin-bottom:16px;}
+  .bar span{display:block;}
+  .legend{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem;margin-bottom:18px;}
+  .legend i{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:7px;vertical-align:middle;}
+  .legend b{color:var(--ink);}
+  .dests{border-top:1px solid var(--line);padding-top:16px;}
+  .dests .row{margin-bottom:9px;font-size:.92rem;}
+  .dests .row .tag{color:var(--muted);font-weight:600;display:inline-block;min-width:96px;}
+  .chip{display:inline-block;background:#eef3f4;color:#2c4750;border-radius:20px;padding:3px 11px;margin:3px 5px 3px 0;font-size:.83rem;font-weight:500;}
+  .sec{margin-top:46px;}
+  .sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--primary);padding-bottom:8px;margin-bottom:22px;}
+  .sec-head h2{font-size:1.5rem;margin:0;font-weight:700;}
+  .sec-head .count{background:var(--primary);color:#fff;border-radius:20px;font-size:.8rem;padding:2px 11px;font-weight:600;}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .mentee-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;gap:14px;box-shadow:0 1px 2px rgba(20,40,50,.04);transition:transform .12s ease,box-shadow .12s ease;}
+  .mentee-card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(20,40,50,.10);}
+  .avatar{flex:0 0 46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--primary),#1f5e6c);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;}
+  .card-body h3{margin:0 0 4px;font-size:1.06rem;}
+  .card-meta{font-size:.86rem;color:var(--muted);}
+  .card-year{display:inline-block;margin-top:8px;font-size:.78rem;font-weight:600;color:var(--primary);background:#eef3f4;border-radius:6px;padding:2px 8px;}
+  .card-co{font-size:.78rem;color:var(--muted);margin-top:6px;font-style:italic;}
+  .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:22px;}
+  .controls input{flex:1;min-width:220px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;font-size:.95rem;background:#fff;}
+  .controls input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(43,122,139,.12);}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;}
+  .filters button{border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:20px;padding:7px 15px;font-size:.86rem;font-weight:600;cursor:pointer;transition:all .12s;}
+  .filters button:hover{border-color:var(--primary);color:var(--primary);}
+  .filters button.active{background:var(--primary);border-color:var(--primary);color:#fff;}
+  .group-head{font-size:1.18rem;font-weight:700;margin:30px 0 14px;color:var(--ink);display:flex;align-items:center;gap:10px;}
+  .group-head .gc{font-size:.78rem;color:var(--muted);font-weight:600;}
+  .alum{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px 18px;margin-bottom:10px;box-shadow:0 1px 2px rgba(20,40,50,.03);}
+  .alum .top{display:flex;justify-content:space-between;gap:14px;align-items:baseline;flex-wrap:wrap;}
+  .alum .nm{font-size:1.04rem;font-weight:700;}
+  .alum .yr{color:var(--muted);font-size:.85rem;font-weight:600;white-space:nowrap;}
+  .alum .thesis{font-size:.9rem;color:#3f4d54;margin:5px 0 3px;font-style:italic;}
+  .alum .meta{font-size:.84rem;color:var(--muted);}
+  .badge{display:inline-block;font-size:.72rem;font-weight:700;border-radius:5px;padding:2px 8px;margin-left:8px;vertical-align:middle;text-transform:uppercase;letter-spacing:.03em;}
+  .badge.industry{background:#e3f0f3;color:var(--industry);}
+  .badge.academia{background:#f0eaf6;color:var(--academia);}
+  .badge.lab{background:#f6ece2;color:var(--lab);}
+  .pos{font-weight:600;color:#2c4750;}
+  .empty{text-align:center;color:var(--muted);padding:30px;display:none;}
+  .note{background:#fff8ec;border:1px solid #f1deb6;border-radius:12px;padding:16px 20px;margin:34px 0 0;font-size:.9rem;color:#6b5a2e;}
+  .note b{color:#5a4a20;}
+  @media(max-width:860px){
+    .stats{grid-template-columns:repeat(2,1fr);}
+    .stat.total{grid-column:span 2;}
+    .cards{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>Mentees <span class="accent">&amp; Students</span></h1>
+    <p>Over more than two decades, Dimitrios has guided <strong>125 researchers</strong> — from undergraduates to
+    postdoctoral scholars — into leading roles across industry, academia, and the national laboratories.</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat total"><div class="num">125</div><div class="lbl">Total mentees</div></div>
+    <div class="stat"><div class="num">36 <small>(9 current)</small></div><div class="lbl">PhD students</div></div>
+    <div class="stat"><div class="num">17</div><div class="lbl">Postdocs</div></div>
+    <div class="stat"><div class="num">29</div><div class="lbl">Master's</div></div>
+    <div class="stat"><div class="num">43</div><div class="lbl">Undergraduates</div></div>
+  </div>
+
+  <section class="placement">
+    <h2>Where they are now</h2>
+    <div class="sub">Known placements of 92 graduated mentees</div>
+    <div class="bar">
+      <span style="width:68.5%;background:var(--industry)"></span>
+      <span style="width:19.6%;background:var(--academia)"></span>
+      <span style="width:12.0%;background:var(--lab)"></span>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--industry)"></i><b>63</b> in industry</span>
+      <span><i style="background:var(--academia)"></i><b>18</b> in academia</span>
+      <span><i style="background:var(--lab)"></i><b>11</b> at national labs &amp; institutes</span>
+    </div>
+    <div class="dests">
+      <div class="row"><span class="tag">Industry</span><span class="chip">Google</span><span class="chip">Microsoft</span><span class="chip">Amazon</span><span class="chip">Meta</span><span class="chip">NVIDIA</span><span class="chip">ARM</span><span class="chip">Intel</span><span class="chip">AMD</span><span class="chip">Cisco</span><span class="chip">NetApp</span><span class="chip">Western Digital</span><span class="chip">Oracle</span><span class="chip">Red Hat</span><span class="chip">Bloomberg</span><span class="chip">SAP</span><span class="chip">Huawei</span><span class="chip">LinkedIn</span><span class="chip">Nasdaq</span><span class="chip">Riot Games</span></div>
+      <div class="row"><span class="tag">Labs</span><span class="chip">Lawrence Livermore National Laboratory</span><span class="chip">Argonne National Laboratory</span><span class="chip">National Institutes of Health</span><span class="chip">Barcelona Supercomputing Center</span><span class="chip">FORTH-ICS</span></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Current Students</h2><span class="count">9</span></div>
+    <div class="cards">
+      <article class="mentee-card">
+        <div class="avatar">AS</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/adib-rezaei" target="_blank" rel="noopener">Adib Rezaei Shahmirzadi</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">FA</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/farhana-amin-0223b0172" target="_blank" rel="noopener">Farhana Amin</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">JF</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/jiakun-fan-6a748828a" target="_blank" rel="noopener">Jiakun Fan</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">HA</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/hasan-arif-8b78a61a3" target="_blank" rel="noopener">Hasan Arif</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2028</div>
+          <div class="card-co">co-advised with Bo Ji</div>
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">MM</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/mona-mp" target="_blank" rel="noopener">Mona Moghadampanah</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">SY</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/shunyu-yao-3b6a53189" target="_blank" rel="noopener">Shunyu Yao</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2026</div>
+          <div class="card-co">co-advised with Ali R. Butt</div>
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">SH</div>
+        <div class="card-body">
+          <h3>Sina Heidari</h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">XL</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/xiangchen-li-aba77825b" target="_blank" rel="noopener">Xiangchen Li</a></h3>
+          <div class="card-meta">Electrical and Computer Engineering, Virginia Tech</div>
+          <div class="card-year">Expected 2027</div>
+          
+        </div>
+      </article>
+      <article class="mentee-card">
+        <div class="avatar">YS</div>
+        <div class="card-body">
+          <h3><a href="https://www.linkedin.com/in/yunqi-shen-7a0859323" target="_blank" rel="noopener">Yunqi Shen</a></h3>
+          <div class="card-meta">Computer Science, Virginia Tech</div>
+          <div class="card-year">Expected 2029</div>
+          
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="sec-head"><h2>Alumni</h2><span class="count">116</span></div>
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search by name, position, institution, or thesis…">
+      <div class="filters" id="filters">
+        <button data-f="all" class="active">All</button>
+        <button data-f="phd">PhD</button>
+        <button data-f="postdoc">Postdocs</button>
+        <button data-f="masters">Master's</button>
+        <button data-f="undergrad">Undergrad</button>
+      </div>
+    </div>
+    <div id="alumni-list"></div>
+    <div class="empty" id="empty">No mentees match your search.</div>
+  </section>
+
+  <div class="note">
+    <b>Mock-up note:</b> This visual proposal is generated directly from the live <code>_mentees</code> data
+    (125 records). Counts are accurate as of today and reconcile the figures cited on the About page.
+  </div>
+</div>
+
+<script>
+const DATA = [{"name": "Aleksandr Khasymski", "cat": "phd", "year": "2015", "yr": 2015, "thesis": "Accelerated Storage Systems", "dept": "Computer Science, Virginia Tech (co-advised with Ali R. Butt)", "pos": "Senior Storage Engineer, NetApp", "web": "https://www.linkedin.com/in/aleksandr-khasymski-15b1a819", "plc": "industry"}, {"name": "Eoghan O'Neill", "cat": "phd", "year": "2015", "yr": 2015, "thesis": "A Framework for Managing Shared Accelerators in Heterogeneous Environments", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Peter Kilpatrick)", "pos": "Software Developer at Frontier Developments", "web": "https://www.linkedin.com/in/oneilleoghan", "plc": "industry"}, {"name": "Ahmad Hassan", "cat": "phd", "year": "2016", "yr": 2016, "thesis": "Software Management of Hybrid Main Memory Systems", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Hans Vandierendonck)", "pos": "Development Expert at SAP", "web": "https://www.linkedin.com/in/ahmadhassan", "plc": "industry"}, {"name": "Stuart McCool", "cat": "phd", "year": "2016", "yr": 2016, "thesis": "Guidance Environments for Program Parallelization and Analysis", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Peter Kilpatrick)", "pos": "Software Engineer, Hewlett Packard Enterprise", "web": "https://www.linkedin.com/in/m-stuart", "plc": "industry"}, {"name": "Jiawen Sun", "cat": "phd", "year": "2017", "yr": 2017, "thesis": "The GraphGrind framework: fast graph analytics on large shared-memory systems", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Hans Vandierendonck)", "pos": "Senior Researcher at HiSilicon", "web": "https://www.linkedin.com/in/jiawen-sun-33b368103", "plc": "industry"}, {"name": "Konstantinos Tovletoglou", "cat": "phd", "year": "2021", "yr": 2021, "thesis": "Modeling and design of energy-efficient dependable memory sub-systems", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Georgios Karakonstantis)", "pos": "Researcher, Imec Institute", "web": "https://www.linkedin.com/in/ktovletoglou", "plc": "lab"}, {"name": "Ioannis Tsiokanos", "cat": "phd", "year": "2021", "yr": 2021, "thesis": "Cross-layer Instruction-Aware Timing Error Mitigation & Evaluation for Energy Efficient Dependable Architectures", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Georgios Karakonstantis)", "pos": "Digital Design Engineer at Smart Silicon and Visiting Scholar at Queen's University Belfast", "web": "https://www.linkedin.com/in/ioannis-tsiokanos", "plc": "academia"}, {"name": "Abdullahi Abubakar", "cat": "phd", "year": "2023", "yr": 2023, "thesis": "Anomaly Detection in Longitudinal Data with Applications in Cloud Computing and Healthcare", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Peter Kilpatrick, Tai Son Mai, Vien Ngo)", "pos": "", "web": "", "plc": "unknown"}, {"name": "Adarsh Chittimoori", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Aditya Iyer", "cat": "undergrad", "year": "2022", "yr": 2022, "thesis": "FaaS Workload Characterization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Ahmed Sayed", "cat": "postdoc", "year": "2015", "yr": 2015, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "VP of Engineering, WASIELA", "web": "https://www.linkedin.com/in/ahmedtareksayed", "plc": "industry"}, {"name": "Aidan Walters", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Alex Lin", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "Supporting GPUs in WebAssembly", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer, Bloomberg", "web": "https://www.linkedin.com/in/alxn3", "plc": "industry"}, {"name": "Alexandros Labrineas", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Early Release Optimizations for Task Dataflow Programming Models", "dept": "Computer Science, University of Crete", "pos": "Compiler Performance Engineer, ARM", "web": "https://www.linkedin.com/in/alexandros-lamprineas-b852a99a", "plc": "industry"}, {"name": "Alexandros Labrineas", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "BDDT-SCC: A Task-Parallel Runtime for the Single-Chip Cloud Computer", "dept": "Computer Science, University of Crete", "pos": "Compiler Performance Engineer, ARM", "web": "https://www.linkedin.com/in/alexandros-lamprineas-b852a99a", "plc": "industry"}, {"name": "Anastasios Papagiannis", "cat": "undergrad", "year": "2009", "yr": 2009, "thesis": "Performance Analysis of Virtual Machine Schedulers in Xen.", "dept": "Computer Science, University of Crete", "pos": "Software Engineer at Isovalent", "web": "https://www.linkedin.com/in/anastasios-papagiannis-56731826", "plc": "industry"}, {"name": "Anastasios Papagiannis", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "MapReduce on Distributed-Memory Many-Core Architectures", "dept": "Computer Science, University of Crete", "pos": "Software Engineer, Isovalent", "web": "https://www.linkedin.com/in/anastasios-papagiannis-56731826", "plc": "industry"}, {"name": "Aneesh Tummeti", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Angel Gonzalez", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "RISC-V Cache Simulators", "dept": "Computer Science, Virginia Tech", "pos": "Algorithmic Trading Intern, FinSentinal", "web": "https://www.linkedin.com/in/ap2024", "plc": "industry"}, {"name": "Angelos Papatriantafyllou", "cat": "masters", "year": "2012", "yr": 2012, "thesis": "Optimized Block-Based Dependence Analysis for Task Parallelism", "dept": "Computer Science, University of Crete", "pos": "Software Developer Senior Specialist, Nasdaq", "web": "https://www.linkedin.com/in/angelos-papatriantafyllou-25769844", "plc": "industry"}, {"name": "Ankur Shah", "cat": "masters", "year": "2008", "yr": 2008, "thesis": "Prediction Models for Multi-dimensional Power-Performance Optimization on Many Cores", "dept": "Computer Science, Virginia Tech", "pos": "Partner Engineering Manager at Microsoft", "web": "", "plc": "industry"}, {"name": "Anthony Nguyen", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "WebAssembly Performance Profiling", "dept": "Computer Science, Virginia Tech", "pos": "Capital One Software Engineer", "web": "https://www.linkedin.com/in/ant33nguyen", "plc": "industry"}, {"name": "Ariana Nafisi", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Asif Rahman", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Charalambos (Babis) Chalios", "cat": "phd", "year": "2017", "yr": 2017, "thesis": "Software-Defined Significant-Based Computing", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Software Engineer at Amazon Web Services", "web": "https://www.linkedin.com/in/bchalios", "plc": "industry"}, {"name": "Benjamin Rose", "cat": "masters", "year": "2009", "yr": 2009, "thesis": "Intra- and Inter-Chip Communication Support for Asymmetric Multicore Processors with Explicitly Managed Memory Hierarchies", "dept": "Computer Science, Virginia Tech", "pos": "Technical Leader at Cisco Systems", "web": "https://www.linkedin.com/in/bar234", "plc": "industry"}, {"name": "Beran Nova Bryant", "cat": "masters", "year": "2008", "yr": 2008, "thesis": "Temperature-Aware Scheduling of Parallel Applications on Shared-Memory Multiprocessors", "dept": "Computer Science, Virginia Tech", "pos": "CEO at Sunfire Solutions", "web": "https://www.linkedin.com/in/beran-nova-bryant", "plc": "industry"}, {"name": "Blesson Varghese", "cat": "postdoc", "year": "2017", "yr": 2017, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Professor of Computer science, University of St. Andrews", "web": "https://www.st-andrews.ac.uk/computer-science/people/bv6", "plc": "academia"}, {"name": "Bryan Torres", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Cheol-ho Hong", "cat": "postdoc", "year": "2017", "yr": 2017, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Professor, Electrical and Electronic Engineering, Chung-Ang University", "web": "https://sites.google.com/site/ssatcau/professor?authuser=0", "plc": "academia"}, {"name": "Christi Symeonidou", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Multi-node Communication Layer on the SARC FPGA Prototype", "dept": "Computer Science, University of Crete", "pos": "Software Engineer, Neurocom SA", "web": "https://www.linkedin.com/in/christi-symeonidou-776a9965", "plc": "industry"}, {"name": "Christi Symeonidou", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "Distributed Region-Based Allocation and Synchronization", "dept": "Computer Science, University of Crete", "pos": "Software Engineer, Neurocom SA", "web": "https://www.linkedin.com/in/christi-symeonidou-776a9965", "plc": "industry"}, {"name": "Christos Antonopoulos", "cat": "postdoc", "year": "2006", "yr": 2006, "thesis": "", "dept": "Computer Science, College of William & Mary", "pos": "Professor, Department of Electrical and Computer Engineering, University of Thessaly", "web": "https://faculty.e-ce.uth.gr/cda", "plc": "academia"}, {"name": "Christos Margiolas", "cat": "undergrad", "year": "2010", "yr": 2010, "thesis": "Data Placement and NUMA-Aware Optimization of MapReduce", "dept": "Computer Science, University of Crete", "pos": "Research Scientist, Intel", "web": "https://www.linkedin.com/in/cmargiolas", "plc": "industry"}, {"name": "Chun-Yi Su", "cat": "phd", "year": "2014", "yr": 2014, "thesis": "Energy-Aware Thread and Data Management in Heterogeneous Multi-Core and Multi-Memory Systems", "dept": "Computer Science, Virginia Tech (co-advised with Kirk W. Cameron)", "pos": "Founder, AlphaProfitable", "web": "https://www.linkedin.com/in/chunyisu", "plc": "industry"}, {"name": "Claire Shin", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Constantinos Koukos", "cat": "masters", "year": "2010", "yr": 2010, "thesis": "Locality Management in Task-Based Parallel Programming Models", "dept": "Computer Science, University of Crete (co-supervised with Angelos Bilas)", "pos": "Compiler Engineer, IAR Systems", "web": "https://www.linkedin.com/in/konstantinos-koukos-29b26228", "plc": "industry"}, {"name": "Damon Fenacci", "cat": "postdoc", "year": "2018", "yr": 2018, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Compiler Engineer, Oracle", "web": "https://www.linkedin.com/in/damon-fenacci-71a747", "plc": "industry"}, {"name": "Daniel Moyer", "cat": "masters", "year": "2021", "yr": 2021, "thesis": "Punching Holes in the Cloud: Direct Communication between Serverless Functions using NAT Traversal", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer, AWS", "web": "", "plc": "industry"}, {"name": "Denise Cooney", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Dimitrios Chassapis", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Static Dependence Analysis for Task Dataflow Models", "dept": "Computer Science, University of Crete", "pos": "Postdoctoral Researcher, Barcelona Supercomputing Center", "web": "https://www.linkedin.com/in/dimitrios-chasapis-401ab42b", "plc": "lab"}, {"name": "Dimitris Chassapis", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "Static Analysis for Parallelism and Correctness in Task Dataflow Programming Models", "dept": "Computer Science, University of Crete", "pos": "Postdoctoral Researcher, Barcelona Supercomputing Center", "web": "https://www.linkedin.com/in/dimitrios-chasapis-401ab42b", "plc": "lab"}, {"name": "Dimitris Spatharakis", "cat": "postdoc", "year": "2025", "yr": 2025, "thesis": "", "dept": "Computer Science, Virginia Tech", "pos": "Postdoctoral Researcher, National Technical University of Athens", "web": "https://www.linkedin.com/in/dimitris-spatharakis-b19529185", "plc": "academia"}, {"name": "Dong Li", "cat": "phd", "year": "2010", "yr": 2010, "thesis": "Scalable and Energy Efficient Execution Methods for Multi-core Systems", "dept": "Computer Science, Virginia Tech (co-advised with Kirk W. Cameron)", "pos": "Associate Professor, University of California, Merced", "web": "https://faculty.ucmerced.edu/dong-li", "plc": "academia"}, {"name": "Emadeldin Abdrabou", "cat": "phd", "year": "2025", "yr": 2025, "thesis": "On the Optimization of Edge Server Scaling and Placement for Open Radio Access Network (O-RAN) Slicing", "dept": "Computer Science, Virginia Tech, co-advised with Scott Midkiff", "pos": "Assistant Lecturer, Sohag University", "web": "https://www.linkedin.com/in/emadeldin-mazied-abdrabou-115b19120", "plc": "academia"}, {"name": "Esha Barlaskar", "cat": "phd", "year": "2020", "yr": 2020, "thesis": "User-Centric Cloud Application Management", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast, co-advised with Peter Kilpatrick", "pos": "Lecturer (Assistant Professor) at Queen's University Belfast", "web": "https://pure.qub.ac.uk/en/persons/esha-barlaskar-2", "plc": "academia"}, {"name": "Evan McCreedy", "cat": "undergrad", "year": "2004", "yr": 2004, "thesis": "Multi-level Parallelization of MPIBlast", "dept": "Computer Science, College of William & Mary", "pos": "Computer Scientist, National Institutes of Health", "web": "https://www.linkedin.com/in/evan-mccreedy-b9b9aa7", "plc": "lab"}, {"name": "Evangelos Kafentarakis", "cat": "undergrad", "year": "2009", "yr": 2009, "thesis": "Software Shared Memory Layer for CPU-GPU Systems", "dept": "Computer Science, University of Crete", "pos": "", "web": "", "plc": "unknown"}, {"name": "Evangelos Kafentarakis", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "Lprof: A Tool for Profiling Locality Awareness in a Task-Based Programming Model", "dept": "Computer Science, University of Crete", "pos": "", "web": "", "plc": "unknown"}, {"name": "Filip Blagojevic", "cat": "phd", "year": "2008", "yr": 2008, "thesis": "Scheduling on Asymmetric Parallel Architectures", "dept": "Computer Science, Virginia Tech", "pos": "Research Scientist at Western Digital", "web": "https://www.linkedin.com/in/filip-blagojevic-12312919", "plc": "industry"}, {"name": "Foivos Zakkak", "cat": "undergrad", "year": "2010", "yr": 2010, "thesis": "Source-to-Source Compiler Optimizations for Task Parallelism", "dept": "Computer Science, University of Crete (co-supervised with Angelos Bilas)", "pos": "Software Engineer at Red Hat", "web": "https://www.linkedin.com/in/zakkak", "plc": "industry"}, {"name": "Gianfranco Vivanco", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "Performance Characterization of LLM Inference", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Giorgis Georgakoudis", "cat": "phd", "year": "2016", "yr": 2016, "thesis": "Scheduling and Performance Characterization on Heterogeneous Multicore Systems", "dept": "Electrical and Computer Engineering, University of Thessaly (co-advised with Spyros Lalis)", "pos": "Computer Scientist at Lawrence Livermore National Laboratory", "web": "https://people.llnl.gov/georgakoudis1", "plc": "lab"}, {"name": "Giorgis Georgakoudis", "cat": "postdoc", "year": "2018", "yr": 2018, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Computer Scientist, Lawrence Livermore National Laboratory", "web": "https://people.llnl.gov/georgakoudis1", "plc": "lab"}, {"name": "Hans Vandierendonck", "cat": "postdoc", "year": "2011", "yr": 2011, "thesis": "", "dept": "Institute of Computer Science (FORTH-ICS) and University of Crete", "pos": "Professor, School of Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "web": "https://blogs.qub.ac.uk/dipsa/personal-page-hans-vandierendonck", "plc": "academia"}, {"name": "Harshil Shah", "cat": "masters", "year": "2008", "yr": 2008, "thesis": "Application Parallelization on the Cell/BE", "dept": "Computer Science, Virginia Tech", "pos": "Engineer at Collective", "web": "https://www.linkedin.com/in/harshil-shah-90427237", "plc": "industry"}, {"name": "Hemant Kumar Mehta", "cat": "postdoc", "year": "2017", "yr": 2017, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "", "web": "https://scholar.google.com/citations?user=JtpjiaQAAAAJ&hl=en", "plc": "unknown"}, {"name": "Ioannis Manousakis", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Component-level Power Instrumentation on Multiprocessors", "dept": "Computer Science, University of Crete", "pos": "Principal Systems Architect, Microsoft", "web": "https://www.linkedin.com/in/ioannismanousakis", "plc": "industry"}, {"name": "Ioannis Manousakis", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "TPROF: An Energy Profiler for Task-Parallel Programs", "dept": "Computer Science, University of Crete", "pos": "Principal Systems Architect, Microsoft", "web": "https://www.linkedin.com/in/ioannismanousakis", "plc": "industry"}, {"name": "Ishaan Gulati", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "A Scalable Leader-Based Consensus Algorithm", "dept": "Computer Science, Virginia Tech", "pos": "Research Intern, Visa", "web": "https://www.linkedin.com/in/ishaan-gulati-139789217", "plc": "industry"}, {"name": "Ishaan Singh", "cat": "undergrad", "year": "2020", "yr": 2020, "thesis": "Container Caching", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer II at Amazon", "web": "https://www.linkedin.com/in/ishaan-singh-6404b0153", "plc": "industry"}, {"name": "Jack Williamson", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "Supporting flexible SIMD ISAs in WebAssembly", "dept": "Computer Science, Virginia Tech", "pos": "Capital One Software Engineer", "web": "https://www.linkedin.com/in/jack-williamson1", "plc": "industry"}, {"name": "Jae-Seung Yeom", "cat": "phd", "year": "2014", "yr": 2014, "thesis": "Optimizing Data Accesses for Scaling Data-Intensive Scientific Applications", "dept": "Computer Science, Virginia Tech (co-advised with Madhav Marathe)", "pos": "Computer Scientist at Lawrence Livermore National Laboratory", "web": "https://people.llnl.gov/yeom2", "plc": "lab"}, {"name": "James Dzierwa", "cat": "undergrad", "year": "2006", "yr": 2006, "thesis": "Hardware Monitors for Power-Performance Adaptation", "dept": "Computer Science, College of William & Mary", "pos": "Principal Software Engineer at Riot Games", "web": "https://www.linkedin.com/in/jamesdzierwa", "plc": "industry"}, {"name": "Jamie Whiting", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "RISC-V Simulation and System Software", "dept": "Computer Science, Virginia Tech", "pos": "Infrastructure Engineer, EPIC Systems", "web": "https://www.linkedin.com/in/jamie-whiting", "plc": "industry"}, {"name": "John Christian Linford", "cat": "phd", "year": "2010", "yr": 2010, "thesis": "Accelerated Atmospheric Modeling through Emerging Multi-Core Technologies", "dept": "Computer Science, Virginia Tech (co-advised with Adrian Sandu)", "pos": "Head of Product, NVIDIA", "web": "https://www.linkedin.com/in/jlinford", "plc": "industry"}, {"name": "Junkyu Lee", "cat": "postdoc", "year": "2020", "yr": 2020, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "IADS Research Fellow, University of Essex", "web": "https://www.linkedin.com/in/junkyu-lee-717611120", "plc": "academia"}, {"name": "Jyotirmaya Tripathi", "cat": "masters", "year": "2008", "yr": 2008, "thesis": "Scheduling Parallel Applications on Paravirtualized Shared-Memory Multiprocessors", "dept": "Computer Science, Virginia Tech", "pos": "Senior Software Development Manager, Amazon Web Services", "web": "https://www.linkedin.com/in/jyotirmayatripathi", "plc": "industry"}, {"name": "Kallia Chronaki", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Parallel Loop Scheduling on the SARC Multi-core Processor", "dept": "Computer Science, University of Crete", "pos": "", "web": "", "plc": "unknown"}, {"name": "Kallia Chronaki", "cat": "masters", "year": "2013", "yr": 2013, "thesis": "Exploiting Pipelined Parallelism with Task Dataflow Programming Models", "dept": "Computer Science, University of Crete", "pos": "Postdoctoral Researcher, FORTH-ICS", "web": "https://www.linkedin.com/in/kalliachronaki", "plc": "lab"}, {"name": "Mary (Katelyn) Crumpacker", "cat": "masters", "year": "2026", "yr": 2026, "thesis": "LLM-Guided Runtime Parameter Optimization for Energy-Efficient Model Inference", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "https://www.linkedin.com/in/mkcrumpacker", "plc": "unknown"}, {"name": "Kathleen Reece", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Kayden Moraes", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Kieran Siek", "cat": "undergrad", "year": "2022", "yr": 2022, "thesis": "Code Generation for Matrix ISA Extensions", "dept": "Computer Science, Virginia Tech", "pos": "Graduate Teaching Assistant at Virginia Tech", "web": "https://www.linkedin.com/in/kieransiek", "plc": "academia"}, {"name": "Kiril Dichev", "cat": "postdoc", "year": "2019", "yr": 2019, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Principal Engineer, Huawei Switzerland", "web": "", "plc": "industry"}, {"name": "Konstantina Mitropoulou", "cat": "postdoc", "year": "2014", "yr": 2014, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "LLVM Developer, AMD", "web": "https://www.linkedin.com/in/konstantina-m-949bb640", "plc": "industry"}, {"name": "Krishnateja Reddy", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Lalitha Kupa", "cat": "undergrad", "year": "2021", "yr": 2021, "thesis": "NUMA Persistent Memory Management in the Operating System", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer at LinkedIn", "web": "https://www.linkedin.com/in/lkuppa", "plc": "industry"}, {"name": "Lev Mukhanov", "cat": "postdoc", "year": "2020", "yr": 2020, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Lecturer (Assistant Professor), School of Electronic Engineering and Computer Science, Queen Mary University of London", "web": "https://www.linkedin.com/in/lev-mukhanov-226a6451", "plc": "academia"}, {"name": "Manthan Shah", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "Analysis of YOLOv7 Inference Performance through a Systems Perspective and the identification of optimization opportunities", "dept": "Electrical and Computer Engineering, Virginia Tech", "pos": "Mobile Robotics Engineer, Addverb", "web": "https://www.linkedin.com/in/nalostta", "plc": "industry"}, {"name": "Maria Katsamani", "cat": "masters", "year": "2010", "yr": 2010, "thesis": "Software Implementation of MPI Primitives on Multicore FPGA", "dept": "Computer Science, University of Crete (co-supervised with Manolis Katevenis)", "pos": "Freelance network and software engineer", "web": "https://www.linkedin.com/in/maria-c-katsamani", "plc": "industry"}, {"name": "Matthew Curtis-Maury", "cat": "phd", "year": "2008", "yr": 2008, "thesis": "Improving the Efficiency of Parallel Applications on Multithreaded and Multicore Systems", "dept": "Computer Science, Virginia Tech", "pos": "Principal Software Engineer at NetApp", "web": "https://www.linkedin.com/in/matthew-curtis-maury-70409a20", "plc": "industry"}, {"name": "Matthew Jackson", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "Computational Offloading for Real-Time Computer Vision in Unreliable Multi-Tenant Edge Systems", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "https://www.linkedin.com/in/matthew-jackson-a526541b7", "plc": "unknown"}, {"name": "Max Fisher", "cat": "masters", "year": "2025", "yr": 2025, "thesis": "Analysis of Memory Access Patterns and Pre-Fetching Strategies for Large Language Model Inferencing", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer, Bloomberg", "web": "https://www.linkedin.com/in/mhfisher", "plc": "industry"}, {"name": "Melissa Cameron", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "Parallel Islands: A Diversity Aware Tool For Parallel Computing Education", "dept": "Computer Science, Virginia Tech", "pos": "Collegiate Assistant Professor, Virginia Tech", "web": "https://www.linkedin.com/in/melissa-cameron-b20012332", "plc": "academia"}, {"name": "Michail Zampetakis", "cat": "masters", "year": "2010", "yr": 2010, "thesis": "Runtime Support for Programming Explicit Communication Chip Multiprocessors", "dept": "Computer Science, University of Crete", "pos": "Senior Software Engineer, ZEDEDA", "web": "https://www.linkedin.com/in/mzampetakis/?originalSubdomain=gr", "plc": "industry"}, {"name": "Moustafa Kahla", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "Automatic Source Code Transformation To Pass Compiler Optimization", "dept": "Electrical and Computer Engineering, Virginia Tech", "pos": "Software Engineer at VIAVI", "web": "https://www.linkedin.com/in/m-kahla", "plc": "industry"}, {"name": "M. Mustafa Rafique", "cat": "phd", "year": "2011", "yr": 2011, "thesis": "An Adaptive Framework for Managing Heterogeneous Multi-core Clusters", "dept": "Computer Science, Virginia Tech (co-advised with Ali R. Butt)", "pos": "Associate Professor, Rochester Institute of Technology", "web": "https://cs.rit.edu/~mrafique", "plc": "academia"}, {"name": "Nan Wang", "cat": "phd", "year": "2020", "yr": 2020, "thesis": "Resource Management for Edge Computing Systems", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Blesson Varghese, Michalis Matthaiou)", "pos": "Manager at mindtrace.ai", "web": "https://www.linkedin.com/in/wangnan0024", "plc": "industry"}, {"name": "Nikolaos Papadopoulos", "cat": "undergrad", "year": "2012", "yr": 2012, "thesis": "Scheduler-Driven Dynamic Data Placement for NUMA Multi-cores", "dept": "Computer Science, University of Crete", "pos": "Software Engineer, Institute for Mediterranean Studies, FORTH-ICS", "web": "https://www.linkedin.com/in/npapadop", "plc": "lab"}, {"name": "Nikolaos Papakonstantinou", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Distributed Dynamic Dependence Analysis for Task Dataflow Models", "dept": "Computer Science, University of Crete", "pos": "Senior Software Engineer, Mobileum", "web": "", "plc": "industry"}, {"name": "Nikolaos Parasyris", "cat": "undergrad", "year": "2015", "yr": 2015, "thesis": "Fine-grain energy profiling of large software repositories", "dept": "Electrical and Computer Engineering, National Technical University of Athens", "pos": "DevOps Engineer at SURG", "web": "https://www.linkedin.com/in/nikos-parasyris", "plc": "industry"}, {"name": "Parker Harnack", "cat": "undergrad", "year": "2021", "yr": 2021, "thesis": "Performance Analysis of Persistent Memory Allocators", "dept": "Computer Science, Virginia Tech", "pos": "Senior Associate Software Engineer at Capital One", "web": "https://www.linkedin.com/in/parker-harnack-070503195", "plc": "industry"}, {"name": "Patrick Fiaux", "cat": "undergrad", "year": "2007", "yr": 2007, "thesis": "Application Parallelization and Optimization on Cell/BE", "dept": "Computer Science, Virginia Tech", "pos": "Staff Engineer at Open Systems", "web": "https://www.linkedin.com/in/patrickfiaux", "plc": "industry"}, {"name": "Paul Harvey", "cat": "postdoc", "year": "2016", "yr": 2016, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Senior Lecturer (Associate Professor), School of Computer Science, University of Glasgow", "web": "https://www.gla.ac.uk/schools/computing/staff/paulharvey", "plc": "academia"}, {"name": "Pranav Tendulkar", "cat": "masters", "year": "2010", "yr": 2010, "thesis": "Runtime OpenMP Support using Hardware Primitives on Explicitly Memory Managed Multi-Processors", "dept": "ALaRi Institute Advanced Studies in Embedded Systems Design", "pos": "Software Engineering Manager, Qualinx", "web": "https://www.linkedin.com/in/pranavtendulkar", "plc": "industry"}, {"name": "Richard Tran Mills", "cat": "phd", "year": "2004", "yr": 2004, "thesis": "Dynamic Adaptation to CPU and Memory Load in Scientific Applications", "dept": "Computer Science, College of William & Mary (co-advised with Andreas Stathopoulos)", "pos": "Computational Scientist, Argonne National Laboratory", "web": "https://www.anl.gov/profile/richard-tran-mills", "plc": "lab"}, {"name": "Riyos Pudasaini", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "Scalable Memory Allocators for Rust", "dept": "Computer Science, Virginia Tech", "pos": "Masters Student, Virginia Tech", "web": "https://www.linkedin.com/in/riyos-pudasaini-25b753368", "plc": "academia"}, {"name": "Rob McGregor", "cat": "masters", "year": "2004", "yr": 2004, "thesis": "Scheduling with Bus Bandwidth Considerations on Shared-Memory Multiprocessors", "dept": "Computer Science, College of William & Mary", "pos": "Senior Manager, Amazon Web Services", "web": "", "plc": "industry"}, {"name": "Roxana Istrate", "cat": "phd", "year": "2019", "yr": 2019, "thesis": "Efficient Neural Network Architecture Search", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Cristiano Malossi, Costas Bekas)", "pos": "Software Engineer at Google", "web": "https://www.linkedin.com/in/roxana-poenaru-36112483", "plc": "industry"}, {"name": "Sakil Barbhuiya", "cat": "postdoc", "year": "2019", "yr": 2019, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Data Scientist at Magnite", "web": "https://www.linkedin.com/in/sakil-barbhuiya-phd-a1629669", "plc": "industry"}, {"name": "Sakil Barbhuiya", "cat": "phd", "year": "2018", "yr": 2018, "thesis": "Anomaly Detection in Cloud and Mobile Devices", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Data Scientist at Magnite", "web": "https://www.linkedin.com/in/sakil-barbhuiya-phd-a1629669", "plc": "industry"}, {"name": "Scott Schneider", "cat": "masters", "year": "2005", "yr": 2005, "thesis": "Factory: An Object-Oriented Parallel Programming Substrate for Deep Multiprocessors", "dept": "Computer Science, College of William & Mary", "pos": "Software Engineer and Team Lead at Meta", "web": "", "plc": "industry"}, {"name": "Scott Schneider", "cat": "phd", "year": "2010", "yr": 2010, "thesis": "Shared Memory Abstractions for Heterogeneous Multicore Processors", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer and Team Lead at Meta", "web": "https://www.scott-a-s.com", "plc": "industry"}, {"name": "Shreya Bhandare", "cat": "masters", "year": "2023", "yr": 2023, "thesis": "Designing RDMA-based Efficient Communication for GPU Remoting.", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer, Microsoft", "web": "https://www.linkedin.com/in/shrebhan", "plc": "industry"}, {"name": "Spyros Lyberis", "cat": "phd", "year": "2013", "yr": 2013, "thesis": "Myrmics: A Scalable Runtime System for Global Address Spaces", "dept": "Computer Science, University of Crete", "pos": "Senior Principal Engineer at ARM", "web": "https://www.linkedin.com/in/spyros-lyberis-86410372", "plc": "industry"}, {"name": "Spyros Tsatouchas", "cat": "undergrad", "year": "2010", "yr": 2010, "thesis": "POSIX Threads Library Implementation on the SARC FPGA Prototype", "dept": "Computer Science, University of Crete", "pos": "Senior Embedded Systems Engineer, U-Blox", "web": "https://www.linkedin.com/in/spiros-tsatouchas-4835535b", "plc": "industry"}, {"name": "Stylianos Ninidakis", "cat": "undergrad", "year": "2011", "yr": 2011, "thesis": "Parallelizing Irregular applications with Task Dataflow", "dept": "Computer Science, University of Crete", "pos": "Research Engineer at Hellenic Center for Marine Research", "web": "https://www.linkedin.com/in/stelios-ninidakis", "plc": "lab"}, {"name": "Tatiana Monteiro", "cat": "undergrad", "year": "2023", "yr": 2023, "thesis": "Optimization of Inference from Decision Trees", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Timothy Coyne", "cat": "masters", "year": "2025", "yr": 2025, "thesis": "Performance Portability of CUDA Across NVIDIA GPU Architectures", "dept": "Computer Science, Virginia Tech", "pos": "Software Engineer, Bloomberg", "web": "https://www.linkedin.com/in/timothy-coyne-556539295", "plc": "industry"}, {"name": "Vassilis Papaefstathiou", "cat": "phd", "year": "2013", "yr": 2013, "thesis": "Architectural Support for Software-Guided Energy Reduction of Manycore Communication", "dept": "Computer Science, University of Crete (co-advised with Manolis Katevenis)", "pos": "Assistant Professor, University of Crete", "web": "https://sites.google.com/site/papaef", "plc": "academia"}, {"name": "Veljko Cvetkovic", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Yasir Hasan", "cat": "undergrad", "year": "2025", "yr": 2025, "thesis": "Agentic AI for HPC Code Optimization", "dept": "Computer Science, Virginia Tech", "pos": "", "web": "", "plc": "unknown"}, {"name": "Yun Wu", "cat": "postdoc", "year": "2017", "yr": 2017, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Lecturer (Assistant Professor), School of Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "web": "https://pure.qub.ac.uk/en/persons/yun-wu-2/publications", "plc": "academia"}, {"name": "Yuze Li", "cat": "phd", "year": "2026", "yr": 2026, "thesis": "Cross-stack Improvement on Memory Efficiency", "dept": "Computer Science, Virginia Tech (co-advised with Ali R. Butt)", "pos": "", "web": "https://www.linkedin.com/in/yuzeli343", "plc": "unknown"}, {"name": "Zafeirios Papazachos", "cat": "postdoc", "year": "2019", "yr": 2019, "thesis": "", "dept": "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast", "pos": "Data Scientist, Citi", "web": "https://www.linkedin.com/in/zafeirios-papazachos-5863b891/?originalSubdomain=uk", "plc": "industry"}];
+const GROUPS = [["phd","PhD Graduates"],["postdoc","Postdocs"],["masters","Master's Students"],["undergrad","Undergraduate Researchers"]];
+const PLABEL = {industry:"Industry",academia:"Academia",lab:"National lab",unknown:""};
+let activeFilter="all", query="";
+function render(){
+  const list=document.getElementById("alumni-list"); list.innerHTML=""; let shown=0;
+  for(const [cat,label] of GROUPS){
+    if(activeFilter!=="all" && activeFilter!==cat) continue;
+    let items=DATA.filter(r=>r.cat===cat);
+    if(query){ const q=query.toLowerCase();
+      items=items.filter(r=>(r.name+" "+r.pos+" "+r.dept+" "+r.thesis).toLowerCase().includes(q)); }
+    items.sort((a,b)=>b.yr-a.yr || a.name.localeCompare(b.name));
+    if(!items.length) continue; shown+=items.length;
+    const gh=document.createElement("div"); gh.className="group-head";
+    gh.innerHTML=label+' <span class="gc">'+items.length+'</span>'; list.appendChild(gh);
+    for(const r of items){
+      const el=document.createElement("div"); el.className="alum";
+      const nm = r.web ? '<a href="'+r.web+'" target="_blank" rel="noopener">'+r.name+'</a>' : r.name;
+      const badge = (r.plc&&r.plc!=="unknown") ? '<span class="badge '+r.plc+'">'+PLABEL[r.plc]+'</span>' : '';
+      let inner='<div class="top"><span class="nm">'+nm+badge+'</span><span class="yr">'+r.year+'</span></div>';
+      if(r.thesis) inner+='<div class="thesis">“'+r.thesis+'”</div>';
+      let meta=[];
+      if(r.pos) meta.push('<span class="pos">'+r.pos+'</span>');
+      if(r.dept) meta.push(r.dept);
+      if(meta.length) inner+='<div class="meta">'+meta.join(' &middot; ')+'</div>';
+      el.innerHTML=inner; list.appendChild(el);
+    }
+  }
+  document.getElementById("empty").style.display = shown? "none":"block";
+}
+document.getElementById("search").addEventListener("input",e=>{query=e.target.value;render();});
+document.querySelectorAll("#filters button").forEach(b=>{
+  b.addEventListener("click",()=>{
+    document.querySelectorAll("#filters button").forEach(x=>x.classList.remove("active"));
+    b.classList.add("active"); activeFilter=b.dataset.f; render();
+  });
+});
+render();
+</script>
+</body>
+</html>

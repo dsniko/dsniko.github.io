@@ -1,0 +1,135 @@
+/* ============================================================
+   Mentees page redesign — companion styles
+   Add to the repo as _sass/_mentees.scss and import it once from
+   assets/css/main.scss:   @import "mentees";
+   Colors inherit the AcademicPages teal accent; tweak $m-accent
+   if your skin uses a different link color.
+   ============================================================ */
+
+$m-accent:   #2b7a8b;   // matches the default AcademicPages link/teal
+$m-accent-d: #1f5e6c;
+$m-ink:      #21323b;
+$m-muted:    #5d6b72;
+$m-line:     #e4e9ec;
+$m-card:     #ffffff;
+$m-industry: #2b7a8b;
+$m-academia: #7a4ea3;
+$m-lab:      #b4632a;
+
+.mentees-intro {
+  font-size: 1.05em;
+  color: $m-muted;
+  max-width: 42em;
+  margin: 0 0 1.4em;
+}
+
+/* ---------- stats band ---------- */
+.mentee-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.7em;
+  margin: 1.4em 0;
+
+  .mstat {
+    background: $m-card;
+    border: 1px solid $m-line;
+    border-radius: 12px;
+    padding: 0.9em 0.6em;
+    text-align: center;
+
+    .num { display: block; font-size: 1.7em; font-weight: 700; color: $m-ink; line-height: 1.05;
+           small { font-size: 0.55em; color: $m-accent; font-weight: 600; } }
+    .lbl { display: block; margin-top: 0.45em; font-size: 0.72em; text-transform: uppercase;
+           letter-spacing: 0.04em; color: $m-muted; }
+  }
+  .mstat--total {
+    background: linear-gradient(135deg, $m-accent, $m-accent-d);
+    border: none;
+    .num, .lbl { color: #fff; }
+    .lbl { opacity: 0.85; }
+  }
+}
+
+/* ---------- placement band ---------- */
+.mentee-placement {
+  background: $m-card;
+  border: 1px solid $m-line;
+  border-radius: 12px;
+  padding: 1.2em 1.3em;
+  margin: 1.4em 0;
+
+  h2 { font-size: 0.85em !important; margin: 0 0 0.2em; text-transform: uppercase;
+       letter-spacing: 0.05em; color: $m-muted; border: none; padding: 0; }
+  .sub { color: $m-muted; font-size: 0.85em; margin: 0 0 0.9em; }
+
+  .pbar { display: flex; height: 13px; border-radius: 7px; overflow: hidden; margin-bottom: 0.9em;
+          span { display: block; } }
+  .plegend { display: flex; gap: 1.4em; flex-wrap: wrap; font-size: 0.88em; color: $m-muted;
+             i { width: 11px; height: 11px; border-radius: 3px; display: inline-block;
+                 margin-right: 0.5em; vertical-align: middle; }
+             strong { color: $m-ink; } }
+
+  .seg-ind { background: $m-industry; }
+  .seg-aca { background: $m-academia; }
+  .seg-lab { background: $m-lab; }
+}
+
+/* ---------- section + group headers ---------- */
+.mentee-section {
+  border-bottom: 2px solid $m-accent;
+  padding-bottom: 0.3em;
+  margin-top: 1.8em;
+  .sec-count { background: $m-accent; color: #fff; border-radius: 20px; font-size: 0.5em;
+               padding: 0.15em 0.7em; vertical-align: middle; margin-left: 0.4em; font-weight: 600; }
+}
+.mentee-group {
+  margin: 1.4em 0 0.8em;
+  .gc { color: $m-muted; font-size: 0.62em; font-weight: 600; margin-left: 0.35em; }
+}
+
+/* ---------- current student cards ---------- */
+.mentee-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9em;
+  margin: 0.4em 0 0.6em;
+
+  .mcard {
+    background: $m-card;
+    border: 1px solid $m-line;
+    border-radius: 12px;
+    padding: 1em 1.1em;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    &:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(20,40,50,0.10); }
+
+    h3 { margin: 0 0 0.25em; font-size: 1.02em; }
+    .mcard-meta { font-size: 0.84em; color: $m-muted; }
+    .mcard-year { display: inline-block; margin-top: 0.55em; font-size: 0.74em; font-weight: 600;
+                  color: $m-accent; background: #eef3f4; border-radius: 6px; padding: 0.1em 0.55em; }
+    .mcard-co { font-size: 0.76em; color: $m-muted; margin-top: 0.45em; font-style: italic; }
+  }
+}
+
+/* ---------- alumni rows ---------- */
+.mentee-row {
+  background: $m-card;
+  border: 1px solid $m-line;
+  border-radius: 10px;
+  padding: 0.8em 1em;
+  margin-bottom: 0.6em;
+
+  .mr-top { display: flex; justify-content: space-between; gap: 0.9em; align-items: baseline;
+            flex-wrap: wrap; }
+  .mr-name { font-size: 1.0em; font-weight: 700; }
+  .mr-year { color: $m-muted; font-size: 0.82em; font-weight: 600; white-space: nowrap; }
+  .mr-thesis { font-size: 0.88em; color: #3f4d54; font-style: italic; margin: 0.3em 0 0.2em; }
+  .mr-meta { font-size: 0.84em; color: $m-muted; }
+  .mr-pos { font-weight: 600; color: #2c4750; }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 760px) {
+  .mentee-stats { grid-template-columns: repeat(2, 1fr);
+    .mstat--total { grid-column: span 2; } }
+  .mentee-cards { grid-template-columns: 1fr; }
+}
