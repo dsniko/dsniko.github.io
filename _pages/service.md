@@ -163,11 +163,11 @@ breadth and the depth of that engagement, nationally and internationally.
 <!-- ============ STATS ============ -->
 <div class="svc-stats">
   <div class="svc-stat"><span class="num">2</span><span class="lbl">Flagship conferences led as Steering Committee Chair (ICS, ISPASS)</span></div>
-  <div class="svc-stat"><span class="num">9&times;</span><span class="lbl">Program Chair / Co-Chair appointments</span></div>
-  <div class="svc-stat"><span class="num">10&times;</span><span class="lbl">General Chair appointments</span></div>
-  <div class="svc-stat"><span class="num">55+</span><span class="lbl">Program-committee appointments</span></div>
+  <div class="svc-stat"><span class="num">15&times;</span><span class="lbl">Program Chair / Co-Chair appointments (by year)</span></div>
+  <div class="svc-stat"><span class="num">15&times;</span><span class="lbl">General Chair appointments (by year)</span></div>
+  <div class="svc-stat"><span class="num">215+</span><span class="lbl">Program-committee appointments (each conference-year)</span></div>
   <div class="svc-stat"><span class="num">17</span><span class="lbl">Journal editorial &amp; associate-editor roles</span></div>
-  <div class="svc-stat"><span class="num">40+</span><span class="lbl">Research-funding panels across 15+ agencies &amp; nations</span></div>
+  <div class="svc-stat"><span class="num">45+</span><span class="lbl">Research-funding panels across 15+ agencies &amp; nations</span></div>
 </div>
 
 <!-- ============ GEOGRAPHIC BREADTH ============ -->
@@ -223,7 +223,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <!-- ============ PROGRAM COMMITTEES ============ -->
 <h2 id="program-committees" class="svc-section">Program Committees</h2>
 <hr class="svc-rule">
-<p class="svc-lede">More than 55 program-committee appointments since 2001 across 30+ distinct venues — spanning architecture, systems, HPC, and AI — including senior- and area-committee roles.</p>
+<p class="svc-lede">More than 215 program-committee appointments since 2001 — counting each conference-year separately — across 50+ distinct venues spanning architecture, systems, HPC, and AI, including senior- and area-committee roles.</p>
 <div class="svc-chips">
   <span class="svc-chip">SC <span class="c-yrs">&times;6</span></span>
   <span class="svc-chip">ISCA</span>
@@ -249,7 +249,7 @@ breadth and the depth of that engagement, nationally and internationally.
   <span class="svc-chip">SBAC-PAD</span>
   <span class="svc-chip">+ 30 more</span>
 </div>
-<p class="svc-lede" style="margin-top:0.6rem;">Additional committee service includes External Review Committees (MICRO, PPoPP), Reproducibility &amp; Artifact Evaluation (SC, IEEE TPDS), the SC HPC Impact Showcase (Chair, 2017), and Tutorials/Workshops chairing at ICS, ISC, HiPEAC, and EuroMPI. Session Chair on 20 occasions, including the ICS keynote sessions (2022, 2023).</p>
+<p class="svc-lede" style="margin-top:0.6rem;">Additional committee service includes External Review Committees (MICRO, PPoPP), Reproducibility &amp; Artifact Evaluation (SC, IEEE TPDS), the SC HPC Impact Showcase (Chair, 2017), and Tutorials/Workshops chairing at ICS, ISC, HiPEAC, and EuroMPI. Session Chair on 23 occasions, including the ICS keynote sessions (2022, 2023).</p>
 
 <!-- ============ EDITORIAL ============ -->
 <h2 id="editorial" class="svc-section">Editorial Boards &amp; Journals</h2>
@@ -270,7 +270,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <!-- ============ FUNDING PANELS ============ -->
 <h2 id="funding" class="svc-section">Research Funding Panels — National &amp; International</h2>
 <hr class="svc-rule">
-<p class="svc-lede">More than 40 panel and proposal-evaluation appointments for government and national funding agencies worldwide.</p>
+<p class="svc-lede">More than 45 panel and proposal-evaluation appointments — counting each year separately — for government and national funding agencies worldwide.</p>
 <div class="svc-cols">
   <div>
     <div class="svc-inst-name">United States</div>
