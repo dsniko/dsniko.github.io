@@ -7,7 +7,7 @@ end_year: 2011
 status: alumni
 thesis_title: "Parallel Loop Scheduling on the SARC Multi-core Processor"
 department: "Computer Science, University of Crete"
-current_position: ""  # TODO: fill in Kallia Chronaki's current position
-website: ""  # TODO: fill in Kallia Chronaki's profile URL
+current_position: "Postdoctoral Researcher, FORTH-ICS"
+website: "https://www.linkedin.com/in/kalliachronaki/"
 scholar: ""
 ---

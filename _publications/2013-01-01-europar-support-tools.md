@@ -10,5 +10,6 @@ publisher: "Springer Berlin Heidelberg"
 address: "Berlin, Heidelberg"
 pages: "3–3"
 isbn: "978-3-642-40047-6"
+paperurl: "https://doi.org/10.1007/978-3-642-40047-6_2"
 citation: "de Supinski, B. R., Krammer, B., Fürlinger, K., Labarta, J., & Nikolopoulos, D. S. (2013). Topic 1: Support Tools and Environments. In *Euro-Par 2013 Parallel Processing* (F. Wolf, B. Mohr, D. an Mey, Eds.), pp. 3–3, Springer Berlin Heidelberg."
 ---

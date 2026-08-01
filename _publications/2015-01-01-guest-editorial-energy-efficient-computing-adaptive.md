@@ -6,6 +6,6 @@ permalink: /publication/2015-01-01-guest-editorial-energy-efficient-computing-ad
 excerpt: 'Guest editorial for a special issue on energy efficient computing with adaptive and heterogeneous architectures, addressing energy efficiency challenges in mobile devices and server systems.'
 date: 2015-01-01
 venue: 'IET Computers & Digital Techniques'
-paperurl: ''
+paperurl: "https://doi.org/10.1049/iet-cdt.2014.0215"
 citation: 'Nunez-Yanez, J., Moreno, J. M., & Nikolopoulos, D. S. (2015). &quot;Guest Editorial: Special Issue: Energy efficient computing with adaptive and heterogeneous architectures.&quot; <i>IET Computers & Digital Techniques</i>, 9(1), 1-2.'
 ---

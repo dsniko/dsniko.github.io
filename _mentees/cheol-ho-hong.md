@@ -10,6 +10,6 @@ thesis_title: ""
 department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: "Professor, Electrical and Electronic Engineering,
 Chung-Ang University"  # You can fill this from LinkedIn
-website: "https://sites.google.com/site/ssatcau/professor?authuser=0"
+website: "https://sites.google.com/site/ssatcau/professor"
 scholar: ""
 ---

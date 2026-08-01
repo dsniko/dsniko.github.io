@@ -8,6 +8,6 @@ status: current
 thesis_title: ""
 department: "Computer Science, Virginia Tech"
 current_position: ""  # You can fill this from LinkedIn
-website: ""  # TODO: fill in Sina Heidari's own profile URL
+website: "https://s1naheidari.github.io/"
 scholar: ""
 ---

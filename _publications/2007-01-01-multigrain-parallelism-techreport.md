@@ -7,5 +7,6 @@ excerpt: "Technical report proposing a computational model for multi-grain paral
 date: 2007-01-01
 venue: "Technical Report TR-07-26, Department of Computer Science, Virginia Tech"
 institution: "Virginia Polytechnic Institute and State University"
+paperurl: "https://hdl.handle.net/10919/19802"
 citation: "Blagojevic, F., Feng, X., Cameron, K., & Nikolopoulos, D. (2007). *Modeling Multigrain Parallelism on Heterogeneous Multi-core Processors*. Technical Report TR-07-26, Department of Computer Science, Virginia Tech."
 ---

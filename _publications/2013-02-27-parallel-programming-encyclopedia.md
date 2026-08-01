@@ -9,5 +9,6 @@ venue: "Encyclopedia of Software Engineering"
 publisher: "Taylor and Francis"
 isbn: "1-4200-5977-7"
 address: "United Kingdom"
+paperurl: "https://pure.qub.ac.uk/en/publications/parallel-programming"
 citation: "Vandierendonck, H., Nikolopoulos, D. S., & Pratikakis, P. (2013). Parallel Programming. In *Encyclopedia of Software Engineering* (Taylor and Francis), February 27."
 ---

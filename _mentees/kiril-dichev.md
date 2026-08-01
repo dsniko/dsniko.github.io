@@ -9,6 +9,6 @@ status: alumni
 thesis_title: ""
 department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast"
 current_position: "Research Engineer, Huawei Zurich Research Center"
-website: ""  # TODO: fill in Kiril Dichev's own profile URL
+website: "https://dblp.org/pid/05/8780.html"
 scholar: ""
 ---

@@ -8,6 +8,6 @@ status: alumni
 thesis_title: "Architectural Support for Software-Guided Energy Reduction of Manycore Communication"
 department: "Computer Science, University of Crete (co-advised with Manolis Katevenis)"
 current_position: "Assistant Professor, University of Crete"  # You can fill this from LinkedIn
-website: "https://sites.google.com/site/papaef/"
+website: "https://www.csd.uoc.gr/~papaef/"
 scholar: ""
 ---

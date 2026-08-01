@@ -6,6 +6,6 @@ permalink: /publication/2008-07-01-hardware-support-explicit-communication
 excerpt: 'Presents hardware support mechanisms for explicit communication in scalable chip multiprocessors to improve inter-core communication efficiency.'
 date: 2008-07-01
 venue: 'Technical Report, Computer Architecture Dept., Polytechnic University of Catalonia (UPC)'
-paperurl: ''
+paperurl: "https://www.ac.upc.edu/app/research-reports/html/RR/2009/1.pdf"
 citation: 'Villavieja, C., Katevenis, M., Navarro, N., Pnevmatikatos, D., Ramirez, A., Kavadias, S., Papaefstathiou, V., & Nikolopoulos, D. S. (2008). &quot;Hardware Support for Explicit Communication in Scalable CMPs.&quot; Technical Report, Computer Architecture Dept., Polytechnic University of Catalonia (UPC), Barcelona.'
 ---
