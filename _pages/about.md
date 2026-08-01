@@ -51,7 +51,7 @@ In his administrative career, Dimitrios has held key academic leadership positio
 
 **Current Research and Opportunities:**
 
-Dimitrios currently directs the [Performance Engineering for Emerging Architectures Laboratory (PEARL)](https://www.linkedin.com/company/performance-of-emerging-architectures-laboratory) at Virginia Tech and serves as the Associate Director of the [Stack@CS Center for Computer Systems](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active). His mission is to promote convergent research that co-designs computing system stacks alongside engineering artifacts to tackle significant scientific challenges and urgent societal needs. Through this work, he continues to build bridges between principles of scalable computing systems and practical applications that address real-world problems.
+Dimitrios currently directs [PEARL](https://pearl-lab-vt.github.io), the Performance Engineering for Accelerators, Runtimes and Learning laboratory, at Virginia Tech and serves as the Associate Director of the [Stack@CS Center for Computer Systems](https://www.google.com/search?client=safari&rls=en&q=Stack%40CS+VT&ie=UTF-8&oe=UTF-8&safe=active). His mission is to promote convergent research that co-designs computing system stacks alongside engineering artifacts to tackle significant scientific challenges and urgent societal needs. Through this work, he continues to build bridges between principles of scalable computing systems and practical applications that address real-world problems.
 
 **Education:**
 
