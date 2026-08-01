@@ -3,7 +3,7 @@ title: "Nan Wang"
 collection: mentees
 permalink: /mentee/nan-wang
 category: phd
-end_year: 2020
+end_year: 2019
 status: alumni
 thesis_title: "Resource Management for Edge Computing Systems"
 department: "Electronics, Electrical Engineering and Computer Science, Queen's University Belfast (co-advised with Blesson Varghese, Michalis Matthaiou)"

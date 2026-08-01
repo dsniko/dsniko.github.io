@@ -203,7 +203,7 @@ breadth and the depth of that engagement, nationally and internationally.
   <li><span class="role">ACM/IEEE Int&rsquo;l Symposium on High-Performance Parallel and Distributed Computing (HPDC)</span> <span class="yr">— 2026</span></li>
   <li><span class="role">ACM International Conference on Supercomputing (ICS)</span> <span class="yr">— 2022, 2023</span></li>
   <li><span class="role">IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)</span> <span class="yr">— 2014</span></li>
-  <li>EuroMPI Conference <span class="yr">— 2011</span>; IEEE ScalCom <span class="yr">— 2011</span>; and multiple international workshops (DUAC, PASA, PPAC)</li>
+  <li>EuroMPI Conference <span class="yr">— 2011</span>; IEEE ScalCom <span class="yr">— 2011</span>; and multiple international workshops (DUAC, 2021&ndash;2025; PASA; PPAC)</li>
 </ul>
 
 <div class="svc-sub">Program Vice-Chair / Area Chair</div>
@@ -217,7 +217,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <ul class="svc-list">
   <li>IEEE International Conference on Cluster Computing (CLUSTER) <span class="yr">— 2010, 2018</span></li>
   <li>IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS) <span class="yr">— 2018</span></li>
-  <li>Plus seven international workshops at SC, ISC, HiPEAC, ParCo, and ICPP on energy-efficient, approximate, and edge computing <span class="yr">— 2013–2018</span></li>
+  <li>Plus eight international workshops at SC, ISC, HiPEAC, ParCo, and ICPP on energy-efficient, approximate, and edge computing <span class="yr">— 2013–2018</span></li>
 </ul>
 
 <!-- ============ PROGRAM COMMITTEES ============ -->
@@ -225,11 +225,13 @@ breadth and the depth of that engagement, nationally and internationally.
 <hr class="svc-rule">
 <p class="svc-lede">More than 215 program-committee appointments since 2001 — counting each conference-year separately — across 50+ distinct venues spanning architecture, systems, HPC, and AI, including senior- and area-committee roles.</p>
 <div class="svc-chips">
-  <span class="svc-chip">SC <span class="c-yrs">&times;6</span></span>
+  <span class="svc-chip">SC <span class="c-yrs">&times;8</span></span>
   <span class="svc-chip">ISCA</span>
   <span class="svc-chip">ASPLOS <span class="c-yrs">&times;2</span></span>
   <span class="svc-chip">MICRO <span class="c-yrs">ERC</span></span>
   <span class="svc-chip">HPCA</span>
+  <span class="svc-chip">ACL <span class="c-yrs">ERC</span></span>
+  <span class="svc-chip">SoCC <span class="c-yrs">ERC</span></span>
   <span class="svc-chip">PPoPP <span class="c-yrs">&times;6</span></span>
   <span class="svc-chip">PACT</span>
   <span class="svc-chip">AAAI <span class="c-yrs">Senior PC</span></span>
@@ -249,7 +251,7 @@ breadth and the depth of that engagement, nationally and internationally.
   <span class="svc-chip">SBAC-PAD</span>
   <span class="svc-chip">+ 30 more</span>
 </div>
-<p class="svc-lede" style="margin-top:0.6rem;">Additional committee service includes External Review Committees (MICRO, PPoPP), Reproducibility &amp; Artifact Evaluation (SC, IEEE TPDS), the SC HPC Impact Showcase (Chair, 2017), and Tutorials/Workshops chairing at ICS, ISC, HiPEAC, and EuroMPI. Session Chair on 23 occasions, including the ICS keynote sessions (2022, 2023).</p>
+<p class="svc-lede" style="margin-top:0.6rem;">Additional committee service includes External Review Committees (MICRO, PPoPP), Reproducibility &amp; Artifact Evaluation (SC, IEEE TPDS), the SC HPC Impact Showcase (Chair, 2017), Tutorials/Workshops chairing at ICS, ISC, and HiPEAC, and Finance Chair at ICS (2009) and EuroMPI (2011). Session Chair on 26 occasions, including the ICS keynote sessions (2022, 2023).</p>
 
 <!-- ============ EDITORIAL ============ -->
 <h2 id="editorial" class="svc-section">Editorial Boards &amp; Journals</h2>
@@ -260,7 +262,7 @@ breadth and the depth of that engagement, nationally and internationally.
   <li><span class="role">Int&rsquo;l Journal of High Performance Computing Applications (IJHPCA)</span> — Associate Editor <span class="yr">— 2012–present</span></li>
   <li><span class="role">Journal of Computational Science</span> — Editorial Board <span class="yr">— 2014–present</span></li>
   <li><span class="role">Sustainable Computing: Informatics and Systems (SUSCOM)</span> — Editorial Board <span class="yr">— 2010–present</span> (Guest Editor, 2014)</li>
-  <li><span class="role">IEEE Transactions on Parallel and Distributed Systems (TPDS)</span> — Associate Editor <span class="yr">— 2018–2021</span>; Best Paper &amp; Artifact Evaluation Committees, 2020–2021</li>
+  <li><span class="role">IEEE Transactions on Parallel and Distributed Systems (TPDS)</span> — Associate Editor <span class="yr">— 2018–2021</span>; Best Paper Committee, 2021; Artifact Evaluation Committee, 2020–2021</li>
   <li>Int&rsquo;l Journal of Parallel, Emergent and Distributed Systems (IJPEDS) — Associate Editor <span class="yr">— 2010–2019</span></li>
   <li>Future Internet — Editorial Board <span class="yr">— 2020–2026</span>; Frontiers in High-Performance Computing — Editor <span class="yr">— 2023–2024</span></li>
   <li>Guest Editor: Parallel Computing (PARCO, 2015), IET Computers &amp; Digital Techniques (2014); Editorial Boards: Scientific Programming, CCPE, and earlier venues</li>
@@ -315,6 +317,10 @@ breadth and the depth of that engagement, nationally and internationally.
   <li>Faculty Appointment Committees: NTNU, Norway <span class="yr">— 2022</span>; Heidelberg University, Germany <span class="yr">— 2021</span>; University of Ioannina, Greece <span class="yr">— 2022</span></li>
   <li>External Accreditation &amp; Evaluation Panels: Hellenic Open University <span class="yr">— 2023</span>; University of Ioannina <span class="yr">— 2022</span>; NCSR Demokritos, Greece <span class="yr">— 2022</span>; FORTH-ICS Seed Grants <span class="yr">— 2021–present</span></li>
   <li>Scientific Advisory Board, Marie Curie Individual Fellowship <span class="yr">— 2022</span></li>
+  <li>Scientific Advisory Board, Institute of Computer Science, FORTH, Greece <span class="yr">— 2020–present</span>; Evaluation Panel, FORTH Synergy Grants <span class="yr">— 2019–present</span></li>
+  <li>UK EPSRC Strategic Advisory Team (SAT) — e-Infrastructure <span class="yr">— 2018–present</span></li>
+  <li>External Examiner, School of Computing, University of Leeds <span class="yr">— 2012–present</span></li>
+  <li>IEEE Computer Society — Senior Membership Reviewer <span class="yr">— 2025–2026</span></li>
 </ul>
 
 <!-- ============ UNIVERSITY LEADERSHIP ============ -->
@@ -325,7 +331,8 @@ breadth and the depth of that engagement, nationally and internationally.
     <div class="svc-inst-name">Virginia Tech</div>
     <ul class="svc-list">
       <li>College of Engineering Promotion &amp; Tenure Committee <span class="yr">— 2025–present</span></li>
-      <li>Computer Science Personnel Committee — Chair <span class="yr">— 2025–present</span> (member since 2022)</li>
+      <li>Computer Science Personnel Committee — Chair <span class="yr">— 2025–present</span> (Associate Chair, 2024–2025; member since 2022)</li>
+      <li>Computer Science Qualifying Exam Committee — Chair, Systems, Networking &amp; Cybersecurity <span class="yr">— 2026</span></li>
       <li>Associate Director, Stacks@CS Center for Computer Systems Research <span class="yr">— 2022–present</span></li>
       <li>Department Head Search Committee <span class="yr">— 2023–2024</span>; University Proposal Development Institute Mentor <span class="yr">— 2024–present</span></li>
     </ul>
@@ -334,8 +341,8 @@ breadth and the depth of that engagement, nationally and internationally.
     <div class="svc-inst-name">Queen&rsquo;s University Belfast</div>
     <ul class="svc-list">
       <li>Head of School, Electronics, Electrical Engineering &amp; Computer Science <span class="yr">— 2016–2018</span></li>
-      <li>Director, ECIT Global Innovation Institute <span class="yr">— 2018–2019</span>; Director, Centre for Data Science &amp; Scalable Computing</li>
-      <li>REF Champion (Computer Science &amp; Engineering); Faculty Executive Board; Academic Council <span class="yr">— 2016–2019</span></li>
+      <li>Director, ECIT Global Innovation Institute <span class="yr">— 2018–2019</span>; Acting Director, Centre for Data Science &amp; Scalable Computing <span class="yr">— 2016–2019</span></li>
+      <li>REF Champion (Computer Science &amp; Engineering); Faculty Executive Board <span class="yr">— 2016–2019</span>; Academic Council <span class="yr">— 2016–2018</span></li>
       <li>Chair, University HPC Advisory Group <span class="yr">— 2012–2019</span>; Vice-Chancellor Selection Panel <span class="yr">— 2017</span></li>
     </ul>
   </div>
@@ -371,6 +378,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <ul class="svc-list">
   <li><span class="role">TEDxMidAtlantic</span> — &ldquo;Myths and Ways Forward for AI&rdquo; <span class="yr">— Nov 2025</span></li>
   <li><span class="role">More to Know Podcast</span> — &ldquo;The Future of Data Centers: AI, Energy Demand, and the Next Infrastructure Boom&rdquo; <span class="yr">— Feb 2026</span></li>
+  <li><span class="role">FuelCell Energy</span> — &ldquo;<a href="https://www.fuelcellenergy.com/blog/caught-in-the-current-how-data-centers-are-trading-carbon-goals-for-capacity.">On the societal and economic implications of data centers</a>&rdquo; <span class="yr">— Dec 2025</span></li>
   <li>Press &amp; media on the societal and economic implications of data centers — Cardinal News, Roanoke Times, MSN/WFXR, Northwest Indiana Times, and others <span class="yr">— 2024–2025</span></li>
   <li>Invited conference panelist — SC (2020), EPSRC Manycore Computing (2018), ICPP (2010), IBM ExaChallenge (2012), and Microsoft Faculty Research Summit</li>
 </ul>
