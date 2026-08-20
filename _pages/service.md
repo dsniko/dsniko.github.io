@@ -393,6 +393,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <hr class="svc-rule">
 <div class="svc-recog">
   <ul>
+    <li><strong>Outstanding Service Award</strong>, <a href="https://cs.vt.edu/">Department of Computer Science</a>, Virginia Tech (2026)</li>
     <li><strong>IEEE Award for Editorial Excellence</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71">IEEE Transactions on Parallel and Distributed Systems</a> (2020)</li>
     <li><strong>Elsevier Distinguished Editorial Service Award</strong> (2019)</li>
     <li><strong>IEEE Outstanding Service Awards</strong> (2010, 2014, 2018)</li>
