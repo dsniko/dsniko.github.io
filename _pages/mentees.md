@@ -16,6 +16,9 @@ author_profile: true
 {% assign postdoc_alumni  = site.mentees | where: "status", "alumni" | where: "category", "postdoc" %}
 {% assign masters_alumni  = site.mentees | where: "status", "alumni" | where: "category", "masters" %}
 {% assign undergrad_alumni = site.mentees | where: "status", "alumni" | where: "category", "undergrad" %}
+{% assign predoc_alumni   = site.mentees | where: "status", "alumni" | where: "category", "predoc" %}
+{% assign visiting_alumni = site.mentees | where: "status", "alumni" | where: "category", "visiting" %}
+{% assign staff_alumni = predoc_alumni | concat: visiting_alumni %}
 {% assign phd_current_n = current_students | where: "category", "phd" | size %}
 {% assign phd_total = phd_alumni.size | plus: phd_current_n %}
 {% assign all_alumni = site.mentees | where: "status", "alumni" %}
@@ -31,6 +34,7 @@ scholars — who have gone on to leading roles across industry, academia, and th
   <div class="mstat"><span class="num">{{ postdoc_alumni.size }}</span><span class="lbl">Postdocs</span></div>
   <div class="mstat"><span class="num">{{ masters_alumni.size }}</span><span class="lbl">Master&rsquo;s</span></div>
   <div class="mstat"><span class="num">{{ undergrad_alumni.size }}</span><span class="lbl">Undergraduates</span></div>
+  <div class="mstat"><span class="num">{{ staff_alumni.size }}</span><span class="lbl">Research staff &amp; visitors</span></div>
 </div>
 
 <!-- ============ PLACEMENT BAND (auto-computed from current_position) ============ -->
@@ -90,6 +94,15 @@ scholars — who have gone on to leading roles across industry, academia, and th
 {% for a in post_sorted %}<div class="mentee-row">
   <div class="mr-top"><span class="mr-name">{% if a.website and a.website != "" %}<a href="{{ a.website }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}</span><span class="mr-year">{% if a.start_year and a.start_year != "" %}{{ a.start_year }}&ndash;{% endif %}{{ a.end_year }}</span></div>
   <div class="mr-meta">{% if a.current_position and a.current_position != "" %}<span class="mr-pos">{{ a.current_position }}</span>{% if a.department and a.department != "" %} &middot; {% endif %}{% endif %}{{ a.department }}</div>
+</div>
+{% endfor %}
+
+<h3 id="research-staff" class="mentee-group">Pre-Doctoral Researchers &amp; Visiting Scholars <span class="gc">{{ staff_alumni.size }}</span></h3>
+{% assign staff_sorted = staff_alumni | sort: "end_year" | reverse %}
+{% for a in staff_sorted %}<div class="mentee-row">
+  <div class="mr-top"><span class="mr-name">{% if a.website and a.website != "" %}<a href="{{ a.website }}">{{ a.title }}</a>{% else %}{{ a.title }}{% endif %}</span><span class="mr-year">{% if a.start_year and a.start_year != "" %}{{ a.start_year }}&ndash;{% endif %}{{ a.end_year }}</span></div>
+  {% if a.research_area and a.research_area != "" %}<div class="mr-thesis">{{ a.research_area }}</div>{% endif %}
+  <div class="mr-meta">{% if a.current_position and a.current_position != "" %}<span class="mr-pos">{{ a.current_position }}</span>{% if a.department and a.department != "" %} &middot; {% endif %}{% endif %}{{ a.department }}{% if a.category == "visiting" %} &middot; <em>visiting scholar</em>{% endif %}</div>
 </div>
 {% endfor %}
 

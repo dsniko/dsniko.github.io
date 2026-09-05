@@ -13,9 +13,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Engineering, University of Patras, 2000 
-* M.Sc. in Computer Engineering, University of Patras, 1997
-* M.Eng. in Computer Engineering, University of Patras, 1996
+* Ph.D. in Computer Engineering and Informatics, University of Patras, 2000
+* M.Eng. in Computer Engineering and Informatics, University of Patras, 1997
+* Diploma in Computer Engineering and Informatics, University of Patras, 1996
+  * A European Diploma in Engineering is a five-year university degree. It sits between a U.S. bachelor's and master's degree.
 
 Honors and Awards
 ======
@@ -74,36 +75,31 @@ Honors and Awards
 
 Work experience
 ======
-* Aug'2019 - Present: John W. Hancock Professor of Engineering
-  * Virginia Tech
-  * Departments of Computer Science and Electrical and Computer Engineering
-  * Associate Director, Stacks@CS Center for Computer Systems Research
 
-* Jan'2012 - Aug'19: Professor, Director of Research, Chair in High Performance and Distributed Computing, Head of School of EEECS, Institute Director of ECIT
-  * Queens University Belfast
-  * School of Electronics, Electrical Engineering, and Computer Science
+**Virginia Tech**
+* Aug 2019 - present: John W. Hancock Professor of Engineering
+* Aug 2019 - present: Professor, Department of Computer Science
+* Aug 2020 - present: Professor by courtesy, Bradley Department of Electrical and Computer Engineering
+* Aug 2022 - present: Associate Director, Stacks@CS Center for Computer Systems Research
+* Oct 2016 - Aug 2019: Adjunct Professor, Department of Computer Science
 
-* Sep'2009 - Jan'2012: Associate Professor
-  * University of Crete
-  * Department of Computer Science and Foundation for Research and Technology - Hellas
+**Concurrent appointments**
+* Sep 2015 - present: Royal Society Wolfson Research Fellow
+* Aug 2022 - present: Honorary Professor, School of Electronics, Electrical Engineering and Computer Science, Queen's University Belfast
+* Oct 2013 - present: Adjunct Professor, Department of Computer Science, Old Dominion University
 
-  * Sep'2009 - Jan'2012: Associate Professor
-  * University of Crete
-  * Department of Computer Science and Foundation for Research and Technology - Hellas
+**Queen's University Belfast**
+* Jan 2012 - Aug 2019: Professor and Chair in High Performance and Distributed Computing, School of Electronics, Electrical Engineering and Computer Science
+* Jan 2018 - Aug 2019: Director, Research Institute in Electronics, Communications and Information Technology (ECIT)
+* Jan 2016 - Jan 2018: Head of School, Electronics, Electrical Engineering and Computer Science
+* Feb 2016 - Aug 2019: Director, Center for Data Science and Scalable Computing
+* Jan 2012 - Feb 2016: Director, High Performance and Distributed Computing Research Cluster
 
-* Aug'2006 - Sep'2009: Associate Professor
-  * Virginia Tech
-  * Department of Computer Science
-
-* Aug'2002 - Aug'2006: Assistant Professor
-  * College of William & Mary
-  * Department of Computer Science
-
-* Jan'2001 - Aug'2002: Visiting Assistant Professor
-  * Department of Electrical and Computer Engineering and Coordinated Sciences Laboratory
-  * University of Illinois, Urbana-Champaign
-
-* Sep'1996 - Dec'2000: Graduate Research Assistant
-  * Department of Computer Engineering and Informatics
-  * University of Patras
-
+**Earlier appointments**
+* Sep 2009 - Jan 2012: Associate Professor with tenure, Department of Computer Science, University of Crete
+* Sep 2009 - Jan 2012: Affiliate Professor, Institute of Computer Science, Foundation for Research and Technology - Hellas (FORTH)
+* Aug 2008 - Sep 2009: Associate Professor with tenure, Department of Computer Science, Virginia Tech
+* Aug 2006 - Aug 2008: Associate Professor, tenure-track, Department of Computer Science, Virginia Tech
+* Aug 2002 - Aug 2006: Assistant Professor, tenure-track, Department of Computer Science, College of William & Mary
+* Jan 2001 - Aug 2002: Visiting Assistant Professor, Department of Electrical and Computer Engineering, University of Illinois at Urbana-Champaign
+* Sep 1996 - Dec 2000: Graduate Research Assistant, Department of Computer Engineering and Informatics, University of Patras
