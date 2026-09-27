@@ -406,7 +406,7 @@ breadth and the depth of that engagement, nationally and internationally.
 <hr class="svc-rule">
 <p class="svc-lede">Translating computing research for broad audiences — on AI, supercomputing, and the societal and economic impact of data centers.</p>
 <ul class="svc-list">
-  <li><span class="role"><a href="https://tedxmidatlantic.com/">TEDxMidAtlantic</a></span> — &ldquo;Myths and Ways Forward for AI&rdquo; <span class="yr">— Nov 2025</span></li>
+  <li><span class="role"><a href="https://tedxmidatlantic.com/">TEDxMidAtlantic</a></span> — &ldquo;<a href="https://www.youtube.com/watch?v=yvpq0c3ZJu0">Why More AI Data Centers Aren&rsquo;t the Answer</a>&rdquo; (TEDx Editor&rsquo;s Pick) <span class="yr">— Nov 2025</span></li>
   <li><span class="role">More to Know Podcast</span> — &ldquo;<a href="https://open.spotify.com/episode/4n6PU32xwqamUgKYGkBlDf">The Future of Data Centers: AI, Energy Demand, and the Next Tech Infrastructure Boom</a>&rdquo; <span class="yr">— Feb 2026</span></li>
   <li><span class="role">FuelCell Energy</span> — &ldquo;<a href="https://www.fuelcellenergy.com/blog/caught-in-the-current-how-data-centers-are-trading-carbon-goals-for-capacity">On the societal and economic implications of data centers</a>&rdquo; <span class="yr">— Dec 2025</span></li>
   <li>Press &amp; media on the societal and economic implications of data centers — Cardinal News, Roanoke Times, MSN/WFXR, Northwest Indiana Times, and others <span class="yr">— 2024–2025</span></li>

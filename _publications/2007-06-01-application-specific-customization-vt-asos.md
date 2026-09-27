@@ -1,5 +1,5 @@
 ---
-title: "Application-specific customization on many-core platforms: the VT-ASOS framework"
+title: "Application-specific system customization on many-core platforms: the VT-ASOS framework"
 collection: publications
 category: workshops
 permalink: /publication/2007-06-01-application-specific-customization-vt-asos
@@ -7,5 +7,5 @@ excerpt: 'Presents the VT-ASOS framework for application-specific customization 
 date: 2007-06-01
 venue: 'Second Workshop on Software and Tools for Multi-Core Systems'
 paperurl: "https://people.cs.vt.edu/~gback/papers/stmcs07_vt.pdf"
-citation: 'Back, G., & Nikolopoulos, D. S. (2007). &quot;Application-specific customization on many-core platforms: the VT-ASOS framework.&quot; In <i>Proceedings of the Second Workshop on Software and Tools for Multi-Core Systems</i>.'
+citation: 'Back, G., & Nikolopoulos, D. S. (2007). &quot;Application-specific system customization on many-core platforms: the VT-ASOS framework.&quot; In <i>Proceedings of the Second Workshop on Software and Tools for Multi-Core Systems</i>.'
 ---
