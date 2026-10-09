@@ -17,6 +17,7 @@ He is a Fellow of the IEEE, a Royal Society Wolfson Fellow, and a Distinguished 
 
 ### Selected recent work
 
+- "[Intent-Aware Caching for Efficient LLM Serving](/publication/2026-12-01-arif-intent-aware-caching-neurips)." *NeurIPS*, 2026, to appear.
 - "[WISP: Waste- and Interference-Suppressed Distributed Speculative LLM Serving at the Edge](https://arxiv.org/abs/2601.11652)." *ACM SIGMETRICS*, 2026.
 - "[APEX: Asynchronous Parallel CPU-GPU Execution for Online LLM Inference on Constrained GPUs](https://arxiv.org/abs/2506.03296)." *IEEE IPDPS*, 2026.
 - "[dLLM-Serve: Bridging the Memory Gap in Diffusion Language Model Serving](https://arxiv.org/abs/2512.17077)." *ACM ICS*, 2026.
