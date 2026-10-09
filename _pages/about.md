@@ -9,7 +9,7 @@ redirect_from:
 
 Dimitrios S. Nikolopoulos is the John W. Hancock Professor of Engineering at Virginia Tech. He is a professor of [Computer Science](https://www.cs.vt.edu), with a courtesy appointment in [Electrical and Computer Engineering](https://ece.vt.edu/). He directs the [PEARL](https://pearl-lab-vt.github.io) laboratory and is associate director of the Stack@CS Center for Computer Systems.
 
-His research concerns how multiprocessors and accelerators are programmed and orchestrated. This work spans high-performance computing, cloud computing, and artificial intelligence. It has informed the [OpenMP](https://www.openmp.org) standard and found its way into Red Hat Enterprise Linux and commercial compilers.
+His research concerns how multiprocessors and accelerators are programmed and orchestrated. This work spans high-performance computing, cloud computing, and artificial intelligence. It has informed the [OpenMP](https://www.openmp.org) standard and is used in Red Hat Enterprise Linux and commercial compilers.
 
 His current work focuses on efficient and resilient AI systems across the computing continuum. He also studies performance engineering for modern accelerators and systems for data-intensive science. A common thread runs through all three: reducing the infrastructure footprint of AI.
 
