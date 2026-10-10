@@ -1,0 +1,41 @@
+Dimitrios S. Nikolopoulos — Short Bio
+
+Dimitrios S. Nikolopoulos is the John W. Hancock Professor of Engineering and
+Professor of Computer Science at Virginia Tech, where he also holds a courtesy
+appointment in the Bradley Department of Electrical and Computer Engineering.
+He directs the Performance Engineering for Emerging Architectures Laboratory
+(PEARL) and serves as Associate Director of the Stack@CS Center for Computer
+Systems. He is additionally an Honorary Professor at Queen's University Belfast
+and an Adjunct Professor at Old Dominion University.
+
+His research addresses the programming and orchestration of the multiprocessors
+and accelerators underpinning high-performance computing, cloud computing, and
+artificial intelligence. His current interests are efficient and resilient AI
+systems across the computing continuum, performance engineering for modern
+accelerators, and systems for data-intensive science and cyberinfrastructure,
+with an overarching goal of establishing sustainable AI practices by reducing
+and rationalizing the infrastructure footprint of AI. His contributions have
+shaped the OpenMP parallel programming standard and have been adopted in Red Hat
+Enterprise Linux and in commercial compilers, in-memory databases, and data
+stream processing systems.
+
+He is a Fellow of the IEEE, the Royal Society (Wolfson), the Asia-Pacific
+Artificial Intelligence Association, the British Computer Society, the
+Institution of Engineering and Technology, the International AI Industry
+Alliance, and HiPEAC; a Distinguished Member of the ACM; and a Distinguished
+Visitor of the IEEE Computer Society. His awards include the NSF CAREER, DOE
+Early Career, IBM, Cisco, and Sony faculty awards, the SFI-DEL Investigator
+Award, and a Marie Curie Individual Fellowship, along with eight best-paper
+awards at venues including SC, PPoPP, IPDPS, CCGRID, and DATE.
+
+He chairs the steering committee of the ACM International Conference on
+Supercomputing (ICS) and has served as Program Chair of HPDC (2026), ICS (2022,
+2023), and CCGRID (2014), and as General Chair of IEEE Cluster (2010, 2018) and
+IEEE ISPASS (2018). He previously served as Head of the School of Electronics,
+Electrical Engineering and Computer Science and Director of the ECIT Institute
+at Queen's University Belfast. He has mentored 36 Ph.D. students and 17
+postdoctoral researchers, and has secured research funding totalling $140.8
+million across 54 awards.
+
+He received his Diploma of Engineering (1996), M.Eng. (1997), and Ph.D. (2000)
+in Computer Engineering and Informatics from the University of Patras, Greece.

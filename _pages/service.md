@@ -324,7 +324,7 @@ breadth and the depth of that engagement, nationally and internationally.
     <ul class="svc-list">
       <li><a href="https://anr.fr/en/">French National Research Agency (ANR)</a> — Panelist <span class="yr">— 2025</span></li>
       <li><a href="https://www.snf.ch/en">Swiss National Science Foundation</a> <span class="yr">— 2016, 2020, 2025</span></li>
-      <li><a href="https://www.elidek.gr/en/homepage/">Hellenic Foundation for Research &amp; Innovation (Greece)</a> <span class="yr">— 2024, 2025</span></li>
+      <li><a href="https://www.elidek.gr/en/">Hellenic Foundation for Research &amp; Innovation (Greece)</a> <span class="yr">— 2024, 2025</span></li>
       <li><a href="https://www.oeaw.ac.at/en/">Austrian Academy of Sciences</a> <span class="yr">— 2017</span>; Italy (<a href="https://www.cineca.it/en">CINECA</a>) <span class="yr">— 2021</span>; Sweden (<a href="https://www.kks.se/en/">KK-Stiftelsen</a>) <span class="yr">— 2021</span>; Netherlands (<a href="https://www.nwo.nl/en">STW, now NWO</a>) <span class="yr">— 2016</span>; Poland (<a href="https://www.ncn.gov.pl/en">NSC</a>) <span class="yr">— 2016</span>; Cyprus (<a href="https://www.research.org.cy/en/">RIF</a>) <span class="yr">— 2016</span></li>
     </ul>
   </div>
@@ -362,7 +362,7 @@ breadth and the depth of that engagement, nationally and internationally.
       <li><a href="https://eng.vt.edu/">College of Engineering</a> Promotion &amp; Tenure Committee <span class="yr">— 2025–present</span></li>
       <li>Computer Science Personnel Committee — Chair <span class="yr">— 2025–present</span> (Associate Chair, 2024–2025; member since 2022)</li>
       <li>Computer Science Qualifying Exam Committee — Chair, Systems, Networking &amp; Cybersecurity <span class="yr">— 2026</span></li>
-      <li>Associate Director, <a href="https://cs.vt.edu/research/research-areas/systems.html">Stacks@CS Center for Computer Systems Research</a> <span class="yr">— 2022–present</span></li>
+      <li>Associate Director, <a href="https://stack.cs.vt.edu">Stack@CS Center for Computer Systems</a> <span class="yr">— 2022–present</span></li>
       <li>Department Head Search Committee <span class="yr">— 2023–2024</span>; <a href="https://www.research.vt.edu/research-development/professional-development/proposal-development-institute.html">University Proposal Development Institute</a> Mentor <span class="yr">— 2024–present</span></li>
     </ul>
   </div>
